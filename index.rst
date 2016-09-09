@@ -1,7 +1,7 @@
 Not just a footnote of history: EUMEL
 =====================================
 
-:date: 2016-09-07
+:date: 2016-09-09
 :copyright: CC0_ (this page)
 
 .. _CC0: https://creativecommons.org/publicdomain/zero/1.0/
