@@ -1,16 +1,16 @@
 Not just a footnote of history: EUMEL
 =====================================
 
-:date: 2016-08-31
-:copyright: CC0_
+:date: 2016-09-07
+:copyright: CC0_ (this page)
 
 .. _CC0: https://creativecommons.org/publicdomain/zero/1.0/
 
 .. note::
 
    This documentation is work-in-progress. If you want to contribute floppies,
-   manuals or documentation contact me via `email <lars+eumel@6xq.net>`__ or
-   file an issue on GitHub_.
+   manuals or documentation contact me in English or German via `email
+   <lars+eumel@6xq.net>`__ or file an issue on GitHub_.
 
 .. _GitHub: https://github.com/PromyLOPh/eumel/issues
 
