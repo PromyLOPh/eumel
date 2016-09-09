@@ -34,16 +34,7 @@
 		<#sys86>, <#sys84>, <#sys85>,
 		<#taschenbuch>,
 		<#wordprocessing87>,
-        [ a s:ScholarlyArticle ;
-            s:author _:person_ambros ;
-            s:datePublished "1990" ;
-            s:isPartOf [ a s:PublicationIssue ;
-                    s:issueNumber "5" ;
-                    s:name "LOG IN" ] ;
-			s:alternateName "ambros90" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:name "Zur Akzeptanz der EUMEL-Software" ],
+		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
         [ a s:ScholarlyArticle ;
             s:datePublished "1987" ;
             s:isPartOf [ a s:PublicationIssue ;
@@ -89,10 +80,7 @@
                     s:name "Akademische Verlagsgesellschaft" ]
 		], [
 			a s:Book ;
-            s:author _:person_liedtke,
-                [ a s:Person ;
-                    s:familyName "Klingen" ;
-                    s:givenName "Leo H." ] ;
+            s:author _:person_liedtke, _:person_klingen ;
             s:datePublished "1985" ;
             s:name "ELAN in 100 Beispielen" ;
 			s:alternateName "klingen85" ;
@@ -1048,6 +1036,110 @@ _:thing_computerwoche a s:Periodical ;
 	s:about _:thing_eumel ;
 	s:name "Softwareprodukte laufen unter Eumel" .
 
+##############
+### Log In ###
+##############
+
+_:thing_log_in
+	a s:Periodical ;
+	s:name "LOG IN"
+	.
+
+<#klingen83>
+	a s:ScholarlyArticle ;
+	s:author _:person_klingen ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "3" ;
+		s:isPartOf _:thing_log_in ;
+		s:datePublished "1983" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "ELAN" ;
+	s:pageStart "34" ;
+	s:pageEnd "37" ;
+	.
+
+<#oppor85>
+	a s:ScholarlyArticle ;
+	s:author _:person_oppor ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "5" ;
+		s:isPartOf _:thing_log_in ;
+		s:datePublished "1985" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "Spielend programmieren lernen mit dem Hamstermodell für ELAN" ;
+	s:pageStart "32" ;
+	s:pageEnd "35" ;
+	.
+
+<#seyfert87>
+	a s:ScholarlyArticle ;
+	s:author _:person_seyfert ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "7" ;
+		s:isPartOf _:thing_log_in ;
+		s:datePublished "1987" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "Laßt den EUMEL in die Schulen!" ;
+	s:pageStart "30" ;
+	s:pageEnd "33" ;
+	.
+
+<#ambros90a>
+	a s:ScholarlyArticle ;
+	s:author _:person_ambros ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "10" ;
+		s:isPartOf _:thing_log_in ;
+		s:datePublished "1990" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan, _:thing_eumel ;
+	s:name "ITG mit EUMEL und ELAN" ;
+	s:pageStart "55" ;
+	s:pageEnd "58" ;
+	.
+
+<#ambros90b>
+	a s:ScholarlyArticle ;
+	s:author _:person_ambros ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "10" ;
+		s:isPartOf _:thing_log_in ;
+		s:datePublished "1990" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan, _:thing_eumel ;
+	s:name "Das Betriebssystem EUMEL" ;
+	s:pageStart "86" ;
+	s:pageEnd "88" ;
+	.
+
+<#ambros90c>
+	a s:ScholarlyArticle ;
+	s:author _:person_ambros ;
+	# incorrect?
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "5" ;
+		s:isPartOf _:thing_log_in ;
+		s:datePublished "1990" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Zur Akzeptanz der EUMEL-Software"
+	.
+
 ### Keywords/Topics ###
 
 _:thing_elan a s:ComputerLanguage ;
@@ -1333,4 +1425,16 @@ _:person_bernhard
 	a s:Person ;
 	s:familyName "Bernhard" ;
 	s:givenName "Ursula" .
+
+_:person_klingen
+	a s:Person ;
+	s:familyName "Klingen" ;
+	s:givenName "Leo H." ;
+	.
+
+_:person_seyfert
+	a s:Person ;
+	s:familyName "Seyfert" ;
+	s:givenName "Wolfgang" ;
+	.
 
