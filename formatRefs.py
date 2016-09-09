@@ -34,12 +34,13 @@ def formatPerson (s, g, n):
     else:
         return familyname
 
-def formatParent (s, g, n):
+def formatParent (s, g, n, useName = True):
     ret = []
 
-    parentname = first (g.objects (n, s.name))
-    if parentname:
-        ret.append (parentname)
+    if useName:
+        parentname = first (g.objects (n, s.name))
+        if parentname:
+            ret.append (parentname)
 
     volume = first (g.objects (n, s.volumeNumber))
     if volume:
@@ -48,6 +49,16 @@ def formatParent (s, g, n):
     issue = first (g.objects (n, s.issueNumber))
     if issue:
         ret.append ('issue {}'.format (issue))
+
+    # pages
+    start = first (g.objects (n, s.pageStart))
+    end = first (g.objects (n, s.pageEnd))
+    if start:
+        num = int (end)-int (start)
+        if end and num > 1:
+            ret.append ('pp. {}–{}'.format (start, end))
+        else:
+            ret.append ('p. {}'.format (start))
 
     return ', '.join (ret)
 
@@ -108,7 +119,10 @@ if __name__ == '__main__':
         # where can we find it? (print)
         # print from root to ref (i.e. magazine, volume, issue)
         parents = reversed (list (getRecursiveAll (s, g, ref, s.isPartOf)))
-        where = [formatParent (s, g, p) for  p in parents]
+        where = [formatParent (s, g, p) for p in parents]
+        thiswhere = formatParent (s, g, ref, False)
+        if thiswhere:
+            where.append (thiswhere)
 
         # where can we find it? (online)
         urls = hideLocalUri (rootUri, g.objects (ref, s.url))
