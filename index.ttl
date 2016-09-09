@@ -4,15 +4,36 @@
 <./> a s:Article ;
 	s:name "Not just a footnote of history: EUMEL" ;
 	s:dateCreated "2016-08-26" ;
-	s:dateModified "2016-08-31" ;
+	s:dateModified "2016-09-04" ;
 	s:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
 	s:citation
 		<#praxis1>, <#praxis2>, <#praxis3>,
 		<#computerwoche83a>, <#computerwoche88>, <#computerwoche79a>,
-		<#computerwoche83b>, <#computerwoche87>, <#computerwoche79b>,
+		<#computerwoche83b>, <#computerwoche87a>, <#computerwoche79b>,
 		<#computerwoche86a>, <#computerwoche85>, <#computerwoche91>,
-		<#computerwoche86b>,
+		<#computerwoche86b>, <#computerwoche87b>,
 		<#happycomputer86>,
+		<#reuse08>,
+		<#carmony82>,
+		<#hahn78>,
+		<#rehder88>,
+		<#rechenanlagen79>, <#rechenanlagen83>,
+		<#danckwerts85>,
+		<#craemer87>,
+		<#software93>,
+		<#alwr82>,
+		<#koster87>,
+		<#it86>, <#at86>,
+		<#programmierung87>,
+		<#textverarbeitung86>,
+		<#korrekturen84>,
+		<#dasys86>, <#dynamo86>, <#hamster84>, <#lisp86>, <#moco84>,
+		<#msdosdat86>,
+		<#netz88>, <#source86>,
+		<#remis84>, <#remis86>,
+		<#sys86>, <#sys84>, <#sys85>,
+		<#taschenbuch>,
+		<#wordprocessing87>,
         [ a s:ScholarlyArticle ;
             s:author _:person_ambros ;
             s:datePublished "1990" ;
@@ -23,33 +44,6 @@
 			s:inLanguage "de-DE" ;
 			s:about _:thing_eumel ;
             s:name "Zur Akzeptanz der EUMEL-Software" ],
-        [ a s:Book ;
-            s:datePublished "1986" ;
-            s:name "EUMEL-Systemhandbuch Stand 8.8.86" ;
-			s:alternateName "sys86" ;
-			s:numberOfPages "153" ;
-			s:sameAs <http://plus.orbis-oldenburg.de:1701/LB_V1:LB_all:LBuricaalephiedext670649> ;
-			s:author _:person_liedtke ,
-				_:person_heinrichs ,
-				_:person_hahn ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher _:org_gmd ],
-        [ a s:Book ;
-            s:datePublished "1985" ;
-            s:name "EUMEL-Systemhandbuch, Version 1.7, Stand 13.3.85" ;
-			s:alternateName "sys85" ;
-			s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
-			s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
-			s:sameAs <https://opac.sub.uni-goettingen.de/DB=1/XMLPRS=N/PPN?PPN=013681850> ;
-			s:sameAs <http://d-nb.info/860673642> ;
-			s:numberOfPages "116" ;
-			s:author _:person_liedtke ,
-				_:person_heinrichs ,
-				_:person_hahn ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher _:org_gmd ],
         [ a s:ScholarlyArticle ;
             s:datePublished "1987" ;
             s:isPartOf [ a s:PublicationIssue ;
@@ -87,20 +81,14 @@
 			s:sameAs <http://d-nb.info/801049784> ;
 			s:sameAs <http://www.worldcat.org/oclc/6817363> ;
 			s:url <https://archive.org/details/elan-handbuch-1979> ;
+			s:url <library/elan-handbuch-1979.djvu> ;
 			s:numberOfPages "155" ;
 			s:inLanguage "de-DE" ;
 			s:about _:thing_elan ;
             s:publisher [ a s:Organization ;
-                    s:name "Akademische Verlagsgesellschaft" ] ],
-        [ a s:Book ;
-            s:datePublished "1986" ;
-            s:name "EUMEL-Quellcode der insertierten ELAN-Pakete, Stand 10.11.86" ;
-			s:alternateName "source86" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher _:org_gmd ],
-
-        [ a s:Book ;
+                    s:name "Akademische Verlagsgesellschaft" ]
+		], [
+			a s:Book ;
             s:author _:person_liedtke,
                 [ a s:Person ;
                     s:familyName "Klingen" ;
@@ -194,6 +182,7 @@
 			s:alternateName "liedtke76" ;
 			s:inLanguage "de-DE" ;
 			s:about _:thing_elan ;
+			s:url <library/slan-compiler-teil-1.djvu> ;
             s:name "Implementation eines SLAN-Compilers, Teil 1" ],
         [ a s:Book ;
             s:datePublished "1986" ;
@@ -242,24 +231,13 @@
 			s:inLanguage "de-DE" ;
 			s:about _:thing_eumel ;
 			s:name "EUMEL.X29 : Realisierung eines Software-PAD auf einem EUMEL-System" ] ,
-		[ a s:Book ;
-			s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=03127370X> ;
-			s:name "REMIS: Programmier-Handbuch" ;
-			s:author [ a s:Person ;
-				s:familyName "Schneider" ;
-				s:givenName "Udo" ] ;
-			s:numberOfPages "117" ;
-			s:alternateName "schneider84" ;
-			# 2. auflage
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-			s:datePublished "1984" ] ,
         [ a s:Book ;
             s:author _:person_bartling ;
             s:alternateName "bartling76" ;
             s:datePublished "1976" ;
 			s:about _:thing_elan ;
 			s:inLanguage "de-DE" ;
+			s:url <library/slan-compiler-teil-2.djvu> ;
             s:name "Implementation eines SLAN-Compilers, Teil 2" ] ,
 		[ a s:ScholarlyArticle ;
 			s:name "A Persistent System in Real Use – Experiences of the First 13 Years" ;
@@ -269,77 +247,21 @@
                     s:name "International Workshop on Object-Orientation in Operating Systems" ] ;
 			s:sameAs <http://ieeexplore.ieee.org/document/324932/> ;
 			s:url <https://os.inf.tu-dresden.de/papers_ps/jochen/iwooos-3.ps> ;
+			s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/iwooos-3.ps> ;
+			s:url <library/lidtke93.ps> ;
 			s:inLanguage "en-US" ;
 			s:alternateName "liedtke93"
 		] , [
 			a s:CreativeWork ;
-			s:name "Anwendersoftwareklasse,2,Modellcomputer MOCO" ;
-			s:author _:person_heyderhoff ;
-			s:publisher _:org_gmd , _:org_hrz ;
-			s:datePublished "1984" ;
-			s:namberOfPages "21" ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=03127367X> ;
-			s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=03127367X> ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "heyderhoff84" ;
-		] , [
-			a s:CreativeWork ;
-			s:name "Anwendersoftwareklasse 2: LISP-Handbuch" ;
-			s:author _:person_maccarthy ;
-			s:publisher _:org_gmd , _:org_hrz ;
-			s:datePublished "1984" ;
-			s:numberOfPages "60" ;
-			s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273661> ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273661> ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "maccarthy84" ;
-		] , [
-			a s:CreativeWork ;
-			s:name "Anwendersoftwareklasse,2,Hamster-Modell" ;
-			s:author _:person_oppor ;
-			s:publisher _:org_gmd , _:org_hrz ;
-			s:datePublished "1984" ;
-			s:numberOfPages "12" ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273653> ;
-			s:sameAs <http://www.worldcat.org/oclc/830714248> ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "oppor84" ;
-		] , [
-			a s:CreativeWork ;
-			s:name "Anwendersoftwareklasse,2,DYNAMO-Compiler" ;
-			s:author _:person_craemer ;
-			s:publisher _:org_gmd , _:org_hrz ;
-			s:datePublished "1984" ;
-			s:numberOfPages "13" ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273645> ;
-			s:sameAs <http://www.worldcat.org/oclc/830714240> ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "craemer84" ;
-		] , [
-			a s:CreativeWork ;
-			s:name "Anwendersoftwareklasse,2,DASYS-Handbuch" ;
-			s:author _:person_bendisch ;
-			s:publisher _:org_gmd , _:org_hrz ;
-			s:datePublished "1984" ;
-			s:numberOfPages "41" ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273637> ;
-			s:sameAs <http://www.worldcat.org/oclc/830714230> ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "bendisch84" ;
-		] , [
-			a s:CreativeWork ;
-			s:name "Anwendersoftwareklasse,2,Compilerhandbuch BASIC" ;
+			s:name "Anwendersoftwareklasse 2: Compilerhandbuch BASIC" ;
 			s:author _:person_indenbirken ;
-			s:publisher _:org_gmd , _:org_hrz ;
-			s:datePublished "1984" ;
+			s:publisher _:org_hrz ;
+			s:datePublished "1984-07" ;
 			s:numberOfPages "71" ;
 			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273629> ;
 			s:sameAs <http://www.worldcat.org/oclc/830714222> ;
+			s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/BASIC_Compilerhandbuch_1984.pdf> ;
+			s:url <library/compilerhandbuch-basic-1984.pdf> ;
 			s:about _:thing_eumel ;
 			s:inLanguage "de-DE" ;
 			s:alternateName "indenbirken84" ;
@@ -381,6 +303,545 @@
 			s:about _:thing_elan ;
 		] .
 
+### Random literature ###
+
+<#happycomputer86>
+	a s:NewsArticle ;
+	s:datePublished "1986-03" ;
+	s:url <https://archive.org/details/Happy.Computer.N29.1986.03-Cartman> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:pageStart "20" ;
+	s:pageEnd "20" ;
+	s:isPartOf [ a s:Periodical; s:name "Happy Computer" ] ;
+	s:name "Technologie-Transfer-Preis 1985 für „Eumel“" .
+
+<#reuse08>
+	a s:Book ;
+	s:datePublished "2008" ;
+	s:name "Informatikforschung in Deutschland" ;
+	s:numberOfPages "332" ;
+	s:url <library/reuse08.pdf> ;
+	s:author
+		[
+		a s:Person ;
+		s:familyName "Reuse" ;
+		s:givenName "Bernd" ;
+		] , [
+		a s:Person ;
+		s:familyName "Vollmar" ;
+		s:givenName "Roland" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:sameAs <https://dx.doi.org/10.1007/978-3-540-76550-9> ;
+	s:isbn "978-3-540-76549-3";
+	s:publisher _:org_springer .
+
+<#carmony82>
+	a s:ScholarlyArticle ;
+	s:isPartOf [ a s:Book ;
+			s:name "Proceedings of the Thirteenth SIGCSE Technical Symposium on Computer Science Education" ;
+			s:isbn "0-89791-067-2" ;
+			] ;
+	s:datePublished "1982" ;
+	s:name "ELAN: An Elementary Language That Promotes Godd Programming" ;
+	s:numberOfPages "4" ;
+	s:url <library/carmony82.pdf> ;
+	s:sameAs <https://dx.doi.org/10.1145/800066.801360> ;
+	s:publisher _:org_acm ;
+	s:pageStart "163" ;
+	s:pageEnd "166" ;
+	s:about _:thing_elan ;
+	s:author
+		[
+		a s:Person ;
+		s:familyName "Carmony" ;
+		s:givenName "Lowell A." ;
+		] ;
+	.
+
+<#hahn78>
+	a s:ScholarlyArticle ;
+	s:datePublished "1978" ;
+	s:isPartOf [ a s:PublicationIssue ;
+		s:number "4" ;
+		s:name "Das Rechenzentrum" ;
+		s:issn "0343-317X" ;
+		] ;
+	s:name "Die Ausbildung an einem Hochschulrechenzentrum" ;
+	s:author _:person_hahn ;
+	s:pageStart "204" ;
+	s:pageEnd "208" ;
+	s:numberOfPages "4" ;
+	s:about _:thing_elan;
+	s:sameAs <https://dx.doi.org/10.1515/piko.1.1978.1.4.204> ;
+	.
+
+<#rehder88>
+	a s:ScholarlyArticle ;
+	s:about _:thing_eumel ;
+	s:author [ a s:Person ;
+		s:familyName "Rehder" ;
+		s:givenName "S." ;
+		] ;
+	s:name "A Shell for Microcomputer Exploration Software Used in Developing Countries" ;
+	s:isPartOf [ a s:Book ;
+		s:name "Quantitative Analysis of Mineral and Energy Resources" ;
+		s:datePublished "1988" ;
+		s:isbn "978-94-009-4029-1" ;
+		s:publisher "Springer Netherlands" ;
+		s:location "Dordrecht" ;
+		s:editor [ a s:Person ;
+			s:familyName "Chung" ;
+			s:givenName "C. F." ;
+			] , [
+			a s:Person ;
+			s:familyName "Fabbri" ;
+			s:givenName "A. G." ;
+			] , [
+			a s:Person ;
+			s:familyName "Sinding-Larsen" ;
+			s:givenName "R." ;
+			] ;
+		] ;
+	s:pageStart "625" ;
+	s:pageEnd "631" ;
+	s:sameAs <https://dx.doi.org/10.1007/978-94-009-4029-1_37> .
+
+<#rechenanlagen83>
+	a s:Article ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1983" ;
+		s:issueNumber "4" ;
+		s:isPartOf _:thing_rechenanlagen ;
+		] ;
+	s:name "EUMEL - ein Schulrechnerbetriebssystem auf der Basis der Programmiersprache ELAN" ;
+	s:url <library/rechenanlagen83.pdf> ;
+	s:sameAs <https://dx.doi.org/10.1524/itit.1983.25.16.189> ;
+	s:about _:thing_eumel ;
+	.
+
+_:thing_rechenanlagen
+	a s:Periodical ;
+	s:name "Elektronische Rechenanlagen" ;
+	.
+
+<#danckwerts85>
+	a s:Book ;
+	s:name "Elementare Methoden der Kombinatorik" ;
+	s:about _:thing_elan ;
+	s:url <library/danckwerts85.pdf> ;
+	s:datePublished "1985" ;
+	s:isbn "978-3-519-02529-0" ;
+	s:sameAs <https://dx.doi.org/10.1007/978-3-322-96684-1> ;
+	s:numberOfPages "208" ;
+	s:publisher _:org_vieweg_teubner ;
+	s:author [
+		a s:Person ;
+		s:givenName "Rainer" ;
+		s:familyName "Danckwerts";
+		] , [
+		a s:Person ;
+		s:givenName "Dankwart" ;
+		s:familyName "Vogel" ;
+		] , [
+		a s:Person ;
+		s:givenName "Klaus" ;
+		s:familyName "Bovermann" ;
+		] , [
+		a s:Person ;
+		s:givenName "Walter" ;
+		s:familyName "Deuber" ;
+		] , [
+		a s:Person ;
+		s:givenName "Roland" ;
+		s:familyName "Stowasser" ;
+		] ;
+	.
+
+<#craemer87>
+	a s:ScholarlyArticle ;
+	s:name "BOXDYN - eine komfortable Benutzeroberfläche für das DYNAMO-System im Betriebssystem EUMEL" ;
+	s:author _:person_craemer ;
+	s:pageStart "214" ;
+	s:pageEnd "221" ;
+	s:isPartOf [
+		a s:Book ;
+		s:name "Simulationstechnik: 4. Symposium Simulationstechnik Zürich, 9.-11. September 1987 Proceeding" ;
+		s:datePublished "1987" ;
+		s:isbn "978-3-642-73000-9" ;
+		s:publisher _:org_springer ;
+		s:editor [
+			a s:Person ;
+			s:familyName "Halin";
+			s:givenName "Jürgen" ;
+			] ;
+		] ;
+	s:sameAs <http://dx.doi.org/10.1007/978-3-642-73000-9_18> ;
+	s:url <library/craemer87.pdf> ;
+	s:about _:thing_eumel ;
+	.
+
+<#software93>
+	a s:Book ;
+	s:name "Software-Führer ’93/’94 Lehre und Forschung: Ingenieurwissenschaften" ;
+	s:datePublished "1993" ;
+	s:publisher _:org_springer ;
+	s:sameAs <https://dx.doi.org/10.1007/978-3-642-84874-2>;
+	s:isbn "978-3-540-56286-3";
+	s:numberOfPages "701" ;
+	s:url <library/software93.pdf> ;
+	s:about _:thing_schulis , _:thing_eumel ;
+	.
+
+<#alwr82>
+	a s:Report ;
+	s:name "ALWR Kommissionsbericht: Mikrocomputer: Einsatz im Hochschulbereich" ;
+	s:datePublished "1982-10-22" ;
+	s:url <https://www.zki.de/fileadmin/zki/Publikationen/Chronik/1982_10ALWRBerichtMikorechner.pdf> ;
+	s:publisher _:org_hrz ;
+	s:url <library/alwr82.pdf> ;
+	s:about _:thing_eumel ;
+	.
+
+<#koster87>
+	a s:Book ;
+	s:name "Top-Down Programming with ELAN" ;
+	s:publisher [
+		a s:Organization ;
+		s:name "Ellis Horwood" ;
+		] ;
+	s:author _:person_koster ;
+	s:datePublished "1987" ;
+	s:isbn "0-7458-0187-0" ;
+	s:url <http://www.cs.ru.nl/elan/book1.ps.gz> ;
+	s:url <library/koster87.ps> ;
+	s:about _:thing_elan ;
+	.
+
+<#rechenanlagen79>
+	a s:NewsArticle ;
+	s:name "EUMEL – ein Mikroprozessor Betriebssystem der GMD" ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1979" ;
+		s:issueNumber "5" ;
+		s:volumeNumber "21" ;
+		s:isPartOf _:thing_rechenanlagen ;
+		] ;
+	s:url <http://www.degruyter.com/abstract/j/itit.1979.21.issue-5/itit-1979-0509/itit-1979-0509.xml> ;
+	s:url <library/rechenanlagen79.pdf> ;
+	s:sameAs <https://dx.doi.org/10.1515/itit-1979-0509> ;
+	s:pageStart "252" ;
+	s:pageEnd "252" ;
+	s:about _:thing_eumel ;
+	.
+
+<#it86>
+	a s:NewsArticle ;
+	s:name "EUMEL: Softwareentwicklung auf Personal Computern" ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1986" ;
+		s:issueNumber "3" ;
+		s:volumeNumber "28" ;
+		s:isPartOf [
+			a s:Periodical ;
+			s:name "Informationstechnik it" ;
+			] ;
+		] ;
+	s:pageStart "186" ;
+	s:pageEnd "186" ;
+	s:url <library/it86.pdf> ;
+	s:url <http://www.degruyter.com/view/j/itit.1986.28.issue-3/itit.1986.28.3.185/itit.1986.28.3.185.xml> ;
+	s:about _:thing_eumel ;
+	.
+
+<#at86>
+	a s:NewsArticle ;
+	s:name "Betriebssystem EUMEL auf Personal Computern" ;
+	s:pageStart "174" ;
+	s:pageEnd "174" ;
+	s:url <http://www.degruyter.com/view/j/auto.1986.34.issue-1-12/auto.1986.34.112.173/auto.1986.34.112.173.xml> ;
+	s:url <library/at86.pdf> ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1986" ;
+		s:issueNumber "5" ;
+		s:volumeNumber "34" ;
+		s:isPartOf [
+			a s:Periodical ;
+			s:name "Automatisierungstechnik at" ;
+			] ;
+		] ;
+	s:about _:thing_eumel ;
+	.
+
+###############
+### Manuals ###
+###############
+
+<#programmierung87>
+	a s:Book ;
+	s:name "Benutzerhandbuch: Programmierung" ;
+	s:datePublished "1987-07-01" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_ley , _:person_metterhausen ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Benutzerhandbuch_Programmierung_01-07-87.pdf> ;
+	s:url <library/benutzerhandbuch-programmierung-1987.pdf> ;
+	s:about _:thing_eumel ;
+	.
+
+<#textverarbeitung86>
+	a s:Book ;
+	s:name "Benutzerhandbuch: Textverarbeitung" ;
+	s:datePublished "1986-12-19" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_fey-mcclean, _:person_kloeckner, _:person_metterhausen ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Benutzerhandbuch_Textverarbeitung_19-12-86.pdf> ;
+	s:url <library/benutzerhandbuch-textverarbeitung-1986.pdf> ;
+	s:about _:thing_eumel ;
+	.
+
+<#korrekturen84>
+	a s:Book ;
+	s:name "Korrekturen und Nachträge I zum EUMEL-Benutzerhandbuch 1.7" ;
+	s:datePublished "1984-05-09" ;
+	s:author _:person_hahn ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:about _:thing_eumel ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Korrekturen_Benutzerhandbuch-V1.7_May84.pdf> ;
+	s:url <library/korrekturen-1984.pdf> ;
+	.
+
+<#netz88>
+	a s:Book ;
+	s:name "Netz-Beschreibung" ;
+	s:author _:person_heinrichs ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1988-08-08" ;
+	s:numberOfPages "20" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Netz_Beschreibung_08-08-88.pdf> ;
+	s:url <library/netz-1988.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#source86>
+	a s:Book ;
+	s:datePublished "1986-11-10" ;
+	s:name "Quellcode der insertierten ELAN-Pakete" ;
+	s:alternateName "source86" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Quellcode-V1.8.0-SingleUser-10-11-86.pdf> ;
+	s:url <library/source86.pdf> ;
+	.
+
+<#remis84>
+	a s:Book ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=03127370X> ;
+	s:name "REMIS: Programmier-Handbuch" ;
+	s:author _:person_schneider ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:numberOfPages "117" ;
+	# 2. auflage
+	s:inLanguage "de-DE" ;
+	s:datePublished "1984-10" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/REMIS_Programmierhandbuch-Oct84.pdf> ;
+	s:url <library/remis-programmierhandbuch-1984.pdf> ;
+	.
+
+<#remis86>
+	a s:Book ;
+	s:name "REMIS: Programmier-Handbuch" ;
+	s:author _:person_schneider ;
+	s:publisher _:org_gmd ;
+	s:numberOfPages "117" ;
+	s:inLanguage "de-DE" ;
+	s:datePublished "1986-08-08" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/REMIS_Programmierhandbuch_08-08-86.pdf> ;
+	s:url <library/remis-programmierhandbuch-1986.pdf> ;
+	.
+
+<#sys86>
+	a s:Book ;
+	s:datePublished "1986-08-08" ;
+	s:name "Systemhandbuch" ;
+	s:numberOfPages "153" ;
+	s:sameAs <http://plus.orbis-oldenburg.de:1701/LB_V1:LB_all:LBuricaalephiedext670649> ;
+	s:author _:person_liedtke ,
+		_:person_heinrichs ,
+		_:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Systemhandbuch_08-08-86.pdf> ;
+	s:url <library/systemhandbuch-1986.pdf> ;
+	s:publisher _:org_gmd ;
+	.
+
+<#sys84>
+	a s:Book ;
+	s:datePublished "1984-05-16" ;
+	s:name "Systemhandbuch" ;
+	s:numberOfPages "105" ;
+	s:sameAs <http://plus.orbis-oldenburg.de:1701/LB_V1:LB_all:LBuricaalephiedext670649> ;
+	s:author _:person_liedtke ,
+		_:person_heinrichs ,
+		_:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Systemhandbuch-V1.7_May84.pdf> ;
+	s:url <library/systemhandbuch-1984.pdf> ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	.
+
+
+<#sys85>
+	a s:Book ;
+	s:datePublished "1985" ;
+	s:name "EUMEL-Systemhandbuch, Version 1.7, Stand 13.3.85" ;
+	s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
+	s:sameAs <https://opac.sub.uni-goettingen.de/DB=1/XMLPRS=N/PPN?PPN=013681850> ;
+	s:sameAs <http://d-nb.info/860673642> ;
+	s:numberOfPages "116" ;
+	s:author _:person_liedtke ,
+		_:person_heinrichs ,
+		_:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	.
+
+<#taschenbuch>
+	a s:Book ;
+	s:name "Taschenbuch, Version 1.6" ;
+	s:numberOfPages "43" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_hrz ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Taschenbuch-V1.6.pdf> ;
+	s:url <library/taschenbuch.pdf>;
+	.
+
+<#wordprocessing87>
+	a s:Book ;
+	s:datePublished "1987-06-01" ;
+	s:name "User Manual: Part 1: Word Processing" ;
+	s:numberOfPages "116" ;
+	s:author _:person_fey-mcclean ,
+		_:person_kloeckner ,
+		_:person_metterhausen  ;
+	s:translator _:person_bernhard , _:person_fey-mcclean ;
+	s:inLanguage "en-US" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/User_manual_Word_processing_19Jun87.pdf> ;
+	s:url <library/word-processing-1987.pdf> ;
+	.
+
+### Anwerdersoftwareklasse 2 (manuals) ###
+
+_:thing_anwendersoftware
+	a s:Book ;
+	s:name "Anwendersoftwareklasse 2" ;
+	.
+
+<#dasys86>
+	a s:Book ;
+	s:name "DASYS-Handbuch" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_bendisch ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "44" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273637> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714230> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/DASYS_Handbuch_08-08-86.pdf> ;
+	s:url <library/dasys-handbuch-86.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#dynamo86>
+	a s:Book ;
+	s:name "DYNAMO-Compiler" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_craemer , _:person_keil ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "13" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273645> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714240> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/DYNAMO_Compiler_08-08-86.pdf> ;
+	s:url <library/dynamo-compiler-1986.pdf> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#hamster84>
+	a s:Book ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:name "Hamster-Modell" ;
+	s:author _:person_oppor ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	# XXX: sure?
+	s:datePublished "1984" ;
+	s:numberOfPages "12" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273653> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714248> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/HAMSTER_Modell.pdf> ;
+	s:url <library/hamster-modell-1984.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#lisp86>
+	a s:Book ;
+	s:name "LISP-Handbuch" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_maccarthy ;
+	s:publisher _:org_gmd ;
+	s:editor _:person_durchholz , _:person_heyderhoff ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "60" ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273661> ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273661> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/LISP_Handbuch_08-08-86.pdf> ;
+	s:url <library/lisp-handbuch-1986.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#moco84>
+	a s:CreativeWork ;
+	s:name "Modellcomputer MOCO" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_heyderhoff ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:datePublished "1984" ;
+	s:namberOfPages "21" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=03127367X> ;
+	s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=03127367X> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/MOCO_Modellcomputer.pdf> ;
+	s:url <library/modellcomputer-moco-1984.pdf> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#msdosdat86>
+	a s:Book ;
+	s:name "MS-DOS-DAT" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_klapper ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "12" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/MS-DOS-DAT_08-08-86.pdf> ;
+	s:url <library/ms-dos-dat-1986.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
 ### EUMEL-Praxis ###
 
 _:thing_eumel-praxis a s:Book ;
@@ -401,6 +862,7 @@ _:thing_eumel-praxis a s:Book ;
 	s:numberOfPages "205" ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=038305518> ;
 	s:sameAs <http://d-nb.info/890062382> ;
+	s:url <library/eumel-praxis-1.djvu> ;
 	s:inLanguage "de-DE" ;
 	s:publisher _:org_j_b__metzler ;
 	s:about _:thing_eumel .
@@ -418,6 +880,7 @@ _:thing_eumel-praxis a s:Book ;
 	s:numberOfPages "195" ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=037767747>;
 	s:sameAs <http://d-nb.info/900728620> ;
+	s:url <library/eumel-praxis-2.djvu> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:publisher _:org_j_b__metzler .
@@ -435,6 +898,7 @@ _:thing_eumel-praxis a s:Book ;
 	s:numberOfPages "224" ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=037767755> ;
 	s:sameAs <http://d-nb.info/910332533> ;
+	s:url <library/eumel-praxis-3.djvu> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:publisher _:org_j_b__metzler .
@@ -456,6 +920,7 @@ _:thing_computerwoche a s:Periodical ;
 			s:issueNumber "17" ;
 			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/16-bit-version-auf-ollivetti-m20,1178576> ;
+	s:url <library/computerwoche83a.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "Betriebssystem Eumel für die Schulausbildung" ;
@@ -464,8 +929,11 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche88>
 	a s:NewsArticle ;
 	s:datePublished "1988-04-15" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "16" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/eumel-und-schulis-auf-dem-pruefstand,1154834> ;
+	s:url <library/computerwoche88.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "GMD startet Test für Schulsoftware" ;
@@ -474,8 +942,11 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche79a>
 	a s:NewsArticle ;
 	s:datePublished "1979-06-22" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "25" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/eumel-mit-elan,1193086> ;
+	s:url <library/computerwoche79a.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:name "„Eumel“ mit „Elan“" .
@@ -483,14 +954,17 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche83b>
 	a s:NewsArticle ;
 	s:datePublished "1983-10-21" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "43" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/ausbildungs-eumel,1180815> ;
+	s:url <library/computerwoche83b.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "GMD Bonn" ;
 	s:name "Ausbildungs-Eumel" .
 
-<#computerwoche87>
+<#computerwoche87b>
 	a s:NewsArticle ;
 	s:datePublished "1987-08-28" ;
 	s:isPartOf _:thing_computerwoche ;
@@ -502,8 +976,11 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche79b>
 	a s:NewsArticle ;
 	s:datePublished "1979-10-26" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "43" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/vier-tage-haertetest-fuer-eumel,1194195> ;
+	s:url <library/computerwoche79b.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "Präsentation eines ÁP - Multi - User - Betriebssystems auf der GI - 79" ;
@@ -512,8 +989,11 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche86a>
 	a s:NewsArticle ;
 	s:datePublished "1986-03-14" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "11" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/japaner-zeigen-interesse-an-eumel,1163651> ;
+	s:url <library/computerwoche86a.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:name "Japaner zeigen Interesse an „Eumel“" .
@@ -521,8 +1001,11 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche85>
 	a s:NewsArticle ;
 	s:datePublished "1985-11-08" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "45" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/dv-transparenz-fuer-anwaelte-angepeilt,1171648> ;
+	s:url <library/computerwoche85.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "Bonner Juristenorganisation selektiert Anbieterkreis" ;
@@ -531,8 +1014,11 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche91>
 	a s:NewsArticle ;
 	s:datePublished "1991-06-21" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "25" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/lizenzfreie-programme-fuer-schulen-und-universitaeten,1140549> ;
+	s:url <library/computerwoche91.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "GMD fördert Computereinsatz im Bildungswesen" ;
@@ -541,23 +1027,26 @@ _:thing_computerwoche a s:Periodical ;
 <#computerwoche86b>
 	a s:NewsArticle ;
 	s:datePublished "1986-01-24" ;
-	s:isPartOf _:thing_computerwoche ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "4" ;
+			s:isPartOf _:thing_computerwoche ] ;
 	s:url <http://www.computerwoche.de/a/technologiepreis-fuer-eumel-verliehen,1162976> ;
+	s:url <library/computerwoche86b.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "Würdigung des Forschungstransfers in die Wirtschaft" ;
 	s:name "Technologiepreis für Eumel verliehen" .
 
-<#happycomputer86>
+<#computerwoche87a>
 	a s:NewsArticle ;
-	s:datePublished "1986-03" ;
-	s:url <https://archive.org/details/Happy.Computer.N29.1986.03-Cartman> ;
+	s:datePublished "1987-03-13" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "11" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <library/computerwoche87a.html> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
-	s:pageStart "20" ;
-	s:pageEnd "20" ;
-	s:isPartOf [ a s:Periodical; s:name "Happy Computer" ] ;
-	s:name "Technologie-Transfer-Preis 1985 für „Eumel“" .
+	s:name "Softwareprodukte laufen unter Eumel" .
 
 ### Keywords/Topics ###
 
@@ -575,6 +1064,17 @@ _:thing_eumel a s:SoftwareApplication ;
 _:org_j_b__metzler a s:Organization ;
     s:location "Stuttgart" ;
     s:name "J.B. Metzler" .
+
+_:org_springer a s:Organization ;
+    s:location "Berlin" ;
+    s:name "Springer" .
+
+_:org_acm a s:Organization ;
+    s:location "New York" ;
+    s:name "ACM" .
+
+_:org_vieweg_teubner a s:Organization ;
+	s:name "Vieweg+Teubner" .
 
 _:org_gmd a s:Organization ;
     s:name "Gesellschaft für Mathematik und Datenverarbeitung mbH" ;
@@ -696,7 +1196,9 @@ _:com_webidata
 	s:telephone "06 21/4 70 06-0" ;
 	s:name "Webidata Softwareentwicklung GmbH" .
 
+##############
 ### People ###
+##############
 
 _:person_aschemann a s:Person ;
     s:familyName "Aschemann" ;
@@ -731,7 +1233,7 @@ _:person_oppor a s:Person ;
 	s:familyName "Oppor" ;
 	s:givenName "Lothar" .
 
-_:person_creamer a s:Person ;
+_:person_craemer a s:Person ;
 	s:familyName "Craemer" ;
 	s:givenName "Dieter" .
 
@@ -779,4 +1281,56 @@ _:person_hahn
 	a s:Person ;
 	s:familyName "Hahn" ;
 	s:givenName "Rainer" .
+
+_:person_koster
+	a s:Person ;
+	s:givenName "Cornelis H.A.";
+	s:familyName "Koster" ;
+	s:url <http://www.cs.ru.nl/~kees> ;
+	.
+
+_:person_ley
+	a s:Person ;
+	s:familyName "Ley" ;
+	s:givenName "Irmgard" .
+
+_:person_metterhausen
+	a s:Person ;
+	s:familyName "Metterhausen" ;
+	s:givenName "Werner" .
+
+_:person_fey-mcclean
+	a s:Person ;
+	s:familyName "Fey-McClean" ;
+	s:givenName "Monika" .
+
+_:person_kloeckner
+	a s:Person ;
+	s:familyName "Klöckner" ;
+	s:givenName "Konrad" .
+
+_:person_keil
+	a s:Person ;
+	s:familyName "Keil" ;
+	s:givenName "Robert" .
+
+_:person_durchholz
+	a s:Person ;
+	s:familyName "Durchholz" ;
+	s:givenName "J." .
+
+_:person_klapper
+	a s:Person ;
+	s:familyName "Klapper" ;
+	s:givenName "Frank" .
+
+_:person_schneider
+	a s:Person ;
+	s:familyName "Schneider" ;
+	s:givenName "Udo" .
+
+_:person_bernhard
+	a s:Person ;
+	s:familyName "Bernhard" ;
+	s:givenName "Ursula" .
 
