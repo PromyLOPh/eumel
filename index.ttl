@@ -36,6 +36,7 @@
 		<#wordprocessing87>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
+		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>,
         [ a s:ScholarlyArticle ;
             s:datePublished "1987" ;
             s:isPartOf [ a s:PublicationIssue ;
@@ -1232,6 +1233,275 @@ _:thing_gmd_jahresbericht
 	s:pageStart "222" ;
 	s:pageEnd "222" ;
 	s:name "EUMEL-Workshop ’86: Neue Perspektiven für das Mikrocomputer-Betriebssystem der GMD" ;
+	.
+
+###################
+### GMD Spiegel ###
+###################
+
+_:thing_gmd_spiegel
+	a s:Periodical ;
+	s:name "GMD-Spiegel"
+	.
+
+<#heyderhoff76>
+	a s:ScholarlyArticle ;
+	s:author _:person_heyderhoff ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "3" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1976" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "Programmieren mit ELAN" ;
+	s:pageStart "4" ;
+	s:pageEnd "14" ;
+	.
+
+<#liedtke79>
+	a s:ScholarlyArticle ;
+	s:author _:person_liedtke ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "2" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1979" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL – ein neues Mikroprozessor-Betriebssystem wird vorgestellt" ;
+	s:pageStart "18" ;
+	s:pageEnd "31" ;
+	.
+
+<#kloeckner79>
+	a s:NewsArticle ;
+	s:author _:person_kloeckner ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "2" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1979" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL im Härtetest – GMD-Präsentation eines μP-Multi-User-Betriebssystems" ;
+	s:pageStart "81" ;
+	s:pageEnd "83" ;
+	.
+
+<#gmdspiegel82>
+	a s:Report ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "1" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1982" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SCHULIS – Konzeption und Realisierung eines schulinternen Informationssystems mit Hilfe einer partizipativen Vorgehensweise" ;
+	s:pageStart "46" ;
+	s:pageEnd "68" ;
+	.
+
+<#gmdspiegel83>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "2" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1983" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "Informationssystem SCHULIS wird dem Schulausschuß der Stadt Sankt Augustin vorgestellt" ;
+	s:pageStart "28" ;
+	s:pageEnd "28" ;
+	.
+
+<#gmdspiegel84a>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "1" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1984" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "Computer in Unterricht und Verwaltung – Informationssystem SCHULIS im Rhein-Sieg-Gymnasium Sankt Augustin" ;
+	s:pageStart "41" ;
+	s:pageEnd "41" ;
+	.
+
+<#gmdspiegel84b>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "2" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1984" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel, _:thing_elan ;
+	s:name "Informatikunterricht in der Schule mit ELAN und EUMEL – Bundespräsident Carstens besucht Bonner Helmholtz-Gymnasium" ;
+	s:pageStart "49" ;
+	s:pageEnd "49" ;
+	.
+
+<#gmdspiegel85a>
+	a s:ScholarlyArticle ;
+	s:author _:person_kloeckner ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "1" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1985" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Betriebssystem EUMEL: Softwareentwicklung auf Mikrocomputern" ;
+	s:pageStart "32" ;
+	s:pageEnd "39" ;
+	.
+
+<#gmdspiegel85b>
+	a s:ScholarlyArticle ;
+	s:author _:person_breiling , _:person_schmidt-belz ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "1" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1985" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "schulis – ein Softwaresystem für Schulen" ;
+	s:pageStart "40" ;
+	s:pageEnd "48" ;
+	.
+
+<#gmdspiegel85c>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "3/4" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1985" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL erobert neue Anwendergruppen" ;
+	s:pageStart "42" ;
+	s:pageEnd "43" ;
+	.
+
+<#gmdspiegel85d>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "3/4" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1985" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Technologie-Transfer-Preis 1985 für Mikrocomputer-Betriebssystem EUMEL" ;
+	s:pageStart "6" ;
+	s:pageEnd "8" ;
+	.
+
+<#gmdspiegel87a>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "2/3" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1987" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "Forschung für Schüler und Schule: schulis – das Softwaresystem aus einem Guß" ;
+	s:pageStart "6" ;
+	s:pageEnd "8" ;
+	.
+
+<#gmdspiegel87b>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "4" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1987" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL-Workshop 1987: Neue Perspektiven für das Mikrocomputer-Betriebssystem der GMD" ;
+	s:pageStart "54" ;
+	s:pageEnd "55" ;
+	.
+
+<#gmdspiegel87c>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "4" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1987" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "ERGOS – ein junges Unternehmen vermarktet das Mikrocomputer-Betriebssystem EUMEL" ;
+	s:pageStart "71" ;
+	s:pageEnd "72" ;
+	.
+
+<#gmdspiegel88a>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "1" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1988" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "L3 – ein neues Betriebssystem der GMD für die neunziger Jahre" ;
+	s:pageStart "29" ;
+	s:pageEnd "32" ;
+	.
+
+<#gmdspiegel88b>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "1" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1988" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "Integrierte Software für Schulverwaltung und Unterricht" ;
+	s:pageStart "63" ;
+	s:pageEnd "63" ;
+	.
+
+<#gmdspiegel88c>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "4" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1988" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "L3 hautnah" ;
+	s:pageStart "61" ;
+	s:pageEnd "64" ;
 	.
 
 ### Keywords/Topics ###
