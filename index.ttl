@@ -35,6 +35,7 @@
 		<#taschenbuch>,
 		<#wordprocessing87>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
+		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
         [ a s:ScholarlyArticle ;
             s:datePublished "1987" ;
             s:isPartOf [ a s:PublicationIssue ;
@@ -1140,6 +1141,99 @@ _:thing_log_in
 	s:name "Zur Akzeptanz der EUMEL-Software"
 	.
 
+#########################
+### GMD Jahresbericht ###
+#########################
+
+_:thing_gmd_jahresbericht
+	a s:Periodical ;
+	s:name "GMD Jahresbericht"
+	.
+
+<#gmdbericht82>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_jahresbericht ;
+		s:datePublished "1982" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "Offizielle Einführung eines Schulverwaltungsrechners im Rhein-Sieg-Gymnasium in Sankt Augustin" ;
+	s:pageStart "159" ;
+	s:pageEnd "160" ;
+	.
+
+<#gmdbericht83>
+	a s:ScholarlyArticle ;
+	s:author _:person_breiling , _:person_schmidt-belz ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_jahresbericht ;
+		s:datePublished "1983" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SCHULIS – ein Informationssystem zur Unterstützung der Verwaltungsaufgaben in Schulen" ;
+	s:pageStart "32" ;
+	s:pageEnd "41" ;
+	.
+
+<#gmdbericht84>
+	a s:ScholarlyArticle ;
+	s:author _:person_kloeckner ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_jahresbericht ;
+		s:datePublished "1984" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL – ein zukunftsweisendes Betriebssystem für die Softwareentwicklung" ;
+	s:pageStart "98" ;
+	s:pageEnd "109" ;
+	.
+
+<#gmdbericht85>
+	a s:Report ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_jahresbericht ;
+		s:datePublished "1985" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:pageStart "175" ;
+	s:pageEnd "176" ;
+	.
+
+<#gmdbericht86a>
+	a s:Report ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_jahresbericht ;
+		s:datePublished "1986" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:pageStart "193" ;
+	s:pageEnd "194" ;
+	.
+
+<#gmdbericht86b>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_jahresbericht ;
+		s:datePublished "1986" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:pageStart "222" ;
+	s:pageEnd "222" ;
+	s:name "EUMEL-Workshop ’86: Neue Perspektiven für das Mikrocomputer-Betriebssystem der GMD" ;
+	.
+
 ### Keywords/Topics ###
 
 _:thing_elan a s:ComputerLanguage ;
@@ -1436,5 +1530,17 @@ _:person_seyfert
 	a s:Person ;
 	s:familyName "Seyfert" ;
 	s:givenName "Wolfgang" ;
+	.
+
+_:person_breiling
+	a s:Person ;
+	s:familyName "Breiling" ;
+	s:givenName "Adolf" ;
+	.
+
+_:person_schmidt-belz
+	a s:Person ;
+	s:familyName "Schmidt-Belz" ;
+	s:givenName "Barbara" ;
 	.
 
