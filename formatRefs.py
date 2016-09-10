@@ -55,7 +55,7 @@ def formatParent (s, g, n, useName = True):
     end = first (g.objects (n, s.pageEnd))
     if start:
         num = int (end)-int (start)
-        if end and num > 1:
+        if end and num >= 1:
             ret.append ('pp. {}–{}'.format (start, end))
         else:
             ret.append ('p. {}'.format (start))
