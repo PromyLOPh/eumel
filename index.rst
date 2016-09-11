@@ -87,6 +87,7 @@ __ disks/grundpaket/03_eumel0.img
 .. _install instructions: 01_readme_INSTALL.txt
 .. _qemu: http://www.qemu.org/
 
+.. include:: hardware.rst
 .. include:: artifacts.rst
 
 Bibliography
