@@ -36,7 +36,7 @@
 		<#wordprocessing87>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
-		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>,
+		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>,
         [ a s:ScholarlyArticle ;
             s:datePublished "1987" ;
             s:isPartOf [ a s:PublicationIssue ;
@@ -1501,7 +1501,22 @@ _:thing_gmd_spiegel
 	s:about _:thing_eumel ;
 	s:name "L3 hautnah" ;
 	s:pageStart "61" ;
-	s:pageEnd "64" ;
+	s:pageEnd "62" ;
+	.
+
+<#gmdspiegel88d>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "4" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1988" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "schulis, EUMEL und L3 auf dem Weg in die praktische Anwendung" ;
+	s:pageStart "62" ;
+	s:pageEnd "63" ;
 	.
 
 ### Keywords/Topics ###
