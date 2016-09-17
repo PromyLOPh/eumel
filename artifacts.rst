@@ -1,7 +1,7 @@
 Artifacts
 ---------
 
-Floppy disks:
+Floppy disk images for EUMEL 1.8.6, Urlader 1523.
 
 - 01_readme.img_
 - 02_setup.img_
