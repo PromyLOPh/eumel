@@ -34,6 +34,8 @@
 		<#sys86>, <#sys84>, <#sys85>,
 		<#taschenbuch>,
 		<#wordprocessing87>,
+		<#schuetz86>, <#iur86>,
+		<#ende87>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
 		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>,
@@ -567,6 +569,67 @@ _:thing_rechenanlagen
 			] ;
 		] ;
 	s:about _:thing_eumel ;
+	.
+
+_:iur
+	a s:Periodical ;
+	s:name "IuR" ;
+	.
+
+<#schuetz86>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:name "IuR" ;
+		s:datePublished "1986" ;
+		s:issueNumber "2" ;
+		s:isPartOf _:iur ;
+		] ;
+	s:pageStart "92" ;
+	s:pageEnd "96" ;
+	s:name "Text- und Datenverarbeitung in der Anwaltskanzlei" ;
+	s:author [
+		a s:Person ;
+		s:familyName "Schütz" ;
+		s:givenName "Harald ";
+		] ;
+	s:url <http://www.jurpc.de/jurpc/show?id=iur_1986_0000_0002_0036_0040> ;
+	s:url <library/schuetz86.pdf> ;
+	.
+
+<#iur86>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1986" ;
+		s:issueNumber "4" ;
+		s:isPartOf _:iur ;
+		] ;
+	s:pageStart "175" ;
+	s:pageEnd "178" ;
+	s:name "Anwalts- und Notarprogramme auf der CEBIT 1986" ;
+	s:url <http://www.jurpc.de/jurpc/show?id=iur_1986_0000_0004_0031_0034> ;
+	s:url <library/iur86.pdf> ;
+	.
+
+<#ende87>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1987-06-11" ;
+		s:issueNumber "24" ;
+		s:name "Deutsches Ärzteblatt" ;
+		] ;
+	s:pageStart "A-1774" ;
+	s:pageEnd "A-1775" ;
+	s:author [
+		a s:Person ;
+		s:familyName "Ende" ;
+		s:givenName "Werner";
+		] ;
+	s:name "LABORIS – zukunftsweisende Software für Ärzte" ;
+	s:url <https://www.aerzteblatt.de/pdf/84/24/a1774.pdf> ;
+	s:url <library/ende87.pdf> ;
 	.
 
 ###############

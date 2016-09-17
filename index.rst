@@ -88,6 +88,7 @@ __ disks/grundpaket/03_eumel0.img
 .. _qemu: http://www.qemu.org/
 
 .. include:: hardware.rst
+.. include:: software.rst
 .. include:: internals.rst
 .. include:: artifacts.rst
 
