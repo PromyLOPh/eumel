@@ -11,7 +11,7 @@
 		<#computerwoche83a>, <#computerwoche88>, <#computerwoche79a>,
 		<#computerwoche83b>, <#computerwoche87a>, <#computerwoche79b>,
 		<#computerwoche86a>, <#computerwoche85>, <#computerwoche91>,
-		<#computerwoche86b>, <#computerwoche87b>,
+		<#computerwoche86b>, <#computerwoche87b>, <#computerwoche86c>,
 		<#happycomputer86>,
 		<#reuse08>,
 		<#carmony82>,
@@ -36,6 +36,7 @@
 		<#wordprocessing87>,
 		<#schuetz86>, <#iur86>,
 		<#ende87>,
+		<#generalanzeiger85>, <#generalanzeiger86>, <#handelsblatt91>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
 		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>,
@@ -52,15 +53,16 @@
             s:author [ a s:Person ;
                     s:familyName "Noltemeier" ;
                     s:givenName "Albert" ] ;
-            s:datePublished "1987" ;
             s:isPartOf [ a s:PublicationIssue ;
-                    s:name "Data processing" ;
+                    s:name "German-Chinese Electronics Week, Proceedings of Congress, Part 4: Data Processing" ;
 					s:sameAs <http://d-nb.info/870785869> ;
 					s:numberOfPages "148" ;
+					s:publisher "VDE-Verlag" ;
+					s:datePublished "1987" ;
 					s:isbn "3-8007-1527-9" ] ;
 			s:alternateName "noltemeier87" ;
 			s:pageStart "43" ;
-			s:pageEnd "57" ;
+			s:pageEnd "55" ;
 			s:inLanguage "en-US" ;
 			s:about _:thing_eumel ;
             s:name "Goals and principles of the EUMEL operating system" ],
@@ -195,17 +197,20 @@
 		[ a s:Book ;
 			s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=056953186> ;
 			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056953186> ;
-			s:numberOfPages "44" ;
+			s:numberOfPages "40";
 			s:datePublished "1984" ;
 			s:publisher _:org_gmd ;
-			# number 107
-			s:isPartOf _:thing_gmd_arbeitspapiere ;
+			s:isPartOf [
+				a s:PublicationIssue ;
+				s:isPartOf _:thing_gmd_arbeitspapiere ;
+				s:issueNumber "107" ;
+				] ;
 			s:author [ a s:Person ;
 				s:givenName "Klaus" ;
 				s:familyName "Görgen" ] ;
 			s:inLanguage "de-DE" ;
 			s:about _:thing_eumel ;
-			s:name "EUMEL-X.25 : Realisierung der CCITT-Schnittstelle X.25 (Schicht 3) auf einem EUMEL-System" ;
+			s:name "EUMEL-X.25: Realisierung der CCITT-Schnittstelle X.25 (Schicht 3) auf einem EUMEL-System" ;
 			s:alternateName "görgen84" ;
 		] , [
 			a s:Book ;
@@ -215,14 +220,17 @@
 			s:datePublished "1984" ;
 			s:publisher _:org_gmd ;
 			s:alternateName "viebeg84" ;
-			# number 114
-			s:isPartOf _:thing_gmd_arbeitspapiere ;
+			s:isPartOf [
+				a s:PublicationIssue ;
+				s:isPartOf _:thing_gmd_arbeitspapiere ;
+				s:issueNumber "114" ;
+				] ;
 			s:author [ a s:Person ;
 				s:familyName "Viebeg" ;
 				s:givenName "Ursula" ] ;
 			s:inLanguage "de-DE" ;
 			s:about _:thing_eumel ;
-			s:name "EUMEL.X29 : Realisierung eines Software-PAD auf einem EUMEL-System" ] ,
+			s:name "EUMEL.X29: Realisierung eines Software-PAD auf einem EUMEL-System" ] ,
         [ a s:Book ;
             s:author _:person_bartling ;
             s:alternateName "bartling76" ;
@@ -630,6 +638,43 @@ _:iur
 	s:name "LABORIS – zukunftsweisende Software für Ärzte" ;
 	s:url <https://www.aerzteblatt.de/pdf/84/24/a1774.pdf> ;
 	s:url <library/ende87.pdf> ;
+	.
+
+_:generalanzeiger
+	a s:Newspaper ;
+	s:name "Bonner General-Anzeiger, Stadtausgabe Bonn" ;
+	.
+
+<#generalanzeiger85>
+	a s:NewsArticle ;
+	s:name "Technologie-Preise für GMD-‚Eumel‘" ;
+	s:datePublished "1985-12-10" ;
+	s:pageStart "7" ;
+	s:isPartOf _:generalanzeiger ;
+	s:url <library/generalanzeiger85.html> ;
+	.
+
+<#generalanzeiger86>
+	a s:NewsArticle ;
+	s:name "Deutsches Computersystem für die japanische Schrift" ;
+	s:alternativeHeadline "EUMEL kann auf verschiedene Fabrikate übertragen werden." ;
+	s:datePublished "1986-03-06" ;
+	s:pageStart "27" ;
+	s:isPartOf _:generalanzeiger ;
+	s:url <library/generalanzeiger86.html> ;
+	.
+
+<#handelsblatt91>
+	a s:NewsArticle ;
+	s:name "Computer-Notizen: Ausbildungsauftrag" ;
+	s:pageStart "24" ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:name "Handelsblatt" ;
+		s:issueNumber "40" ;
+		s:datePublished "1991-02-26" ;
+		] ;
+	s:url <library/handelsblatt91.html> ;
 	.
 
 ###############
@@ -1089,6 +1134,18 @@ _:thing_computerwoche a s:Periodical ;
 	s:about _:thing_eumel ;
 	s:alternativeHeadline "Würdigung des Forschungstransfers in die Wirtschaft" ;
 	s:name "Technologiepreis für Eumel verliehen" .
+
+<#computerwoche86c>
+	a s:NewsArticle ;
+	s:datePublished "1986-03-14" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "11" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <library/computerwoche86c.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "32-Bit-„Maximikro“ von Proteus" ;
+	.
 
 <#computerwoche87a>
 	a s:NewsArticle ;

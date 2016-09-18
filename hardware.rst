@@ -41,7 +41,7 @@ Supported hardware
     PHILIPS, :YES, Intel 80186/8
     PIC, 400, Z80
     PROTEUS‚ -80, Z80
-    ,68/20, M 68000
+    ,68/20,M 68000,1986 [computerwoche86c]_
     RUC, Basis 108, Z80
     ,RUC-AT, Intel 80286
     SHARP, MZ800er Serie, Z80,1985
