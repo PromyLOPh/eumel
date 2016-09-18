@@ -1,0 +1,4 @@
+*.sw?
+bib.rst
+__pycache__
+index.html
