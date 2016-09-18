@@ -36,7 +36,7 @@
 		<#wordprocessing87>,
 		<#schuetz86>, <#iur86>,
 		<#ende87>,
-		<#generalanzeiger85>, <#generalanzeiger86>, <#handelsblatt91>,
+		<#generalanzeiger85>, <#generalanzeiger86>, <#handelsblatt91>, <#jurpc94>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
 		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>,
@@ -677,6 +677,31 @@ _:generalanzeiger
 	s:url <library/handelsblatt91.html> ;
 	.
 
+<#jurpc94>
+	a s:ScholarlyArticle ;
+	s:name "Die Automation in der Anwaltskanzlei" ;
+	s:alternativeHeadline "Eine empirische Untersuchung über die Automation in hannoverschen Anwaltskanzleien" ;
+	s:pageStart "2784" ;
+	s:pageEnd "2787" ;
+	s:author [
+		a s:Person ;
+		s:familyName "Gureck" ;
+		s:givenName "Ralph" ;
+		] , [
+		a s:Person ;
+		s:familyName "Refflinghaus" ;
+		s:givenName "Dirk" ;
+		] ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:name "JurPC" ;
+		s:issueNumber "9" ;
+		s:datePublished "1994" ;
+		] ;
+	s:url <http://www.jurpc.de/jurpc/show?id=1994_09_76000> ;
+	s:url <library/jurpc94.pdf> ;
+	.
+
 ###############
 ### Manuals ###
 ###############
@@ -1181,6 +1206,7 @@ _:thing_log_in
 	s:name "ELAN" ;
 	s:pageStart "34" ;
 	s:pageEnd "37" ;
+	s:url <library/log_in_3_1983_34.djvu> ;
 	.
 
 <#oppor85>
@@ -1197,6 +1223,7 @@ _:thing_log_in
 	s:name "Spielend programmieren lernen mit dem Hamstermodell für ELAN" ;
 	s:pageStart "32" ;
 	s:pageEnd "35" ;
+	s:url <library/log_in_5_1985_32.djvu> ;
 	.
 
 <#seyfert87>
@@ -1213,6 +1240,7 @@ _:thing_log_in
 	s:name "Laßt den EUMEL in die Schulen!" ;
 	s:pageStart "30" ;
 	s:pageEnd "33" ;
+	s:url <library/log_in_7_1987_30.djvu> ;
 	.
 
 <#ambros90a>
@@ -1229,6 +1257,7 @@ _:thing_log_in
 	s:name "ITG mit EUMEL und ELAN" ;
 	s:pageStart "55" ;
 	s:pageEnd "58" ;
+	s:url <library/log_in_10_1990_55.djvu> ;
 	.
 
 <#ambros90b>
@@ -1245,6 +1274,7 @@ _:thing_log_in
 	s:name "Das Betriebssystem EUMEL" ;
 	s:pageStart "86" ;
 	s:pageEnd "88" ;
+	s:url <library/log_in_10_1990_86.djvu> ;
 	.
 
 <#ambros90c>
@@ -1283,6 +1313,7 @@ _:thing_gmd_jahresbericht
 	s:name "Offizielle Einführung eines Schulverwaltungsrechners im Rhein-Sieg-Gymnasium in Sankt Augustin" ;
 	s:pageStart "159" ;
 	s:pageEnd "160" ;
+	s:url <library/gmd_jahresbericht_1982_159.djvu> ;
 	.
 
 <#gmdbericht83>
@@ -1298,6 +1329,7 @@ _:thing_gmd_jahresbericht
 	s:name "SCHULIS – ein Informationssystem zur Unterstützung der Verwaltungsaufgaben in Schulen" ;
 	s:pageStart "32" ;
 	s:pageEnd "41" ;
+	s:url <library/gmd_jahresbericht_1983_32.djvu> ;
 	.
 
 <#gmdbericht84>
@@ -1313,6 +1345,7 @@ _:thing_gmd_jahresbericht
 	s:name "EUMEL – ein zukunftsweisendes Betriebssystem für die Softwareentwicklung" ;
 	s:pageStart "98" ;
 	s:pageEnd "109" ;
+	s:url <library/gmd_jahresbericht_1984_98.djvu> ;
 	.
 
 <#gmdbericht85>
@@ -1326,6 +1359,7 @@ _:thing_gmd_jahresbericht
 	s:about _:thing_eumel ;
 	s:pageStart "175" ;
 	s:pageEnd "176" ;
+	s:url <library/gmd_jahresbericht_1985_175.djvu> ;
 	.
 
 <#gmdbericht86a>
@@ -1339,6 +1373,7 @@ _:thing_gmd_jahresbericht
 	s:about _:thing_eumel ;
 	s:pageStart "193" ;
 	s:pageEnd "194" ;
+	s:url <library/gmd_jahresbericht_1986_193.djvu> ;
 	.
 
 <#gmdbericht86b>
@@ -1353,6 +1388,7 @@ _:thing_gmd_jahresbericht
 	s:pageStart "222" ;
 	s:pageEnd "222" ;
 	s:name "EUMEL-Workshop ’86: Neue Perspektiven für das Mikrocomputer-Betriebssystem der GMD" ;
+	s:url <library/gmd_jahresbericht_1986_222.djvu> ;
 	.
 
 ###################
@@ -1378,6 +1414,7 @@ _:thing_gmd_spiegel
 	s:name "Programmieren mit ELAN" ;
 	s:pageStart "4" ;
 	s:pageEnd "14" ;
+	s:url <library/gmd_spiegel_1976_3_4.djvu> ;
 	.
 
 <#liedtke79>
@@ -1394,6 +1431,7 @@ _:thing_gmd_spiegel
 	s:name "EUMEL – ein neues Mikroprozessor-Betriebssystem wird vorgestellt" ;
 	s:pageStart "18" ;
 	s:pageEnd "31" ;
+	s:url <library/gmd_spiegel_1979_2_18.djvu> ;
 	.
 
 <#kloeckner79>
@@ -1410,6 +1448,7 @@ _:thing_gmd_spiegel
 	s:name "EUMEL im Härtetest – GMD-Präsentation eines μP-Multi-User-Betriebssystems" ;
 	s:pageStart "81" ;
 	s:pageEnd "83" ;
+	s:url <library/gmd_spiegel_1979_4_81.djvu> ;
 	.
 
 <#gmdspiegel82>
