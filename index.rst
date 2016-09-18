@@ -1,8 +1,10 @@
 Not just a footnote of history: EUMEL
 =====================================
 
-:date: 2016-09-09
+:date: |today|
 :copyright: CC0_ (this page)
+
+.. |today| date:: %Y-%m-%d
 
 .. _CC0: https://creativecommons.org/publicdomain/zero/1.0/
 
@@ -14,10 +16,11 @@ Not just a footnote of history: EUMEL
 
 .. _GitHub: https://github.com/PromyLOPh/eumel/issues
 
-The *E*\ xtendable multi *u*\ ser *m*\ icroprocessor *EL*\ AN system (EUMEL) is
-a microkernel-based operating system created in the 1980s. It is sometimes
-refered to as *Liedtke 2* (L2), named after its inventor Jochen Liedtke. L3,
-EUMEL’s successor, is still in use by a few legacy systems as of 2016.
+The *Extendable multi user microprocessor ELAN system (EUMEL)* is a microkernel
+operating system. *Gesellschaft für Mathematik und Datenverarbeitung (GMD)* and
+*Hochschulrechenzentrum (HRZ)* of Bielefeld University created and developed it
+between 1978 and 1990. L3, EUMEL’s successor, is still in use by a few legacy
+systems as of 2016.
 
 .. contents::
 
