@@ -56,7 +56,7 @@ def formatParent (s, g, n, useName = True):
     if start:
         try:
             num = int (end)-int (start)
-        except ValueError:
+        except (ValueError, TypeError):
             num = 1
         if end and num >= 1:
             ret.append ('pp. {}–{}'.format (start, end))
