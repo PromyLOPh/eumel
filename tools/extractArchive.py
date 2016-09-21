@@ -46,6 +46,8 @@ if __name__ == '__main__':
     parser.add_argument ('-f', '--force', help='Overwrite existing files', action='store_true')
     parser.add_argument ('-o', '--output', help='Output directory, defaults to archive name')
     parser.add_argument ('-v', '--verbose', help='Enable debugging messages', action='store_true')
+    parser.add_argument ('-n', '--number', help='Number files based on their position in the archive',
+            action='store_true')
     parser.add_argument ('file', help='Input file')
     args = parser.parse_args ()
 
@@ -69,6 +71,7 @@ if __name__ == '__main__':
         except FileExistsError:
             pass
 
+        i = 1
         while True:
             # file header dataspace
             fileheader = FileHeaderDataspace (BytesIO (next (entries)))
@@ -92,6 +95,8 @@ if __name__ == '__main__':
                 logging.debug ('skipping quirks')
                 e = e[pagesize:]
 
+            if args.number:
+                filename = '{:03d}_{}'.format (i, filename)
             outfile = os.path.join (args.output, filename)
             if os.path.exists (outfile) and not args.force:
                 logging.info ('File {} exists, skipping'.format (outfile))
@@ -101,4 +106,5 @@ if __name__ == '__main__':
                 outfd.write (e)
             stamp = mtime.timestamp ()
             os.utime (outfile, (stamp, stamp))
+            i += 1
 

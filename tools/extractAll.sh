@@ -9,7 +9,7 @@ while read -r F; do
 	destdir="${base}.extracted"
 	echo "Extracting $F to $destdir"
 	$root/linearizeDisk.py "$F" "$linear"
-	$root/extractArchive.py -o "$destdir" "$linear"
+	$root/extractArchive.py -n -o "$destdir" "$linear"
 	pushd "$destdir" || continue
 	for G in ./*; do
 		echo "Converting $G to ${G}.txt"
