@@ -37,7 +37,9 @@ ISP
 modsoft
     - Ergo JUR, software for lawyers [iur86]_
 Advodat GmbH
-    - advodat, software for lawyers [schuetz86]_ [iur86]_
+    - .. _advodat:
+
+      advodat, software for lawyers [schuetz86]_ [iur86]_
 
 Sources:
 [praxis3]_ pp. 223–224,

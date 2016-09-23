@@ -11,9 +11,10 @@ Sankt Augustin [gmdbericht82]_ and Max-Planck-Gymnasium Bielefeld. EUMEL was
 also by HRZ Bielefeld and at GMD Bonn, as well as TU Berlin [hahn79]_ and TU
 Darmstadt.
 
-A survey amongst lawyers from Hannover in 1994 revealed four of 56 (7%) law
-offices still ran EUMEL machines eight years after intruduction of ErgoJUR and
-advodat [jurpc94]_.
+Additionally 400 lawyers ran advodat_ on EUMEL in 1987 [cr87a]_. A survey
+amongst those located in Hannover in 1994 revealed four of 56 (7%) law offices
+still ran EUMEL machines eight years after intruduction of ErgoJUR and advodat
+[jurpc94]_.
 
 By mid 1985 support for the Japanese *Kanji* writing system was added to EUMEL
 [gmdspiegel85d]_. A newly founded corporation *NISSIN Products Corp. Tokyo*

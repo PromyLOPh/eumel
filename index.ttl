@@ -37,6 +37,7 @@
 		<#schuetz86>, <#iur86>,
 		<#ende87>,
 		<#chip84>, <#chip87>, <#chip88>, <#chip89>,
+		<#cr86>, <#cr87a>, <#cr87b>,
 		<#generalanzeiger85>, <#generalanzeiger86>, <#handelsblatt91>, <#jurpc94>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
@@ -700,6 +701,53 @@ _:generalanzeiger
 		] ;
 	s:url <http://www.jurpc.de/jurpc/show?id=1994_09_76000> ;
 	s:url <library/jurpc94.pdf> ;
+	.
+
+_:cr
+	a s:Periodical ;
+	s:name "Computer und Recht" ;
+	.
+
+<#cr86>
+	a s:ScholarlyArticle ;
+	s:name "Nixdorf mit neuem Anwalts-PC" ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1986" ;
+		s:issueNumber "9" ;
+		s:isPartOf _:cr ;
+		] ;
+	s:pageStart "613" ;
+	s:url <https://www.juris.de/jportal/?quelle=jlink&docid=jzs-CR-1986-09-0613-2-K-08&psml=jurisw.psml&max=true> ;
+	s:url <library/cr86.html> ;
+	.
+
+<#cr87a>
+	a s:ScholarlyArticle ;
+	s:name "Olivetti und Kienzle übernehmen Advodat-Paket" ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1987" ;
+		s:issueNumber "3" ;
+		s:isPartOf _:cr ;
+		] ;
+	s:pageStart "206" ;
+	s:url <https://www.juris.de/jportal/?quelle=jlink&docid=jzs-CR-1987-03-0206-1-K-02&psml=jurisw.psml&max=true> ;
+	s:url <library/cr87a.html> ;
+	.
+
+<#cr87b>
+	a s:ScholarlyArticle ;
+	s:name "Jetzt DFÜ-Software für Advodat-Nutzer" ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1987" ;
+		s:issueNumber "5" ;
+		s:isPartOf _:cr ;
+		] ;
+	s:pageStart "332" ;
+	s:url <https://www.juris.de/jportal/?quelle=jlink&docid=jzs-CR-1987-05-0332-4-K-04&psml=jurisw.psml&max=true> ;
+	s:url <library/cr87b.html> ;
 	.
 
 ############

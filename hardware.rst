@@ -36,6 +36,7 @@ Supported hardware
     KHW, PIC 400, Z80
     ,M 24, Intel 8086
     ,M 28, Intel 8086
+    Nixdorf,PC 8810/35,,1986 [cr86]_
     Olivetti,M20,Z8001,1983
     ,M24,Intel 8086,1984
     PHILIPS, :YES, Intel 80186/8
