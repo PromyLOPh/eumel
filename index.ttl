@@ -39,6 +39,7 @@
 		<#chip84>, <#chip87>, <#chip88>, <#chip89>,
 		<#cr86>, <#cr87a>, <#cr87b>,
 		<#generalanzeiger85>, <#generalanzeiger86>, <#handelsblatt91>, <#jurpc94>,
+		<#koch80>, <#gmdstudien80a>, <#gmdstudien80b>, <#gmdstudien80c>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
 		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>,
@@ -1805,6 +1806,65 @@ _:thing_gmd_spiegel
 	s:pageEnd "63" ;
 	.
 
+###################
+### GMD Studien ###
+###################
+
+_:thing_gmdstudien
+	a s:BookSeries ;
+	s:name "GMD-Studien" ;
+	s:publisher _:org_gmd ;
+	.
+
+_:thing_gmdstudien_52
+	a s:PublicationVolume ;
+	s:volumeNumber "52" ;
+	s:isPartOf _:thing_gmdstudien ;
+	s:datePublished "1980" ;
+	.
+
+<#koch80>
+	a s:ScholarlyArticle ;
+	s:isPartOf _:thing_gmdstudien_52 ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "ELAN – Eine Programmiersprache für die Ausbildung" ;
+	s:pageStart "97" ;
+	s:pageEnd "112" ;
+	s:author _:person_koch , _:person_jaehnichen ;
+	s:url <library/gmd_studien_52_97.djvu> ;
+	.
+
+# these are missing:
+<#gmdstudien80a>
+	a s:ScholarlyArticle ;
+	s:isPartOf _:thing_gmdstudien_52 ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Das MP-Betriebssystem EUMEL (Überblick)" ;
+	s:pageStart "171" ;
+	s:pageEnd "184" ;
+	.
+
+<#gmdstudien80b>
+	a s:ScholarlyArticle ;
+	s:isPartOf _:thing_gmdstudien_52 ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Entwurf der Benutzerschnittstelle des EUMEL-Editors" ;
+	s:pageStart "185" ;
+	s:pageEnd "192" ;
+	.
+
+<#gmdstudien80c>
+	a s:ScholarlyArticle ;
+	s:isPartOf _:thing_gmdstudien_52 ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Das MP-Betriebssystem EUMEL (Systemprogrammierung)" ;
+	s:pageStart "193" ;
+	.
+
 ### Keywords/Topics ###
 
 _:thing_elan a s:ComputerLanguage ;
@@ -2113,5 +2173,17 @@ _:person_schmidt-belz
 	a s:Person ;
 	s:familyName "Schmidt-Belz" ;
 	s:givenName "Barbara" ;
+	.
+
+_:person_jaehnichen
+	a s:Person ;
+	s:familyName "Jähnichen" ;
+	s:givenName "Stefan" ;
+	.
+
+_:person_koch
+	a s:Person ;
+	s:familyName "Koch" ;
+	s:givenName "Wilfried" ;
 	.
 
