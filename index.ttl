@@ -42,7 +42,7 @@
 		<#koch80>, <#gmdstudien80a>, <#gmdstudien80b>, <#gmdstudien80c>,
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
-		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>,
+		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>, <#gmdspiegel88e>,
         [ a s:ScholarlyArticle ;
             s:datePublished "1987" ;
             s:isPartOf [ a s:PublicationIssue ;
@@ -1607,6 +1607,7 @@ _:thing_gmd_spiegel
 	s:name "Informationssystem SCHULIS wird dem Schulausschuß der Stadt Sankt Augustin vorgestellt" ;
 	s:pageStart "28" ;
 	s:pageEnd "28" ;
+	s:url <library/gmd_spiegel_1983_2_28.djvu> ;
 	.
 
 <#gmdspiegel84a>
@@ -1622,6 +1623,7 @@ _:thing_gmd_spiegel
 	s:name "Computer in Unterricht und Verwaltung – Informationssystem SCHULIS im Rhein-Sieg-Gymnasium Sankt Augustin" ;
 	s:pageStart "41" ;
 	s:pageEnd "41" ;
+	s:url <library/gmd_spiegel_1984_1_41.djvu> ;
 	.
 
 <#gmdspiegel84b>
@@ -1637,6 +1639,7 @@ _:thing_gmd_spiegel
 	s:name "Informatikunterricht in der Schule mit ELAN und EUMEL – Bundespräsident Carstens besucht Bonner Helmholtz-Gymnasium" ;
 	s:pageStart "49" ;
 	s:pageEnd "49" ;
+	s:url <library/gmd_spiegel_1984_2_49.djvu> ;
 	.
 
 <#gmdspiegel85a>
@@ -1653,6 +1656,7 @@ _:thing_gmd_spiegel
 	s:name "Betriebssystem EUMEL: Softwareentwicklung auf Mikrocomputern" ;
 	s:pageStart "32" ;
 	s:pageEnd "39" ;
+	s:url <library/gmd_spiegel_1985_1_32.djvu>;
 	.
 
 <#gmdspiegel85b>
@@ -1669,6 +1673,7 @@ _:thing_gmd_spiegel
 	s:name "schulis – ein Softwaresystem für Schulen" ;
 	s:pageStart "40" ;
 	s:pageEnd "48" ;
+	s:url <library/gmd_spiegel_1985_1_40.djvu> ;
 	.
 
 <#gmdspiegel85c>
@@ -1684,6 +1689,8 @@ _:thing_gmd_spiegel
 	s:name "EUMEL erobert neue Anwendergruppen" ;
 	s:pageStart "42" ;
 	s:pageEnd "43" ;
+	s:url <library/gmd_spiegel_1985_3-4_42.djvu> ;
+	s:author _:person_starcke ;
 	.
 
 <#gmdspiegel85d>
@@ -1699,6 +1706,7 @@ _:thing_gmd_spiegel
 	s:name "Technologie-Transfer-Preis 1985 für Mikrocomputer-Betriebssystem EUMEL" ;
 	s:pageStart "6" ;
 	s:pageEnd "8" ;
+	s:url <library/gmd_spiegel_1985_3-4_6.djvu> ;
 	.
 
 <#gmdspiegel87a>
@@ -1714,6 +1722,7 @@ _:thing_gmd_spiegel
 	s:name "Forschung für Schüler und Schule: schulis – das Softwaresystem aus einem Guß" ;
 	s:pageStart "6" ;
 	s:pageEnd "8" ;
+	s:url <library/gmd_spiegel_1987_2-3_6.djvu> ;
 	.
 
 <#gmdspiegel87b>
@@ -1729,6 +1738,7 @@ _:thing_gmd_spiegel
 	s:name "EUMEL-Workshop 1987: Neue Perspektiven für das Mikrocomputer-Betriebssystem der GMD" ;
 	s:pageStart "54" ;
 	s:pageEnd "55" ;
+	s:url <library/gmd_spiegel_1987_4_54.djvu> ;
 	.
 
 <#gmdspiegel87c>
@@ -1744,6 +1754,7 @@ _:thing_gmd_spiegel
 	s:name "ERGOS – ein junges Unternehmen vermarktet das Mikrocomputer-Betriebssystem EUMEL" ;
 	s:pageStart "71" ;
 	s:pageEnd "72" ;
+	s:url <library/gmd_spiegel_1987_4_71.djvu> ;
 	.
 
 <#gmdspiegel88a>
@@ -1759,6 +1770,8 @@ _:thing_gmd_spiegel
 	s:name "L3 – ein neues Betriebssystem der GMD für die neunziger Jahre" ;
 	s:pageStart "29" ;
 	s:pageEnd "32" ;
+	s:url <library/gmd_spiegel_1988_1_29.djvu> ;
+	s:author _:person_metterhausen, _:person_petersen ;
 	.
 
 <#gmdspiegel88b>
@@ -1774,6 +1787,7 @@ _:thing_gmd_spiegel
 	s:name "Integrierte Software für Schulverwaltung und Unterricht" ;
 	s:pageStart "63" ;
 	s:pageEnd "63" ;
+	s:url <library/gmd_spiegel_1988_1_63.djvu> ;
 	.
 
 <#gmdspiegel88c>
@@ -1789,6 +1803,7 @@ _:thing_gmd_spiegel
 	s:name "L3 hautnah" ;
 	s:pageStart "61" ;
 	s:pageEnd "62" ;
+	s:url <library/gmd_spiegel_1988_4_61.djvu> ;
 	.
 
 <#gmdspiegel88d>
@@ -1804,6 +1819,25 @@ _:thing_gmd_spiegel
 	s:name "schulis, EUMEL und L3 auf dem Weg in die praktische Anwendung" ;
 	s:pageStart "62" ;
 	s:pageEnd "63" ;
+	s:author _:person_starcke ;
+	s:url <library/gmd_spiegel_1988_4_61.djvu> ;
+	.
+
+<#gmdspiegel88e>
+	a s:NewsArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:issueNumber "4" ;
+		s:isPartOf _:thing_gmd_spiegel ;
+		s:datePublished "1988" ;
+		] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "schulis auf dem Prüfstand" ;
+	s:pageStart "63" ;
+	s:pageEnd "64" ;
+	s:author _:person_starcke ;
+	s:url <library/gmd_spiegel_1988_4_61.djvu> ;
 	.
 
 ###################
@@ -2185,5 +2219,17 @@ _:person_koch
 	a s:Person ;
 	s:familyName "Koch" ;
 	s:givenName "Wilfried" ;
+	.
+
+_:person_starcke
+	a s:Person ;
+	s:familyName "Starcke" ;
+	s:givenName "Karl Wilhelm" ;
+	.
+
+_:person_petersen
+	a s:Person ;
+	s:familyName "Petersen" ;
+	s:givenName "Ulrike" ;
 	.
 
