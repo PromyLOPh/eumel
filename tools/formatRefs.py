@@ -122,7 +122,7 @@ if __name__ == '__main__':
         # where can we find it? (print)
         # print from root to ref (i.e. magazine, volume, issue)
         parents = reversed (list (getRecursiveAll (s, g, ref, s.isPartOf)))
-        where = [formatParent (s, g, p) for p in parents]
+        where = list (filter (lambda x: x, [formatParent (s, g, p) for p in parents]))
         thiswhere = formatParent (s, g, ref, False)
         if thiswhere:
             where.append (thiswhere)
