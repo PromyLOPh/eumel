@@ -1848,6 +1848,7 @@ _:thing_gmdstudien
 	a s:BookSeries ;
 	s:name "GMD-Studien" ;
 	s:publisher _:org_gmd ;
+	s:issn "0343-723X" ;
 	.
 
 _:thing_gmdstudien_52
@@ -1855,6 +1856,9 @@ _:thing_gmdstudien_52
 	s:volumeNumber "52" ;
 	s:isPartOf _:thing_gmdstudien ;
 	s:datePublished "1980" ;
+	s:name "Software-Erstellung für Mikroprozessoren" ;
+	s:editor _:person_kloeckner ;
+	s:isbn "3-88457-007-2" ;
 	.
 
 <#koch80>
