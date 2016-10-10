@@ -4,7 +4,7 @@
 <./> a s:Article ;
 	s:name "Not just a footnote of history: EUMEL" ;
 	s:dateCreated "2016-08-26" ;
-	s:dateModified "2016-09-04" ;
+	s:dateModified "2016-10-09" ;
 	s:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
 	s:citation
 		<#praxis1>, <#praxis2>, <#praxis3>,
@@ -43,268 +43,15 @@
 		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
 		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
 		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>, <#gmdspiegel88e>,
-        [ a s:ScholarlyArticle ;
-            s:datePublished "1987" ;
-            s:isPartOf [ a s:PublicationIssue ;
-                    s:name "ST-Computer" ] ;
-			s:alternateName "stc87a" ;
-			s:url <http://www.stcarchiv.de/stc1987/08/eumel> ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:name "EUMEL: Ein neues Betriebssystem für den Atari ST (Teil 1)" ],
-        [ a s:ScholarlyArticle ;
-            s:author [ a s:Person ;
-                    s:familyName "Noltemeier" ;
-                    s:givenName "Albert" ] ;
-            s:isPartOf [ a s:PublicationIssue ;
-                    s:name "German-Chinese Electronics Week, Proceedings of Congress, Part 4: Data Processing" ;
-					s:sameAs <http://d-nb.info/870785869> ;
-					s:numberOfPages "148" ;
-					s:publisher "VDE-Verlag" ;
-					s:datePublished "1987" ;
-					s:isbn "3-8007-1527-9" ] ;
-			s:alternateName "noltemeier87" ;
-			s:pageStart "43" ;
-			s:pageEnd "55" ;
-			s:inLanguage "en-US" ;
-			s:about _:thing_eumel ;
-            s:name "Goals and principles of the EUMEL operating system" ],
-        [ a s:Book ;
-            s:author _:person_hahn,
-                [ a s:Person ;
-                    s:familyName "Stock" ;
-                    s:givenName "H. Peter" ] ;
-            s:datePublished "1979" ;
-            s:isbn "3-400-00386-7" ;
-            s:name "ELAN-Handbuch" ;
-			s:alternateName "hahn79" ;
-			s:sameAs <http://d-nb.info/801049784> ;
-			s:sameAs <http://www.worldcat.org/oclc/6817363> ;
-			s:url <https://archive.org/details/elan-handbuch-1979> ;
-			s:url <library/elan-handbuch-1979.djvu> ;
-			s:numberOfPages "155" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_elan ;
-            s:publisher [ a s:Organization ;
-                    s:name "Akademische Verlagsgesellschaft" ]
-		], [
-			a s:Book ;
-            s:author _:person_liedtke, _:person_klingen ;
-            s:datePublished "1985" ;
-            s:name "ELAN in 100 Beispielen" ;
-			s:alternateName "klingen85" ;
-			s:sameAs <https://link.springer.com/book/10.1007/978-3-322-92142-0> ;
-			s:isbn "978-3-519-02521-4" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_elan ;
-            s:publisher [ a s:Organization ;
-                    s:name "B. G. Teubner" ] ],
-        [ a s:ScholarlyArticle ;
-            s:datePublished "1987" ;
-            s:isPartOf [ a s:PublicationIssue ;
-                    s:name "ST-Computer" ] ;
-			s:alternateName "stc87c" ;
-			s:url <http://www.stcarchiv.de/stc1987/10/eumel> ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:name "EUMEL - Ein neues Betriebssystem für den Atari ST (Teil 3)" ],
-        [ a s:Book ;
-            s:author [ a s:Person ;
-                    s:familyName "Beyer" ],
-				_:person_heinrichs ,
-                [ a s:Person ;
-                    s:familyName "Klöckner" ],
-                _:person_liedtke,
-                [ a s:Person ;
-                    s:familyName "Szalay" ],
-                [ a s:Person ;
-                    s:familyName "Wegener" ] ;
-            s:datePublished "1983" ;
-            s:name "EUMEL-Systemkern, Entwurf zur Systemdokumentation" ;
-			s:alternateName "kernel83" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher _:org_gmd ],
-        [ a s:Book ;
-            s:datePublished "1984" ;
-            s:name "EUMEL-Quellcode der insertierten ELAN-Pakete, Stand 16.5.84" ;
-			s:alternateName "source84a" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher [ a s:Organization ;
-                    s:name "Universität Bielefeld and GMD" ] ],
-        [ a s:Book ;
-            s:datePublished "1984" ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273696> ;
-			s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273696> ;
-            s:name "EUMEL-Quellcode der insertierten ELAN-Pakete, Stand 1.10.84" ;
-			s:alternateName "source84b" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher _:org_gmd, _:org_hrz ],
-        [ a s:Book ;
-            s:author _:person_hahn ,
-				_:person_heinrichs ,
-				_:person_heyderhoff ;
-            s:datePublished "1984" ;
-            s:name "EUMEL-Benutzerhandbuch, Version 1.7" ;
-            s:numberOfPages "VIII, 452 S. : graph. Darst." ;
-			s:alternateName "hahn84" ;
-			# are those the same? first one is 500 pages
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273688> ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=214594254> ;
-			s:sameAs <http://d-nb.info/210467444> ;
-			# another one?
-			s:sameAs <http://d-nb.info/860673634> ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher [ a s:Organization ;
-                    s:location "Bielefeld" ;
-                    s:name "Hochschulrechenzentrum der Universität Bielefeld (HRZ)" ] ],
-        [ a s:Book ;
-            s:author _:person_hahn ,
-				_:person_heinrichs ,
-				_:person_heyderhoff ;
-            s:datePublished "1986" ;
-            s:name "EUMEL-Benutzerhandbuch, Version 1.7" ;
-            s:numberOfPages "252" ;
-			s:alternateName "hahn86" ;
-            s:publisher _:org_hrz, _:org_gmd ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-			s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/1279514> ] ,
-        [ a s:Book ;
-            s:author _:person_liedtke ;
-            s:datePublished "1976" ;
-			s:alternateName "liedtke76" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_elan ;
-			s:url <library/slan-compiler-teil-1.djvu> ;
-            s:name "Implementation eines SLAN-Compilers, Teil 1" ],
-        [ a s:Book ;
-            s:datePublished "1986" ;
-            s:name "Betriebssystem EUMEL. Der EUMEL-SHard. Version 5.0" ;
-			s:alternateName "shard86" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-            s:publisher _:org_gmd ],
-        [ a s:CreativeWork ;
-            s:author [ a s:Person ;
-                    s:familyName "Zielke" ;
-                    s:givenName "Elmar" ] ;
-            s:datePublished "2014-11-03" ;
-			s:alternateName "zielke14" ;
-			s:url <http://medienfragen.de/restauration-eines-olivetti-m20/> ;
-			s:inLanguage "de-DE" ;
-            s:name "Restauration eines Olivetti M20" ],
-		[ a s:Book ;
-			s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=056953186> ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056953186> ;
-			s:numberOfPages "40";
-			s:datePublished "1984" ;
-			s:publisher _:org_gmd ;
-			s:isPartOf [
-				a s:PublicationIssue ;
-				s:isPartOf _:thing_gmd_arbeitspapiere ;
-				s:issueNumber "107" ;
-				] ;
-			s:author [ a s:Person ;
-				s:givenName "Klaus" ;
-				s:familyName "Görgen" ] ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-			s:name "EUMEL-X.25: Realisierung der CCITT-Schnittstelle X.25 (Schicht 3) auf einem EUMEL-System" ;
-			s:alternateName "görgen84" ;
-		] , [
-			a s:Book ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056938179> ;
-			s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=056938179> ;
-			s:numberOfPages "16" ;
-			s:datePublished "1984" ;
-			s:publisher _:org_gmd ;
-			s:alternateName "viebeg84" ;
-			s:isPartOf [
-				a s:PublicationIssue ;
-				s:isPartOf _:thing_gmd_arbeitspapiere ;
-				s:issueNumber "114" ;
-				] ;
-			s:author [ a s:Person ;
-				s:familyName "Viebeg" ;
-				s:givenName "Ursula" ] ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_eumel ;
-			s:name "EUMEL.X29: Realisierung eines Software-PAD auf einem EUMEL-System" ] ,
-        [ a s:Book ;
-            s:author _:person_bartling ;
-            s:alternateName "bartling76" ;
-            s:datePublished "1976" ;
-			s:about _:thing_elan ;
-			s:inLanguage "de-DE" ;
-			s:url <library/slan-compiler-teil-2.djvu> ;
-            s:name "Implementation eines SLAN-Compilers, Teil 2" ] ,
-		[ a s:ScholarlyArticle ;
-			s:name "A Persistent System in Real Use – Experiences of the First 13 Years" ;
-			s:author _:person_liedtke ;
-			s:datePublished "1993" ;
-            s:isPartOf [ a s:PublicationIssue ;
-                    s:name "International Workshop on Object-Orientation in Operating Systems" ] ;
-			s:sameAs <http://ieeexplore.ieee.org/document/324932/> ;
-			s:url <https://os.inf.tu-dresden.de/papers_ps/jochen/iwooos-3.ps> ;
-			s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/iwooos-3.ps> ;
-			s:url <library/lidtke93.ps> ;
-			s:inLanguage "en-US" ;
-			s:alternateName "liedtke93"
-		] , [
-			a s:CreativeWork ;
-			s:name "Anwendersoftwareklasse 2: Compilerhandbuch BASIC" ;
-			s:author _:person_indenbirken ;
-			s:publisher _:org_hrz ;
-			s:datePublished "1984-07" ;
-			s:numberOfPages "71" ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273629> ;
-			s:sameAs <http://www.worldcat.org/oclc/830714222> ;
-			s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/BASIC_Compilerhandbuch_1984.pdf> ;
-			s:url <library/compilerhandbuch-basic-1984.pdf> ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "indenbirken84" ;
-		] , [
-			a s:CreativeWork ;
-			s:name "Anschluss eines EUMEL an die IBM 3083" ;
-			s:author _:person_wermelskirchen ;
-			s:publisher _:org_gmd ;
-			s:datePublished "1983" ;
-			s:numberOfPages "17" ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056832087> ;
-			s:isPartOf _:thing_gmd_arbeitspapiere ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "wermelskirchen83" ;
-		] , [
-			a s:CreativeWork ;
-			s:name "DYNAMO auf dem EUMEL-System" ;
-			s:author _:person_craemer ;
-			s:publisher _:org_gmd ;
-			s:datePublished "1983" ;
-			s:numberOfPages "52" ;
-			# number 17
-			s:isPartOf _:thing_gmd_arbeitspapiere ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056768389> ;
-			s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=024647810> ;
-			s:sameAs <http://www.worldcat.org/oclc/74631789> ;
-			s:about _:thing_eumel ;
-			s:inLanguage "de-DE" ;
-			s:alternateName "craemer83" ;
-		] , [
-			a s:BlogPosting ;
-			s:url <http://www.simulationsraum.de/blog/2012/01/05/mit-elan-die-hardware-vergessen-machen/> ;
-			s:name "Mit ELAN die Hardware vergessen (machen)" ;
-			s:author [ a s:Person ; s:givenName "Stefan" ; s:familyName "Höltgen" ] ;
-			s:datePublished "2012-01-05" ;
-			s:alternateName "höltgen12" ;
-			s:inLanguage "de-DE" ;
-			s:about _:thing_elan ;
-		] .
+		<#liedtke76>, <#bartling76>,
+		<#stc87a>, <#noltemeier87>, <#hahn79>, <#stc87c>,
+		<#klingen85>, <#kernel83>,
+		<#source84a>, <#source84b>,
+		<#hahn84>, <#hahn86>, <#shard86>,
+		<#zielke14>, <#höltgen12>,
+		<#craemer83>, <#liedtke93>,
+		<#wermelskirchen83>, <#görgen84>, <#viebeg84>, <#indenbirken84>
+		; .
 
 ### Random literature ###
 
@@ -751,6 +498,143 @@ _:cr
 	s:url <library/cr87b.html> ;
 	.
 
+<#liedtke76>
+	a s:Book ;
+	s:author _:person_liedtke ;
+	s:datePublished "1976" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:numberOfPages "230" ;
+	s:url <library/slan-compiler-teil-1.djvu> ;
+	s:name "Implementation eines SLAN-Compilers, Teil 1" ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/1124001> ;
+	.
+
+<#bartling76>
+	a s:Book ;
+	s:author _:person_bartling ;
+	s:datePublished "1976" ;
+	s:about _:thing_elan ;
+	s:inLanguage "de-DE" ;
+	s:numberOfPages "145" ;
+	s:url <library/slan-compiler-teil-2.djvu> ;
+	s:name "Implementation eines SLAN-Compilers, Teil 2" ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/1176516> ;
+	.
+
+_:thing_stc
+	a s:Periodical ;
+	s:name "ST-Computer" ;
+	.
+
+<#stc87a>
+	a s:ScholarlyArticle ;
+	s:datePublished "1987" ;
+	s:isPartOf _:thing_stc ;
+	s:alternateName "stc87a" ;
+	s:url <http://www.stcarchiv.de/stc1987/08/eumel> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL: Ein neues Betriebssystem für den Atari ST (Teil 1)" ;
+	.
+
+# Where is part 2?
+
+<#stc87c>
+	a s:ScholarlyArticle ;
+	s:datePublished "1987" ;
+	s:isPartOf _:thing_stc ;
+	s:url <http://www.stcarchiv.de/stc1987/10/eumel> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL - Ein neues Betriebssystem für den Atari ST (Teil 3)" ;
+	.
+
+<#noltemeier87>
+	a s:ScholarlyArticle ;
+	s:author _:person_noltemeier ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:name "German-Chinese Electronics Week, Proceedings of Congress, Part 4: Data Processing" ;
+			s:sameAs <http://d-nb.info/870785869> ;
+			s:numberOfPages "148" ;
+			s:publisher "VDE-Verlag" ;
+			s:datePublished "1987" ;
+			s:isbn "3-8007-1527-9" ] ;
+	s:pageStart "43" ;
+	s:pageEnd "55" ;
+	s:inLanguage "en-US" ;
+	s:about _:thing_eumel ;
+	s:name "Goals and principles of the EUMEL operating system" ;
+	.
+
+<#hahn79>
+	a s:Book ;
+	s:author _:person_hahn, _:person_stock ;
+	s:datePublished "1979" ;
+	s:isbn "3-400-00386-7" ;
+	s:name "ELAN-Handbuch" ;
+	s:sameAs <http://d-nb.info/801049784> ;
+	s:sameAs <http://www.worldcat.org/oclc/6817363> ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/28448> ;
+	s:url <https://archive.org/details/elan-handbuch-1979> ;
+	s:url <library/elan-handbuch-1979.djvu> ;
+	s:numberOfPages "155" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:publisher [ a s:Organization ;
+			s:name "Akademische Verlagsgesellschaft" ] ;
+	.
+
+<#klingen85>
+	a s:Book ;
+	s:author _:person_liedtke, _:person_klingen ;
+	s:datePublished "1985" ;
+	s:name "ELAN in 100 Beispielen" ;
+	s:sameAs <https://link.springer.com/book/10.1007/978-3-322-92142-0> ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/445920> ;
+	s:numberOfPages "239" ;
+	s:isbn "978-3-519-02521-4" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:publisher [ a s:Organization ;
+			s:name "B. G. Teubner" ] ;
+	.
+
+<#zielke14>
+	a s:BlogPosting ;
+	s:author [ a s:Person ;
+			s:familyName "Zielke" ;
+			s:givenName "Elmar" ] ;
+	s:datePublished "2014-11-03" ;
+	s:url <http://medienfragen.de/restauration-eines-olivetti-m20/> ;
+	s:inLanguage "de-DE" ;
+	s:name "Restauration eines Olivetti M20" ;
+	.
+
+<#höltgen12>
+	a s:BlogPosting ;
+	s:url <http://www.simulationsraum.de/blog/2012/01/05/mit-elan-die-hardware-vergessen-machen/> ;
+	s:name "Mit ELAN die Hardware vergessen (machen)" ;
+	s:author [ a s:Person ; s:givenName "Stefan" ; s:familyName "Höltgen" ] ;
+	s:datePublished "2012-01-05" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	.
+
+<#liedtke93>
+	a s:ScholarlyArticle ;
+	s:name "A Persistent System in Real Use – Experiences of the First 13 Years" ;
+	s:author _:person_liedtke ;
+	s:datePublished "1993" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:name "International Workshop on Object-Orientation in Operating Systems" ] ;
+	s:sameAs <http://ieeexplore.ieee.org/document/324932/> ;
+	s:url <https://os.inf.tu-dresden.de/papers_ps/jochen/iwooos-3.ps> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/iwooos-3.ps> ;
+	s:url <library/lidtke93.ps> ;
+	s:inLanguage "en-US" ;
+	.
+
 ############
 ### Chip ###
 ############
@@ -993,6 +877,168 @@ _:chip
 	s:url <library/word-processing-1987.pdf> ;
 	.
 
+<#kernel83>
+	a s:Book ;
+	s:author [ a s:Person ;
+			s:familyName "Beyer" ],
+		_:person_heinrichs ,
+		_:person_kloeckner ,
+		_:person_liedtke,
+		[ a s:Person ;
+			s:familyName "Szalay" ],
+		[ a s:Person ;
+			s:familyName "Wegener" ] ;
+	s:datePublished "1983" ;
+	s:name "EUMEL-Systemkern, Entwurf zur Systemdokumentation" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	.
+
+<#source84a>
+	a s:Book ;
+	s:datePublished "1984-05-16" ;
+	s:name "EUMEL-Quellcode der insertierten ELAN-Pakete" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	.
+
+<#source84b>
+	a s:Book ;
+	s:datePublished "1984-10-01" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273696> ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273696> ;
+	s:name "EUMEL-Quellcode der insertierten ELAN-Pakete" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	.
+
+<#hahn84>
+	a s:Book ;
+	s:author _:person_hahn ,
+		_:person_heinrichs ,
+		_:person_heyderhoff ;
+	s:datePublished "1984" ;
+	s:name "EUMEL-Benutzerhandbuch, Version 1.7" ;
+	s:numberOfPages "452" ;
+	# are those the same? first one is 500 pages
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273688> ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=214594254> ;
+	s:sameAs <http://d-nb.info/210467444> ;
+	# another one?
+	s:sameAs <http://d-nb.info/860673634> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_hrz , _:org_gmd ;
+	.
+
+<#hahn86>
+	a s:Book ;
+	s:author _:person_hahn ,
+		_:person_heinrichs ,
+		_:person_heyderhoff ;
+	s:datePublished "1986" ;
+	s:name "EUMEL-Benutzerhandbuch, Version 1.7" ;
+	s:numberOfPages "252" ;
+	s:publisher _:org_hrz, _:org_gmd ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/1279514> ;
+	.
+
+<#shard86>
+	a s:Book ;
+	s:datePublished "1986" ;
+	s:name "Betriebssystem EUMEL. Der EUMEL-SHard. Version 5.0" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	.
+
+##########################
+### GMD Arbeitspapiere ###
+##########################
+
+_:thing_gmd_arbeitspapiere a s:Periodical ;
+	s:issn "0723-0508" ;
+	s:name "Arbeitspapiere der GMD" ;
+	s:publisher _:org_gmd ;
+	.
+
+<#craemer83>
+	a s:CreativeWork ;
+	s:name "DYNAMO auf dem EUMEL-System" ;
+	s:author _:person_craemer ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1983" ;
+	s:numberOfPages "52" ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_arbeitspapiere ;
+		s:issueNumber "17" ;
+		] ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056768389> ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=024647810> ;
+	s:sameAs <http://www.worldcat.org/oclc/74631789> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#görgen84>
+	a s:Book ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=056953186> ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056953186> ;
+	s:numberOfPages "40";
+	s:datePublished "1984" ;
+	s:publisher _:org_gmd ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_arbeitspapiere ;
+		s:issueNumber "107" ;
+		] ;
+	s:author [ a s:Person ;
+		s:givenName "Klaus" ;
+		s:familyName "Görgen" ] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL-X.25: Realisierung der CCITT-Schnittstelle X.25 (Schicht 3) auf einem EUMEL-System" ;
+	.
+
+<#viebeg84>
+	a s:Book ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056938179> ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=056938179> ;
+	s:numberOfPages "16" ;
+	s:datePublished "1984" ;
+	s:publisher _:org_gmd ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:isPartOf _:thing_gmd_arbeitspapiere ;
+		s:issueNumber "114" ;
+		] ;
+	s:author [ a s:Person ;
+		s:familyName "Viebeg" ;
+		s:givenName "Ursula" ] ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "EUMEL.X29: Realisierung eines Software-PAD auf einem EUMEL-System" ;
+	.
+
+<#wermelskirchen83>
+	a s:CreativeWork ;
+	s:name "Anschluss eines EUMEL an die IBM 3083" ;
+	s:author _:person_wermelskirchen ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1983" ;
+	s:numberOfPages "17" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=056832087> ;
+	s:isPartOf _:thing_gmd_arbeitspapiere ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
 ### Anwerdersoftwareklasse 2 (manuals) ###
 
 _:thing_anwendersoftware
@@ -1092,12 +1138,30 @@ _:thing_anwendersoftware
 	s:inLanguage "de-DE" ;
 	.
 
+<#indenbirken84>
+	a s:CreativeWork ;
+	s:name "Compilerhandbuch BASIC" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_indenbirken ;
+	s:publisher _:org_hrz ;
+	s:datePublished "1984-07" ;
+	s:numberOfPages "71" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273629> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714222> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/BASIC_Compilerhandbuch_1984.pdf> ;
+	s:url <library/compilerhandbuch-basic-1984.pdf> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
 ### EUMEL-Praxis ###
 
 _:thing_eumel-praxis a s:Book ;
 	s:name "EUMEL-Praxis" ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=037248871> ;
-	s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=031419690> .
+	s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=031419690> ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/613299> ;
+	.
 
 <#praxis1>
 	a s:PublicationVolume ;
@@ -1112,6 +1176,7 @@ _:thing_eumel-praxis a s:Book ;
 	s:numberOfPages "205" ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=038305518> ;
 	s:sameAs <http://d-nb.info/890062382> ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/613300> ;
 	s:url <library/eumel-praxis-1.djvu> ;
 	s:inLanguage "de-DE" ;
 	s:publisher _:org_j_b__metzler ;
@@ -1130,6 +1195,7 @@ _:thing_eumel-praxis a s:Book ;
 	s:numberOfPages "195" ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=037767747>;
 	s:sameAs <http://d-nb.info/900728620> ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/613301> ;
 	s:url <library/eumel-praxis-2.djvu> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
@@ -1148,15 +1214,11 @@ _:thing_eumel-praxis a s:Book ;
 	s:numberOfPages "224" ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=037767755> ;
 	s:sameAs <http://d-nb.info/910332533> ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/613302> ;
 	s:url <library/eumel-praxis-3.djvu> ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:publisher _:org_j_b__metzler .
-
-_:thing_gmd_arbeitspapiere a s:Periodical ;
-	s:issn "0723-0508" ;
-	s:name "Arbeitspapiere der GMD" ;
-	s:publisher _:org_gmd .
 
 ### Computerwoche ###
 _:thing_computerwoche a s:Periodical ;
@@ -2072,7 +2134,9 @@ _:person_liedtke a s:Person ;
 	s:familyName "Liedtke" ;
 	s:givenName "Jochen" ;
 	s:deathDate "2001-06-10" ;
-	s:alumni _:org_unibi .
+	s:alumni _:org_unibi ;
+	s:sameAs <https://en.wikipedia.org/wiki/Jochen_Liedtke> ;
+	.
 
 _:person_heinrichs a s:Person ;
 	s:familyName "Heinrichs" ;
@@ -2235,5 +2299,17 @@ _:person_petersen
 	a s:Person ;
 	s:familyName "Petersen" ;
 	s:givenName "Ulrike" ;
+	.
+
+_:person_noltemeier
+	a s:Person ;
+	s:familyName "Noltemeier" ;
+	s:givenName "Albert" ;
+	.
+
+_:person_stock
+	a s:Person ;
+	s:familyName "Stock" ;
+	s:givenName "H. Peter" ;
 	.
 
