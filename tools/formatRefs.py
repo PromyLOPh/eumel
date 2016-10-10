@@ -96,12 +96,32 @@ def getRecursiveAll (s, g, n, predicate):
     for p in parents:
         yield from getRecursiveAll (s, g, p, predicate)
 
+def warnUnusedButDefined (graph, rootNode):
+    """
+    Warn about defined, but unused subjects
+    """
+
+    subjects = set ()
+    objects = set ()
+    for s, p, o in graph:
+        subjects.add (s)
+        objects.add (o)
+    for unused in subjects.difference (objects):
+        if unused == rootNode:
+            continue
+        print ('Unused: {}'.format (unused), file=sys.stderr)
+        for ctxp, ctxo in g[unused]:
+            print ('\t{} {}'.format (ctxp, ctxo), file=sys.stderr)
+
 if __name__ == '__main__':
     g = Graph()
     result = g.parse ("index.ttl", format='turtle')
     rootUri = sys.argv[1]
     rootNode = URIRef (rootUri)
     s = Namespace("https://schema.org/")
+
+    warnUnusedButDefined (result, rootNode)
+
     for ref in result.objects (rootNode, s.citation):
         t = list (g.objects (ref, RDF.type))
         assert len (t) == 1
