@@ -1,5 +1,6 @@
 *.sw?
 bib.rst
+source.rst
 __pycache__
 index.html
 library/
