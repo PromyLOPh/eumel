@@ -8,5 +8,9 @@ Documentation for the dataspace FILE can be found in `<tools/convertFileDs.py>`_
 Source code
 ^^^^^^^^^^^
 
+The following files have been extracted from the floppy disk images available below__.
+
+__ artifacts_
+
 .. include:: source.rst
 

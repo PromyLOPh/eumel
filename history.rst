@@ -27,7 +27,27 @@ A year later, in 1979, details about EUMEL were published in GMD Spiegel
 [kloeckner79]_. Officially the cooperation between HRZ Bielefeld and GMD began
 in fall 1979 [gmdspiegel85d]_.
 
+The original ELAN compiler written by Liedtke and Bartling was replaced by in
+1982 as part of project MIKROS at GMD. Its replacement was written in CDL’s
+successor, CDL2 [gmdbericht84]_. This work resulted in ports of EUMEL to
+different processor architectures, starting with Olivetti M 20’s Zilog 8001.
+This version was presented a year later at Hannover Messe 1983
+[computerwoche83a]_ [rechenanlagen83]_.
+
+For their efforts to `transfer EUMEL to Japan`_ a delegation consisting of
+Konrad Klöckner, Jochen Liedtke, Peter Heyderhoff, Dietmar Heinrichs and Uwe
+Beyer received the *Technologie-Transfer-Preis* worth 15.000 DM by Minister of
+Scientific Research Heinz Riesenhuber on 1985-12-09. [happycomputer86]_
+[gmdspiegel85d]_ [generalanzeiger85]_
+
+Another two years later, in October 1987, the spin-off company ERGOS (Ergonomic
+Office Software GmbH) finally started marketing EUMEL to customers. GMD was
+still responsible for development and maintenance of EUMEL and schulis until
+1990 [gmdspiegel87c]_.
+
 .. [#] See [gmdspiegel85a]_, [liedtke93]_, [gmdbericht84]_, [ambros90b]_ and [praxis1]_
+
+.. _transfer EUMEL to Japan: popularity_
 
 Releases
 ^^^^^^^^

@@ -1,7 +1,7 @@
 Popularity
 ----------
 
-Available sources disagree on the actual number of installations.  [liedtke93]_
+Available sources disagree on the actual number of installations. [liedtke93]_
 mentions 2000 systems were installed by 1985, but [gmdbericht86a]_ counts
 only 1000 systems by the end of 1986. Amongst the users were a growing number
 of schools: 20 in 1982 ([alwr82]_, part 4, p. 13) and 500 secondary schools by
@@ -15,6 +15,10 @@ Additionally 400 lawyers ran advodat_ on EUMEL in 1987 [cr87a]_. A survey
 amongst those located in Hannover in 1994 revealed four of 56 (7%) law offices
 still ran EUMEL machines eight years after intruduction of ErgoJUR and advodat
 [jurpc94]_.
+
+GMD itself sold 22, 11 and 102 copies in 1982, ’83 and ’84 respectively. These
+numbers do not include copies sold by one of the 3, 4 and 7 licensees.
+[ttpreis85]_
 
 By mid 1985 support for the Japanese *Kanji* writing system was added to EUMEL
 [gmdspiegel85d]_. A newly founded corporation *NISSIN Products Corp. Tokyo*
