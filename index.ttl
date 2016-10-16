@@ -50,7 +50,9 @@
 		<#hahn84>, <#hahn86>, <#shard86>,
 		<#zielke14>, <#höltgen12>,
 		<#craemer83>, <#liedtke93>,
-		<#wermelskirchen83>, <#görgen84>, <#viebeg84>, <#indenbirken84>
+		<#wermelskirchen83>, <#görgen84>, <#viebeg84>, <#indenbirken84>,
+		<#heyderhoff82>, <#heyderhoff85a>, <#heyderhoff85b>,
+		<#ttpreis85>
 		; .
 
 ### Random literature ###
@@ -635,6 +637,40 @@ _:thing_stc
 	s:inLanguage "en-US" ;
 	.
 
+# unpublished works
+<#heyderhoff82>
+	a s:CreativeWork ;
+	s:name "My Lecture Notes" ;
+	s:author _:person_heyderhoff ;
+	s:dateCreated "1982" ;
+	s:url <library/heyderhoff_lecture_1982.djvu> ;
+	.
+
+<#heyderhoff85a>
+	a s:Report ;
+	s:name "Der EUMEL-Ansatz zur Softwaretechnologie: eine Stellungnahme der GMD zum SIGMA—Projekt" ;
+	s:author _:person_heyderhoff , _:person_kloeckner ;
+	s:dateCreated "1985-03-25" ;
+	s:url <library/stellungnahme_sigma_1985.djvu> ;
+	.
+
+<#heyderhoff85b>
+	a s:Report ;
+	s:name "Reisebericht Japan" ;
+	s:author _:person_heyderhoff ;
+	s:dateCreated "1985" ;
+	s:url <library/heyderhoff_reisebericht_japan_1985.djvu> ;
+	.
+
+# not sure about authors of this one:
+<#ttpreis85>
+	a s:CreativeWork ;
+	s:name "Das Mehrplatz-Betriebssystem EUMEL für Mikrorechner" ;
+	s:author _:person_kammerer , _:person_noltemeier ;
+	s:dateCreated "1985-04" ;
+	s:url <library/preisbewerbung_1985.djvu> ;
+	.
+
 ############
 ### Chip ###
 ############
@@ -932,6 +968,7 @@ _:chip
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:publisher _:org_hrz , _:org_gmd ;
+	s:url <library/handbuch-1.7.djvu> ;
 	.
 
 <#hahn86>
@@ -2311,5 +2348,11 @@ _:person_stock
 	a s:Person ;
 	s:familyName "Stock" ;
 	s:givenName "H. Peter" ;
+	.
+
+_:person_kammerer
+	a s:Person ;
+	s:familyName "Kammerer" ;
+	s:givenName "E." ;
 	.
 
