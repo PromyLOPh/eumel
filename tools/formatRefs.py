@@ -138,6 +138,9 @@ if __name__ == '__main__':
 
         # when was it published?
         when = first (getRecursive (s, g, ref, s.datePublished))
+        if not when:
+            # fall back to creation date
+            when = first (getRecursive (s, g, ref, s.dateCreated))
 
         # where can we find it? (print)
         # print from root to ref (i.e. magazine, volume, issue)
