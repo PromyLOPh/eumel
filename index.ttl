@@ -1972,7 +1972,6 @@ _:thing_gmdstudien_52
 	s:url <library/gmd_studien_52_97.djvu> ;
 	.
 
-# these are missing:
 <#gmdstudien80a>
 	a s:ScholarlyArticle ;
 	s:isPartOf _:thing_gmdstudien_52 ;
@@ -1981,6 +1980,8 @@ _:thing_gmdstudien_52
 	s:name "Das MP-Betriebssystem EUMEL (Überblick)" ;
 	s:pageStart "171" ;
 	s:pageEnd "184" ;
+	s:author _:person_liedtke ;
+	s:url <library/gmd_studien_52_171.djvu> ;
 	.
 
 <#gmdstudien80b>
@@ -1990,7 +1991,9 @@ _:thing_gmdstudien_52
 	s:about _:thing_eumel ;
 	s:name "Entwurf der Benutzerschnittstelle des EUMEL-Editors" ;
 	s:pageStart "185" ;
-	s:pageEnd "192" ;
+	s:pageEnd "191" ;
+	s:author _:person_heyderhoff ;
+	s:url <library/gmd_studien_52_185.djvu> ;
 	.
 
 <#gmdstudien80c>
@@ -2000,6 +2003,9 @@ _:thing_gmdstudien_52
 	s:about _:thing_eumel ;
 	s:name "Das MP-Betriebssystem EUMEL (Systemprogrammierung)" ;
 	s:pageStart "193" ;
+	s:pageEnd "201" ;
+	s:author _:person_heinrichs , _:person_liedtke ;
+	s:url <library/gmd_studien_52_193.djvu> ;
 	.
 
 ### Keywords/Topics ###
