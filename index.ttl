@@ -52,7 +52,8 @@
 		<#craemer83>, <#liedtke93>,
 		<#wermelskirchen83>, <#görgen84>, <#viebeg84>, <#indenbirken84>,
 		<#heyderhoff82>, <#heyderhoff85a>, <#heyderhoff85b>,
-		<#ttpreis85>
+		<#ttpreis85>,
+		<#goossenaerts88>
 		; .
 
 ### Random literature ###
@@ -128,6 +129,7 @@
 	s:numberOfPages "4" ;
 	s:about _:thing_elan;
 	s:sameAs <https://dx.doi.org/10.1515/piko.1.1978.1.4.204> ;
+	s:url <library/hahn78.pdf> ;
 	.
 
 <#rehder88>
@@ -669,6 +671,36 @@ _:thing_stc
 	s:author _:person_kammerer , _:person_noltemeier ;
 	s:dateCreated "1985-04" ;
 	s:url <library/preisbewerbung_1985.djvu> ;
+	.
+
+# magazine is lost, but existed from 1986 (first known reference) to 1989 (see
+# https://web.archive.org/web/20130523172601/http://www.iais.fraunhofer.de/3803.html)
+_:thing_eumelaktuell
+	a s:Periodical ;
+	s:name "EUMEL-aktuell" ;
+	s:publisher _:org_gmd ;
+	.
+
+<#goossenaerts88>
+	a s:CreativeWork ;
+	s:author [
+		a s:Person ;
+		s:familyName "Goossenaerts" ;
+		s:givenName "Jan" ;
+		] , [
+		a s:Person ;
+		s:familyName "Janssens" ;
+		s:givenName "Dirk" ;
+		] ;
+	s:name "Object-Oriented Programming in EUMEL/ELAN" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:datePublished "1988" ;
+			s:isPartOf _:thing_eumelaktuell ;
+			s:issueNumber "1/88" ;
+			] ;
+	s:pageStart "45" ;
+	s:pageEnd "66" ;
+	s:sameAs <https://lirias.kuleuven.be/handle/123456789/134013> ;
 	.
 
 ############
@@ -2246,8 +2278,11 @@ _:person_hahn
 
 _:person_koster
 	a s:Person ;
-	s:givenName "Cornelis H.A.";
+	s:givenName "Cornelis Hermanns Antonius";
 	s:familyName "Koster" ;
+	# source: https://web.archive.org/web/20130705020327/http://www.eecs.tu-berlin.de/menue/einrichtungen/professuren/nachrufe/
+	s:deathDate "2013-03-21" ;
+	s:birthDate "1943-07-13" ;
 	s:url <http://www.cs.ru.nl/~kees> ;
 	.
 
