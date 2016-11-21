@@ -58,6 +58,7 @@ sources.
 .. csv-table::
    :header: Version,Date,
 
+    0.7,May 1979, .. \_:person_dewitz
     1.5, ≤1981
     1.6, ≤fall 1982, [alwr82]_
     1.7, ≤mid 1984, [korrekturen84]_
