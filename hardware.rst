@@ -1,5 +1,5 @@
 Supported hardware
-------------------
+^^^^^^^^^^^^^^^^^^
 
 .. csv-table::
    :header: Processor,Supported since

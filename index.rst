@@ -28,14 +28,18 @@ systems as of 2016.
 .. include:: quickstart.rst
 .. include:: history.rst
 .. include:: popularity.rst
-.. include:: hardware.rst
-.. include:: software.rst
 .. include:: internals.rst
 .. include:: artifacts.rst
 .. include:: trivia.rst
 
+Appendix
+--------
+
+.. include:: hardware.rst
+.. include:: software.rst
+
 Bibliography
-------------
+^^^^^^^^^^^^
 
 Auto-generated from `RDF graph`_.
 

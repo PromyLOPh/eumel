@@ -1,5 +1,5 @@
 Software
---------
+^^^^^^^^
 
 The following (commercial) software, grouped by vendor, was available for EUMEL:
 
