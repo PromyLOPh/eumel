@@ -5,12 +5,8 @@ For the disk archive format see `<tools/extractArchive.py>`_ and EUMEL packet *b
 
 Documentation for the dataspace FILE can be found in `<tools/convertFileDs.py>`_ and EUMEL packet *file handling*.
 
-Source code
-^^^^^^^^^^^
+Additionally extracted source code from `floppy disk images`_ can be found here__.
 
-The following files have been extracted from the floppy disk images available below__.
-
-__ artifacts_
-
-.. include:: source.rst
+.. _floppy disk images: artifacts_
+__ src/
 
