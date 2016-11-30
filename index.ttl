@@ -53,7 +53,8 @@
 		<#wermelskirchen83>, <#görgen84>, <#viebeg84>, <#indenbirken84>,
 		<#heyderhoff82>, <#heyderhoff85a>, <#heyderhoff85b>,
 		<#ttpreis85>,
-		<#goossenaerts88>
+		<#goossenaerts88>,
+		<#sinha82>
 		; .
 
 ### Random literature ###
@@ -636,6 +637,19 @@ _:thing_stc
 	s:url <https://os.inf.tu-dresden.de/papers_ps/jochen/iwooos-3.ps> ;
 	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/iwooos-3.ps> ;
 	s:url <library/lidtke93.ps> ;
+	s:inLanguage "en-US" ;
+	.
+
+# likely lost in time, see
+# http://www.isical.ac.in/~bhabani/bps_publications.html
+<#sinha82>
+	a s:ScholarlyArticle ;
+	s:name "Implementation of X25 on the microcomputer system EUMEL for connection to public communication network" ;
+	s:author _:person_sinha , _:person_heyderhoff , _:person_hoens ;
+	s:datePublished "1982" ;
+	s:isPartOf [ a s:PublicationIssue ;
+		s:name "Golden Jubilee Conference on Advances in Information Science and Technology, ISI, Calcutta" ;
+		] ;
 	s:inLanguage "en-US" ;
 	.
 
@@ -2395,5 +2409,17 @@ _:person_kammerer
 	a s:Person ;
 	s:familyName "Kammerer" ;
 	s:givenName "E." ;
+	.
+
+_:person_sinha
+	a s:Person ;
+	s:familyName "Sinha" ;
+	s:givenName "Bhabani P." ;
+	.
+
+_:person_hoens
+	a s:Person ;
+	s:familyName "Hoens" ;
+	s:givenName "G." ;
 	.
 
