@@ -4,7 +4,9 @@ History
 In 1974 the research group *Programmiersprachen und Compiler II* at TU Berlin
 led by C.H.A Koster and Hochschulrechenzentrum (HRZ) Bielefeld developed
 different versions of *SLAN*, a programming language family suited for
-educational purposes. This language was later renamed to *ELAN*.
+educational purposes. This language was later renamed to *ELAN*, an
+abbreviation for *Elementary Language* [hahn79]_ [klingen83]_ or *Educational
+Language* [hommel79]_.
 
 Jochen Liedtke and Ulrich Bartling, both studying maths at Bielefeld University
 at that time, created a compiler for SLAN3B as part of their diploma thesis in

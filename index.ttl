@@ -54,7 +54,8 @@
 		<#heyderhoff82>, <#heyderhoff85a>, <#heyderhoff85b>,
 		<#ttpreis85>,
 		<#goossenaerts88>,
-		<#sinha82>
+		<#sinha82>,
+		<#hommel79>
 		; .
 
 ### Random literature ###
@@ -586,8 +587,21 @@ _:thing_stc
 	s:numberOfPages "155" ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_elan ;
-	s:publisher [ a s:Organization ;
-			s:name "Akademische Verlagsgesellschaft" ] ;
+	s:publisher _:org_akademische_verlagsgesellschaft ;
+	.
+
+<#hommel79>
+	a s:Book ;
+	s:author _:person_hommel , _:person_jaeckel , _:person_jaehnichen ,
+			_:person_kleine , _:person_koch , _:person_koster ;
+	s:datePublished "1979" ;
+	s:name "ELAN-Sprachbeschreibung" ;
+	s:sameAs <http://www.worldcat.org/oclc/6448687> ;
+	s:about _:thing_elan ;
+	s:numberOfPages "95" ;
+	s:inLanguage "de-DE" ;
+	s:publisher _:org_akademische_verlagsgesellschaft ;
+	s:isbn "3-400-00384-0" ;
 	.
 
 <#klingen85>
@@ -2096,6 +2110,15 @@ _:org_hrz
 	s:name "Hochschulrechenzentrum" ;
 	s:department _:org_unibi .
 
+_:org_akademische_verlagsgesellschaft
+	a s:Organization ;
+	s:name "Akademische Verlagsgesellschaft" ;
+	s:location [ a s:PostalAddress ;
+		s:addressLocality "Wiesbaden" ;
+		s:addressCountry "DE" ;
+		]
+	.
+
 ### Companies ###
 _:com_ergos
 	a s:Corporation ;
@@ -2421,5 +2444,23 @@ _:person_hoens
 	a s:Person ;
 	s:familyName "Hoens" ;
 	s:givenName "G." ;
+	.
+
+_:person_hommel
+	a s:Person ;
+	s:familyName "Hommel" ;
+	s:givenName "Günter" ;
+	.
+
+_:person_jaeckel
+	a s:Person ;
+	s:familyName "Jäckel" ;
+	s:givenName "Joachim" ;
+	.
+
+_:person_kleine
+	a s:Person ;
+	s:familyName "Kleine" ;
+	s:givenName "Karl" ;
 	.
 

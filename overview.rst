@@ -31,6 +31,6 @@ Time-sharing, multi-user and network-transparency
     clients” connected via serial lines. Additionally users can share files and
     start remote processes by linking multiple machines with *EUMEL-Netz*.
 One-language concept
-    *ELAN (Elementary Language)* is system implementation language, programming
-    language, shell language and documentation language.
+    *ELAN* is system implementation language, programming language, shell
+    language and documentation language.
 
