@@ -2,11 +2,8 @@ Quick start
 -----------
 
 Fortunately a set of 1.2 MB install floppy disks of EUMEL’s x86 port has been
-preserved. It can be installed in any virtual machine emulating an
-IBM PC. In this example we’re using qemu_. The `first disk`__ is optional and
-contains `install instructions`_ in german language. The `second disk`__ is the
-bootable setup programs. It creates a partition on the harddrive, formats it
-and installs the SHard. `Disk three`__ contains EUMEL0 and base system.
+preserved, see section artifacts_. It can be installed in any virtual machine
+emulating an IBM PC. In this example we’re using qemu_.
 
 1. Create a 128 MB harddrive: ``qemu-img create  root.img 128M``
 2. Start the setup program: ``qemu-system-i386 -drive
@@ -24,10 +21,6 @@ and installs the SHard. `Disk three`__ contains EUMEL0 and base system.
    “Kanal 2” and 15 with ``n`` and decline deleting those channels with ``n``.
 8. Congratulations, a fully functional EUMEL is now running in your virtual
    machine! For the next steps head over to [praxis1]_.
-
-__ disks/grundpaket/01_readme.img
-__ disks/grundpaket/02_setup.img
-__ disks/grundpaket/03_eumel0.img
 
 .. _install instructions: 01_readme_INSTALL.txt
 .. _qemu: http://www.qemu.org/
