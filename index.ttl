@@ -602,6 +602,7 @@ _:thing_stc
 	s:inLanguage "de-DE" ;
 	s:publisher _:org_akademische_verlagsgesellschaft ;
 	s:isbn "3-400-00384-0" ;
+	s:url <library/elan-sprachbeschreibung.djvu> ;
 	.
 
 <#klingen85>
