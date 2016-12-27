@@ -55,7 +55,8 @@
 		<#ttpreis85>,
 		<#goossenaerts88>,
 		<#sinha82>,
-		<#hommel79>
+		<#hommel79>,
+		<#eumelinfos>, <#glossymap>, <#vertriebsinfos>
 		; .
 
 ### Random literature ###
@@ -655,7 +656,7 @@ _:thing_stc
 	s:inLanguage "en-US" ;
 	.
 
-# likely lost in time, see
+# likely lost in time, author does not have a copy, see
 # http://www.isical.ac.in/~bhabani/bps_publications.html
 <#sinha82>
 	a s:ScholarlyArticle ;
@@ -730,6 +731,45 @@ _:thing_eumelaktuell
 	s:pageStart "45" ;
 	s:pageEnd "66" ;
 	s:sameAs <https://lirias.kuleuven.be/handle/123456789/134013> ;
+	.
+
+_:thing_produktinfos
+	a s:CreativeWork ;
+	s:publisher _:org_gmd ;
+	s:name "EUMEL: Das Betriebssystem für Mikrocomputer. Produktinformation. Für Anwender und Hersteller" ;
+	s:sameAs <https://ffb.bsz-bw.de/cgi-bin/koha/opac-detail.pl?biblionumber=176503> ;
+	# contains a copy of gmdspiegel85a as well
+	.
+
+# just a bunch of pages
+<#eumelinfos>
+	a s:CreativeWork ;
+	s:isPartOf _:thing_produktinfos ;
+	s:name "Informationen über EUMEL" ;
+	s:numberOfPages "18" ;
+	s:dateCreated "1984" ;
+	s:url <library/produktinfos.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
+# glossy product info map
+<#glossymap>
+	a s:CreativeWork ;
+	s:isPartOf _:thing_produktinfos ;
+	s:name "EUMEL: Das Mehrplatz-Betriebssystem" ;
+	s:dateCreated "1985-11" ;
+	s:url <library/produktinfos.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#vertriebsinfos>
+	a s:CreativeWork ;
+	s:isPartOf _:thing_produktinfos ;
+	s:name "Preisblatt für die Software-Lizenz des Betriebssystems EUMEL" ;
+	# other pages created 1986-01
+	s:dateCreated "1985-11-08" ;
+	s:url <library/produktinfos.djvu> ;
+	s:inLanguage "de-DE" ;
 	.
 
 ############
