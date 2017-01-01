@@ -56,7 +56,8 @@
 		<#goossenaerts88>,
 		<#sinha82>,
 		<#hommel79>,
-		<#eumelinfos>, <#glossymap>, <#vertriebsinfos>
+		<#eumelinfos>, <#glossymap>, <#vertriebsinfos>,
+		<#ambros87a>, <#ambros87b>
 		; .
 
 ### Random literature ###
@@ -770,6 +771,30 @@ _:thing_produktinfos
 	s:dateCreated "1985-11-08" ;
 	s:url <library/produktinfos.djvu> ;
 	s:inLanguage "de-DE" ;
+	.
+
+<#ambros87a>
+	a s:Book ;
+	s:name "Der Hamster – Programmieren lernen in einer Modellwelt" ;
+	s:datePublished "1987" ;
+	s:inLanguage "de-DE" ;
+	s:publisher _:org_jbmetzler ;
+	s:author _:person_ambros ;
+	s:isbn "3-476-20378-6" ;
+	s:numberOfPages "213" ;
+	s:url <library/der-hamster.djvu> ;
+	.
+
+<#ambros87b>
+	a s:Book ;
+	s:name "Der Hamster – Programmieren lernen in einer Modellwelt – Lehrerband" ;
+	s:datePublished "1987" ;
+	s:inLanguage "de-DE" ;
+	s:publisher _:org_jbmetzler ;
+	s:author _:person_ambros ;
+	s:isbn "3-476-70187-5" ;
+	s:numberOfPages "165" ;
+	s:url <library/der-hamster-lehrerband.djvu> ;
 	.
 
 ############
