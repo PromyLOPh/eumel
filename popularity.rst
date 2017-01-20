@@ -24,3 +24,5 @@ By mid 1985 support for the Japanese *Kanji* writing system was added to EUMEL
 [gmdspiegel85d]_. A newly founded corporation *NISSIN Products Corp. Tokyo*
 sold the product on the Japanese market [gmdbericht85]_.
 
+.. _advodat: #advodat
+
