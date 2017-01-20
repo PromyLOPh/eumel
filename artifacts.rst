@@ -9,6 +9,9 @@ Artifacts
     Dated February/March 1991. BASIC and DYNAMO compiler, LISP and Prolog
     interpreter, gs.hamster, gs.process, gs.dialog, gs.menugenerator,
     gs.mp-bap, gs.warenhaus and EUDAS 4.3 including documentation.
+`1.7.3 Urlader and Hintergrund`_
+    Three 360k floppy disk images for IBM PC containing Urlader (V 1.0 R,
+    1985), single-user and multi-user Hintergrund.
 
 Source:
 `bitsavers <http://bitsavers.trailing-edge.com/bits/GMD/EUMEL/>`__, 
@@ -17,5 +20,6 @@ Source:
 
 .. _EUMEL base system: disks/grundpaket.zip
 .. _Programming language packet: disks/informatikpaket.zip
+.. _1.7.3 Urlader and Hintergrund: disks/173_ibmpc.zip
 .. _setup instructions: 01_readme_INSTALL.txt
 
