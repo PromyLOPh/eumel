@@ -115,7 +115,7 @@ def warnUnusedButDefined (graph, rootNode):
 
 if __name__ == '__main__':
     g = Graph()
-    result = g.parse ("index.ttl", format='turtle')
+    result = g.parse (sys.stdin, format='turtle')
     rootUri = sys.argv[1]
     rootNode = URIRef (rootUri)
     s = Namespace("https://schema.org/")

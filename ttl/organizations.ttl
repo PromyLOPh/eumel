@@ -1,0 +1,179 @@
+### Organizations ###
+
+_:org_j_b__metzler a s:Organization ;
+    s:location "Stuttgart" ;
+    s:name "J.B. Metzler" .
+
+_:org_springer a s:Organization ;
+    s:location "Berlin" ;
+    s:name "Springer" .
+
+_:org_acm a s:Organization ;
+    s:location "New York" ;
+    s:name "ACM" .
+
+_:org_vieweg_teubner a s:Organization ;
+	s:name "Vieweg+Teubner" .
+
+_:org_gmd
+	a s:Organization ;
+    s:name "Gesellschaft für Mathematik und Datenverarbeitung mbH" ;
+	s:alternateName "GMD" ;
+	s:address [
+		a s:PostalAddress ;
+		s:postOfficeBoxNumber "1240" ;
+		#s:addressLocality "Schloß Birlinghoven" ;
+		s:addressCountry "DE" ;
+		s:postalCode "5205" ;
+		s:addressLocality "Sankt Augustin 1" ;
+		]
+	.
+
+_:org_unibi
+	a s:EducationalOrganization ;
+	s:name "Universität Bielefeld" ;
+	s:url <http://www.uni-bielefeld.de> .
+
+_:org_hrz
+	a s:EducationalOrganization ;
+	s:name "Hochschulrechenzentrum" ;
+	s:department _:org_unibi .
+
+_:org_akademische_verlagsgesellschaft
+	a s:Organization ;
+	s:name "Akademische Verlagsgesellschaft" ;
+	s:location [ a s:PostalAddress ;
+		s:addressLocality "Wiesbaden" ;
+		s:addressCountry "DE" ;
+		]
+	.
+
+### Companies ###
+_:com_ergos
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Siegburg" ;
+		s:postalCode "5200" ;
+		s:streetAddress "Bergstraße 7" ] ;
+	s:telephone "02241/63075" ; # source?
+	s:faxNumber "02241/63078" ; # source?
+	s:name "ERGOS Ergonomic Office Software GmbH" .
+
+# atari port?
+_:com_bicos
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Bielefeld" ;
+		s:postalCode "33699" ;
+		s:streetAddress "Gustav-Winkler-Straße 22" ] ;
+	s:url <https://www.bicos.de/> ;
+	s:name "BICOS COMPUTER GmbH" .
+
+# Atari port?
+_:com_cadre
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Dortmund" ;
+		s:postalCode "4600" ;
+		s:streetAddress "Watermannberg 3" ] ;
+	s:name "Cadre" .
+
+# X86 port
+_:com_schoenbeck
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Spenge" ;
+		s:postalCode "4905" ;
+		s:streetAddress "Rabeneck 23" ] ;
+	s:url <http://www.schoenbeck.de/> ;
+	s:name "Martin Schönbeck Beratungen GmbH" .
+
+# siehe <#stcXXX>
+# Whois:
+# Siegfried Fronzek
+# ISP GmbH
+# Fliednerstr. 3
+# 40489
+# Duesseldorf
+# DE
+_:com_isp
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Dortmund 1" ;
+		s:postalCode "4600" ;
+		s:streetAddress "Emil-Figge-Straße 76" ] ;
+	s:url <http://www.ispgmbh.de/> ;
+	s:telephone "0211-4059540" ;
+	s:faxNumber "0211-4059541" ;
+	s:name "ISP GmbH Individuelle Softwareprodukte" .
+
+_:com_digitron
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Bielefeld 1" ;
+		s:postalCode "4800 " ;
+		s:streetAddress "Mühlenstraße 47" ] ;
+	s:url <http://www.digitron-web.de/> ;
+	s:telephone "0521-65136" ;
+	s:name "digitron GmbH" .
+
+# L3
+_:com_accommodat
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Sankt Augustin" ;
+		s:postalCode "53757 " ;
+		s:streetAddress "Rathausallee 10" ] ;
+	s:url <http://www.accommodat.de/> ;
+	s:telephone "(02241) 92530" ;
+	s:name "ACCOMMODAT GmbH" .
+
+# multiline (siehe computerwoche)
+_:com_webidata
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Mannheim 61" ;
+		s:postalCode "6800" ;
+		s:streetAddress "Wildbader Straße 7" ] ;
+	s:telephone "06 21/4 70 06-0" ;
+	s:name "Webidata Softwareentwicklung GmbH" .
+
+_:com_advodat
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "München" ;
+		s:postalCode "8000" ;
+		s:streetAddress "Arabellastraße 15" ] ;
+	s:name "Advodat GmbH" ;
+	.
+
+_:com_modsoft
+	a s:Corporation ;
+	s:address [
+		a s:PostalAddress ;
+		s:addressCountry "DE" ;
+		s:addressLocality "Bonn 1" ;
+		s:postalCode "5300" ;
+		s:streetAddress "Bonngasse 4–6" ] ;
+	s:name "Modsoft – Organisation für Software und Computer-Anwendung GmbH" ;
+	.
+
+

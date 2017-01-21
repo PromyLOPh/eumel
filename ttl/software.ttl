@@ -1,0 +1,407 @@
+################
+### Software ###
+################
+
+<#eumel17>
+	a s:SoftwareApplication ;
+	s:name "EUMEL" ;
+	s:softwareVersion "1.7" ;
+	s:datePublished "1984" ;
+	s:offers _:offer_eumelmulti , _:offer_eumelsingle, _:offer_eumelpd ;
+	s:author _:org_gmd ;
+	.
+
+<#eumel18>
+	a s:SoftwareApplication ;
+	s:name "EUMEL" ;
+	s:softwareVersion "1.8" ;
+	s:datePublished "1986-10" ;
+	s:offers _:offer_eumelmulti , _:offer_eumelsingle ;
+	s:author _:org_gmd ;
+	.
+
+_:offer_eumelmulti
+	a s:Offer ;
+	s:name "Multi-User-Version" ;
+	s:priceSpecification [
+		a s:UnitPriceSpecification ;
+		s:price "750" ;
+		s:priceCurrency "DEM" ;
+		s:valueAddedTaxIncluded "False" ;
+		] ;
+	s:validFrom "1985-11-08" ; # vertriebsinfos
+	s:validThrough "1987" ; # seyfert87
+	s:offeredBy _:org_gmd ;
+	.
+
+_:offer_eumelsingle
+	a s:Offer ;
+	s:name "Single-User-Version" ;
+	s:priceSpecification [
+		a s:UnitPriceSpecification ;
+		s:price "250" ;
+		s:priceCurrency "DEM" ;
+		s:valueAddedTaxIncluded "False" ;
+		] ;
+	s:validFrom "1985-11-08" ; # vertriebsinfos
+	s:validThrough "1987" ; # seyfert87
+	s:offeredBy _:org_gmd ;
+	.
+
+_:offer_eumelpd
+	a s:Offer ;
+	s:name "Public Domain" ;
+	s:priceSpecification [
+		a s:UnitPriceSpecification ;
+		s:price "50" ;
+		s:priceCurrency "DEM" ;
+		s:valueAddedTaxIncluded "False" ;
+		] ;
+	s:validFrom "1989-11-09" ;
+	s:offeredBy _:com_schoenbeck ;
+	.
+
+<#msdosdat>
+	a s:SoftwareApplication ;
+	s:name "MS-DOS-DAT" ;
+	s:description "MS-DOS interoperability layer" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "200" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:validThrough "1987" ; # seyfert87
+		s:offeredBy _:org_gmd ;
+		] ;
+	s:datePublished "1986-01-01" ; # vertriebsinfos
+	.
+
+<#gmdtexteditor>
+	a s:SoftwareApplication ;
+	s:name "Texteditor" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "850" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:validThrough "1987" ; # seyfert87
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#basicp6066>
+	a s:SoftwareApplication ;
+	s:name "BASIC P 6066 compiler" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "400" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#mbasic>
+	a s:SoftwareApplication ;
+	s:name "M-BASIC" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "400" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:offeredBy _:org_gmd ;
+		] ;
+	s:datePublished "1986-03" ; # vertriebsinfos
+	.
+
+<#eumelnetz>
+	a s:SoftwareApplication ;
+	s:name "EUMEL-Netz" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "200" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:validThrough "1987" ; # seyfert87
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#dynamo>
+	a s:SoftwareApplication ;
+	s:name "DYNAMO" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "200" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:validThrough "1987" ; # seyfert87
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#lisp>
+	a s:SoftwareApplication ;
+	s:name "LISP" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "0" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:validThrough "1987" ; # seyfert87
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#dasys>
+	a s:SoftwareApplication ;
+	s:name "DASYS" ;
+	s:description "Statistics software" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "200" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:validThrough "1987" ; # seyfert87
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#remis>
+	a s:SoftwareApplication ;
+	s:name "REMIS" ;
+	s:description "Relational database with SQL support" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "200" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:validThrough "1987" ; # seyfert87
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#baisy>
+	a s:SoftwareApplication ;
+	s:name "BAISY" ;
+	s:description "Database" ;
+	s:author _:org_gmd ;
+	.
+
+<#eudas>
+	a s:SoftwareApplication ;
+	s:name "EUDAS" ;
+	s:author _:org_gmd ;
+	.
+
+<#moco>
+	a s:SoftwareApplication ;
+	s:name "MOCO" ;
+	s:description "Modellcomputer MOCO" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "0" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#hamster>
+	a s:SoftwareApplication ;
+	s:name "HAMSTER" ;
+	s:author _:org_gmd ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "0" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "False" ;
+			] ;
+		s:validFrom "1985-11-08" ; # vertriebsinfos
+		s:offeredBy _:org_gmd ;
+		] ;
+	.
+
+<#multiline-superbase>
+	a s:SoftwareApplication ;
+	s:name "Multiline Superbase" ;
+	s:applicationCategory "database" ;
+	s:author _:com_webidata ;
+	.
+
+<#multiline-orgapac>
+	a s:SoftwareApplication ;
+	s:name "Multiline Orga Pac" ;
+	s:description "Organisationspaket" ;
+	s:author _:com_webidata ;
+	.
+
+<#multiline-btx>
+	a s:SoftwareApplication ;
+	s:name "Multiline BTX" ;
+	s:description "BTX-Inhouse-Lösung" ;
+	s:author _:com_webidata ;
+	.
+
+<#multiline-inkasso>
+	a s:SoftwareApplication ;
+	s:name "Multiline Inkasso" ;
+	s:description "software for debt collecting agencies" ;
+	s:author _:com_webidata ;
+	.
+
+<#multiline-hbg>
+	a s:SoftwareApplication ;
+	s:name "Multiline HGB Par.89ff." ;
+	s:description "Branchenpaket für Handelsvertreter" ;
+	s:author _:com_webidata ;
+	.
+
+<#dgs-grafik>
+	a s:SoftwareApplication ;
+	s:name "dgs Digitron-Grafik-System" ;
+	s:author _:com_digitron ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "450" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "True" ; # ?
+			] ;
+		s:validFrom "1990" ; # ambros90b
+		s:validThrough "1990" ;
+		s:offeredBy _:com_digitron ;
+		] ;
+	.
+
+<#dgs-supervision>
+	a s:SoftwareApplication ;
+	s:name "dgs SUPER VISION" ;
+	s:author _:com_digitron ;
+	.
+
+<#dgs-superchart>
+	a s:SoftwareApplication ;
+	s:name "dgs Super Chart" ;
+	s:author _:com_digitron ;
+	s:offers [
+		a s:Offer ;
+		s:priceSpecification [
+			a s:UnitPriceSpecification ;
+			s:price "1200" ;
+			s:priceCurrency "DEM" ;
+			s:valueAddedTaxIncluded "True" ; # ?
+			] ;
+		s:validFrom "1990" ; # ambros90b
+		s:validThrough "1990" ;
+		s:offeredBy _:com_digitron ;
+		] ;
+	.
+
+<#eumelbase>
+	a s:SoftwareApplication ;
+	s:name "EUMELbase" ;
+	s:description "Relational database" ;
+	s:applicationCategory "database" ;
+	s:author _:com_isp ;
+	.
+
+<#eumelcalc>
+	a s:SoftwareApplication ;
+	s:name "EUMELcalc" ;
+	s:applicationCategory "spreadsheet" ;
+	s:author _:com_isp ;
+	.
+
+<#eumelwriter>
+	a s:SoftwareApplication ;
+	s:name "EUMELwriter" ;
+	s:applicationCategory "text processing" ;
+	s:author _:com_isp ;
+	.
+
+# see ende87
+<#laboris>
+	a s:SoftwareApplication ;
+	s:name "LABORIS" ;
+	s:description "Software suite for doctors" ;
+	s:author _:com_isp ;
+	.
+
+# see iur86
+<#ergojur>
+	a s:SoftwareApplication ;
+	s:name "Ergo JUR" ;
+	s:author _:com_modsoft ;
+	s:operatingSystem "EUMEL" ;
+	# see iur86
+	s:memoryRequirements "512 KB" ;
+	s:storageRequirements "0.5 MB" ;
+	s:dateCreated "1986" ;
+	.
+
+# ~120 installs in 1986 [schuetz86]_
+<#advodat>
+	a s:SoftwareApplication ;
+	s:name "advodat" ;
+	s:author _:com_advodat ;
+	s:operatingSystem "EUMEL" ;
+	# see iur86
+	s:memoryRequirements "512 KB" ;
+	s:storageRequirements "3 MB" ;
+	s:dateCreated "1984" ;
+	.
+

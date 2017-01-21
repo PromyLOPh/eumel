@@ -44,7 +44,7 @@ Bibliography
 Auto-generated from `RDF graph`_.
 
 .. see formatRefs.py
-.. include:: bib.rst
+.. include:: _build/bib.rst
 
 .. _RDF graph: index.ttl
 

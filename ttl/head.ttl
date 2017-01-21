@@ -1,0 +1,62 @@
+@base <https://6xq.net/eumel/> .
+@prefix s: <https://schema.org/> .
+
+<./> a s:Article ;
+	s:name "Not just a footnote of history: EUMEL" ;
+	s:dateCreated "2016-08-26" ;
+	s:dateModified "2016-10-09" ;
+	s:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+	s:citation
+		<#praxis1>, <#praxis2>, <#praxis3>,
+		<#computerwoche83a>, <#computerwoche88>, <#computerwoche79a>,
+		<#computerwoche83b>, <#computerwoche87a>, <#computerwoche79b>,
+		<#computerwoche86a>, <#computerwoche85>, <#computerwoche91>,
+		<#computerwoche86b>, <#computerwoche87b>, <#computerwoche86c>,
+		<#happycomputer86>,
+		<#reuse08>,
+		<#carmony82>,
+		<#hahn78>,
+		<#rehder88>,
+		<#rechenanlagen79>, <#rechenanlagen83>,
+		<#danckwerts85>,
+		<#craemer87>,
+		<#software93>,
+		<#alwr82>,
+		<#koster87>,
+		<#it86>, <#at86>,
+		<#programmierung87>,
+		<#textverarbeitung86>,
+		<#korrekturen84>,
+		<#dasys86>, <#dynamo86>, <#hamster84>, <#lisp86>, <#moco84>,
+		<#msdosdat86>,
+		<#netz88>, <#source86>,
+		<#remis84>, <#remis86>,
+		<#sys86>, <#sys84>, <#sys85>,
+		<#taschenbuch>,
+		<#wordprocessing87>,
+		<#schuetz86>, <#iur86>,
+		<#ende87>,
+		<#chip84>, <#chip87>, <#chip88>, <#chip89>,
+		<#cr86>, <#cr87a>, <#cr87b>,
+		<#generalanzeiger85>, <#generalanzeiger86>, <#handelsblatt91>, <#jurpc94>,
+		<#koch80>, <#gmdstudien80a>, <#gmdstudien80b>, <#gmdstudien80c>,
+		<#klingen83>, <#ambros90b>, <#oppor85>, <#seyfert87>, <#ambros90a>, <#ambros90c>,
+		<#gmdbericht82>, <#gmdbericht83>, <#gmdbericht84>, <#gmdbericht85>, <#gmdbericht86a>, <#gmdbericht86b>, 
+		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>, <#gmdspiegel88e>,
+		<#liedtke76>, <#bartling76>,
+		<#stc87a>, <#noltemeier87>, <#hahn79>, <#stc87c>,
+		<#klingen85>, <#kernel83>,
+		<#source84a>, <#source84b>,
+		<#hahn84>, <#hahn86>, <#shard86>,
+		<#zielke14>, <#höltgen12>,
+		<#craemer83>, <#liedtke93>,
+		<#wermelskirchen83>, <#görgen84>, <#viebeg84>, <#indenbirken84>,
+		<#heyderhoff82>, <#heyderhoff85a>, <#heyderhoff85b>,
+		<#ttpreis85>,
+		<#goossenaerts88>,
+		<#sinha82>,
+		<#hommel79>,
+		<#eumelinfos>, <#glossymap>, <#vertriebsinfos>,
+		<#ambros87a>, <#ambros87b>
+		; .
+

@@ -1,0 +1,153 @@
+### Computerwoche ###
+_:thing_computerwoche a s:Periodical ;
+	s:name "Computerwoche" ;
+	s:issn "0170-5121" .
+
+<#computerwoche83a>
+	a s:NewsArticle ;
+	s:datePublished "1983-04-22" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "17" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/16-bit-version-auf-ollivetti-m20,1178576> ;
+	s:url <library/computerwoche83a.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:alternativeHeadline "Betriebssystem Eumel für die Schulausbildung" ;
+	s:name "16-Bit-Version auf Ollivetti-M20" .
+
+<#computerwoche88>
+	a s:NewsArticle ;
+	s:datePublished "1988-04-15" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "16" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/eumel-und-schulis-auf-dem-pruefstand,1154834> ;
+	s:url <library/computerwoche88.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:alternativeHeadline "GMD startet Test für Schulsoftware" ;
+	s:name "Eumel und Schulis auf dem Prüfstand" .
+
+<#computerwoche79a>
+	a s:NewsArticle ;
+	s:datePublished "1979-06-22" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "25" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/eumel-mit-elan,1193086> ;
+	s:url <library/computerwoche79a.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "„Eumel“ mit „Elan“" .
+
+<#computerwoche83b>
+	a s:NewsArticle ;
+	s:datePublished "1983-10-21" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "43" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/ausbildungs-eumel,1180815> ;
+	s:url <library/computerwoche83b.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:alternativeHeadline "GMD Bonn" ;
+	s:name "Ausbildungs-Eumel" .
+
+<#computerwoche87b>
+	a s:NewsArticle ;
+	s:datePublished "1987-08-28" ;
+	s:isPartOf _:thing_computerwoche ;
+	s:url <http://www.computerwoche.de/a/gmd-zeigt-eumel-system-in-theorie-und-praxis,1160959> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "GMD zeigt Eumel-System in Theorie und Praxis" .
+
+<#computerwoche79b>
+	a s:NewsArticle ;
+	s:datePublished "1979-10-26" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "43" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/vier-tage-haertetest-fuer-eumel,1194195> ;
+	s:url <library/computerwoche79b.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:alternativeHeadline "Präsentation eines ÁP - Multi - User - Betriebssystems auf der GI - 79" ;
+	s:name "Vier Tage Härtetest für „Eumel“" .
+
+<#computerwoche86a>
+	a s:NewsArticle ;
+	s:datePublished "1986-03-14" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "11" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/japaner-zeigen-interesse-an-eumel,1163651> ;
+	s:url <library/computerwoche86a.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Japaner zeigen Interesse an „Eumel“" .
+
+<#computerwoche85>
+	a s:NewsArticle ;
+	s:datePublished "1985-11-08" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "45" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/dv-transparenz-fuer-anwaelte-angepeilt,1171648> ;
+	s:url <library/computerwoche85.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:alternativeHeadline "Bonner Juristenorganisation selektiert Anbieterkreis" ;
+	s:name "DV-Transparenz für Anwälte angepeilt" .
+
+<#computerwoche91>
+	a s:NewsArticle ;
+	s:datePublished "1991-06-21" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "25" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/lizenzfreie-programme-fuer-schulen-und-universitaeten,1140549> ;
+	s:url <library/computerwoche91.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:alternativeHeadline "GMD fördert Computereinsatz im Bildungswesen" ;
+	s:name "Lizenzfreie Programme für Schulen und Universitäten" .
+
+<#computerwoche86b>
+	a s:NewsArticle ;
+	s:datePublished "1986-01-24" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "4" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <http://www.computerwoche.de/a/technologiepreis-fuer-eumel-verliehen,1162976> ;
+	s:url <library/computerwoche86b.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:alternativeHeadline "Würdigung des Forschungstransfers in die Wirtschaft" ;
+	s:name "Technologiepreis für Eumel verliehen" .
+
+<#computerwoche86c>
+	a s:NewsArticle ;
+	s:datePublished "1986-03-14" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "11" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <library/computerwoche86c.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "32-Bit-„Maximikro“ von Proteus" ;
+	.
+
+<#computerwoche87a>
+	a s:NewsArticle ;
+	s:datePublished "1987-03-13" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:issueNumber "11" ;
+			s:isPartOf _:thing_computerwoche ] ;
+	s:url <library/computerwoche87a.html> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:name "Softwareprodukte laufen unter Eumel" .
+
+

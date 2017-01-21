@@ -5,7 +5,7 @@ The following (commercial) software, grouped by vendor, was available for
 EUMEL. Prices excluding VAT/GST.
 
 .. raw:: html
-   :file: software.html
+   :file: _build/software.html
 
 Sources:
 [praxis3]_ pp. 223–224,

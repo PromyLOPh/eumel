@@ -1,0 +1,361 @@
+###############
+### Manuals ###
+###############
+
+<#programmierung87>
+	a s:Book ;
+	s:name "Benutzerhandbuch: Programmierung" ;
+	s:datePublished "1987-07-01" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_ley , _:person_metterhausen ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Benutzerhandbuch_Programmierung_01-07-87.pdf> ;
+	s:url <library/benutzerhandbuch-programmierung-1987.pdf> ;
+	s:about _:thing_eumel ;
+	.
+
+<#textverarbeitung86>
+	a s:Book ;
+	s:name "Benutzerhandbuch: Textverarbeitung" ;
+	s:datePublished "1986-12-19" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_fey-mcclean, _:person_kloeckner, _:person_metterhausen ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Benutzerhandbuch_Textverarbeitung_19-12-86.pdf> ;
+	s:url <library/benutzerhandbuch-textverarbeitung-1986.pdf> ;
+	s:about _:thing_eumel ;
+	.
+
+<#korrekturen84>
+	a s:Book ;
+	s:name "Korrekturen und Nachträge I zum EUMEL-Benutzerhandbuch 1.7" ;
+	s:datePublished "1984-05-09" ;
+	s:author _:person_hahn ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:about _:thing_eumel ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Korrekturen_Benutzerhandbuch-V1.7_May84.pdf> ;
+	s:url <library/korrekturen-1984.pdf> ;
+	.
+
+<#netz88>
+	a s:Book ;
+	s:name "Netz-Beschreibung" ;
+	s:author _:person_heinrichs ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1988-08-08" ;
+	s:numberOfPages "20" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Netz_Beschreibung_08-08-88.pdf> ;
+	s:url <library/netz-1988.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#source86>
+	a s:Book ;
+	s:datePublished "1986-11-10" ;
+	s:name "Quellcode der insertierten ELAN-Pakete" ;
+	s:alternateName "source86" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Quellcode-V1.8.0-SingleUser-10-11-86.pdf> ;
+	s:url <library/source86.pdf> ;
+	.
+
+<#remis84>
+	a s:Book ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=03127370X> ;
+	s:name "REMIS: Programmier-Handbuch" ;
+	s:author _:person_schneider ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:numberOfPages "117" ;
+	# 2. auflage
+	s:inLanguage "de-DE" ;
+	s:datePublished "1984-10" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/REMIS_Programmierhandbuch-Oct84.pdf> ;
+	s:url <library/remis-programmierhandbuch-1984.pdf> ;
+	.
+
+<#remis86>
+	a s:Book ;
+	s:name "REMIS: Programmier-Handbuch" ;
+	s:author _:person_schneider ;
+	s:publisher _:org_gmd ;
+	s:numberOfPages "117" ;
+	s:inLanguage "de-DE" ;
+	s:datePublished "1986-08-08" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/REMIS_Programmierhandbuch_08-08-86.pdf> ;
+	s:url <library/remis-programmierhandbuch-1986.pdf> ;
+	.
+
+<#sys86>
+	a s:Book ;
+	s:datePublished "1986-08-08" ;
+	s:name "Systemhandbuch" ;
+	s:numberOfPages "153" ;
+	s:sameAs <http://plus.orbis-oldenburg.de:1701/LB_V1:LB_all:LBuricaalephiedext670649> ;
+	s:author _:person_liedtke ,
+		_:person_heinrichs ,
+		_:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Systemhandbuch_08-08-86.pdf> ;
+	s:url <library/systemhandbuch-1986.pdf> ;
+	s:publisher _:org_gmd ;
+	.
+
+<#sys84>
+	a s:Book ;
+	s:datePublished "1984-05-16" ;
+	s:name "Systemhandbuch" ;
+	s:numberOfPages "105" ;
+	s:sameAs <http://plus.orbis-oldenburg.de:1701/LB_V1:LB_all:LBuricaalephiedext670649> ;
+	s:author _:person_liedtke ,
+		_:person_heinrichs ,
+		_:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Systemhandbuch-V1.7_May84.pdf> ;
+	s:url <library/systemhandbuch-1984.pdf> ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	.
+
+
+<#sys85>
+	a s:Book ;
+	s:datePublished "1985" ;
+	s:name "EUMEL-Systemhandbuch, Version 1.7, Stand 13.3.85" ;
+	s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
+	s:sameAs <https://opac.sub.uni-goettingen.de/DB=1/XMLPRS=N/PPN?PPN=013681850> ;
+	s:sameAs <http://d-nb.info/860673642> ;
+	s:numberOfPages "116" ;
+	s:author _:person_liedtke ,
+		_:person_heinrichs ,
+		_:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	.
+
+<#taschenbuch>
+	a s:Book ;
+	s:name "Taschenbuch, Version 1.6" ;
+	s:numberOfPages "43" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_hrz ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Taschenbuch-V1.6.pdf> ;
+	s:url <library/taschenbuch.pdf>;
+	.
+
+<#wordprocessing87>
+	a s:Book ;
+	s:datePublished "1987-06-01" ;
+	s:name "User Manual: Part 1: Word Processing" ;
+	s:numberOfPages "116" ;
+	s:author _:person_fey-mcclean ,
+		_:person_kloeckner ,
+		_:person_metterhausen  ;
+	s:translator _:person_bernhard , _:person_fey-mcclean ;
+	s:inLanguage "en-US" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/User_manual_Word_processing_19Jun87.pdf> ;
+	s:url <library/word-processing-1987.pdf> ;
+	.
+
+<#kernel83>
+	a s:Book ;
+	s:author [ a s:Person ;
+			s:familyName "Beyer" ],
+		_:person_heinrichs ,
+		_:person_kloeckner ,
+		_:person_liedtke,
+		[ a s:Person ;
+			s:familyName "Szalay" ],
+		[ a s:Person ;
+			s:familyName "Wegener" ] ;
+	s:datePublished "1983" ;
+	s:name "EUMEL-Systemkern, Entwurf zur Systemdokumentation" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	.
+
+<#source84a>
+	a s:Book ;
+	s:datePublished "1984-05-16" ;
+	s:name "EUMEL-Quellcode der insertierten ELAN-Pakete" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	.
+
+<#source84b>
+	a s:Book ;
+	s:datePublished "1984-10-01" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273696> ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273696> ;
+	s:name "EUMEL-Quellcode der insertierten ELAN-Pakete" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:url <library/quelltext-1.7.djvu> ;
+	.
+
+<#hahn84>
+	a s:Book ;
+	s:author _:person_hahn ,
+		_:person_heinrichs ,
+		_:person_heyderhoff ;
+	s:datePublished "1984" ;
+	s:name "EUMEL-Benutzerhandbuch, Version 1.7" ;
+	s:numberOfPages "452" ;
+	# are those the same? first one is 500 pages
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273688> ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=214594254> ;
+	s:sameAs <http://d-nb.info/210467444> ;
+	# another one?
+	s:sameAs <http://d-nb.info/860673634> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_hrz , _:org_gmd ;
+	s:url <library/handbuch-1.7.djvu> ;
+	.
+
+<#hahn86>
+	a s:Book ;
+	s:author _:person_hahn ,
+		_:person_heinrichs ,
+		_:person_heyderhoff ;
+	s:datePublished "1986" ;
+	s:name "EUMEL-Benutzerhandbuch, Version 1.7" ;
+	s:numberOfPages "252" ;
+	s:publisher _:org_hrz, _:org_gmd ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:sameAs <https://katalogplus.ub.uni-bielefeld.de/title/1279514> ;
+	.
+
+<#shard86>
+	a s:Book ;
+	s:datePublished "1986" ;
+	s:name "Betriebssystem EUMEL. Der EUMEL-SHard. Version 5.0" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	.
+
+### Anwerdersoftwareklasse 2 (manuals) ###
+
+_:thing_anwendersoftware
+	a s:Book ;
+	s:name "Anwendersoftwareklasse 2" ;
+	.
+
+<#dasys86>
+	a s:Book ;
+	s:name "DASYS-Handbuch" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_bendisch ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "44" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273637> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714230> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/DASYS_Handbuch_08-08-86.pdf> ;
+	s:url <library/dasys-handbuch-86.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#dynamo86>
+	a s:Book ;
+	s:name "DYNAMO-Compiler" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_craemer , _:person_keil ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "13" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273645> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714240> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/DYNAMO_Compiler_08-08-86.pdf> ;
+	s:url <library/dynamo-compiler-1986.pdf> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#hamster84>
+	a s:Book ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:name "Hamster-Modell" ;
+	s:author _:person_oppor ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	# XXX: sure?
+	s:datePublished "1984" ;
+	s:numberOfPages "12" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273653> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714248> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/HAMSTER_Modell.pdf> ;
+	s:url <library/hamster-modell-1984.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#lisp86>
+	a s:Book ;
+	s:name "LISP-Handbuch" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_maccarthy ;
+	s:publisher _:org_gmd ;
+	s:editor _:person_durchholz , _:person_heyderhoff ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "60" ;
+	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273661> ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273661> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/LISP_Handbuch_08-08-86.pdf> ;
+	s:url <library/lisp-handbuch-1986.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#moco84>
+	a s:CreativeWork ;
+	s:name "Modellcomputer MOCO" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_heyderhoff ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:datePublished "1984" ;
+	s:namberOfPages "21" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=03127367X> ;
+	s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=03127367X> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/MOCO_Modellcomputer.pdf> ;
+	s:url <library/modellcomputer-moco-1984.pdf> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#msdosdat86>
+	a s:Book ;
+	s:name "MS-DOS-DAT" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_klapper ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1986-08-08" ;
+	s:numberOfPages "12" ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/MS-DOS-DAT_08-08-86.pdf> ;
+	s:url <library/ms-dos-dat-1986.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#indenbirken84>
+	a s:CreativeWork ;
+	s:name "Compilerhandbuch BASIC" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_indenbirken ;
+	s:publisher _:org_hrz ;
+	s:datePublished "1984-07" ;
+	s:numberOfPages "71" ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273629> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714222> ;
+	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/BASIC_Compilerhandbuch_1984.pdf> ;
+	s:url <library/compilerhandbuch-basic-1984.pdf> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+

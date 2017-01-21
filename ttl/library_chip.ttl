@@ -1,0 +1,78 @@
+############
+### Chip ###
+############
+
+_:chip
+	a s:Periodical ;
+	s:name "Chip" ;
+	.
+
+# not archived, no significantly new revelations
+<#chip84>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1984-07" ;
+		s:issueNumber "7" ;
+		s:isPartOf _:chip ;
+		] ;
+	s:pageStart "92" ;
+	s:pageEnd "95" ;
+	s:name "Große Zukunft für wenige" ;
+	s:alternativeHeadline "Die wichtigsten Betriebssysteme für Mikrocomputer" ;
+	.
+
+<#chip87>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1987-12" ;
+		s:issueNumber "12" ;
+		s:isPartOf _:chip ;
+		] ;
+	s:pageStart "126" ;
+	s:pageEnd "128" ;
+	s:name "Drei Betriebssysteme für den Atari ST" ;
+	s:url <library/chip_1987_12_127.djvu> ;
+	.
+
+<#chip88>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		# beilage zu chip
+		s:name "Chip Plus" ;
+		s:datePublished "1988-06" ;
+		s:issueNumber "6" ;
+		s:isPartOf _:chip ;
+		] ;
+	s:pageStart "4" ;
+	s:pageEnd "6" ;
+	s:name "Mikro-Vernetzung über Eumel-Netz" ;
+	s:author [
+		a s:Person ;
+		s:familyName "Höfling" ;
+		s:givenName "J.";
+		] ;
+	s:url <library/chip_plus_1988_6_4.djvu> ;
+	.
+
+<#chip89>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1989-08" ;
+		s:issueNumber "8" ;
+		s:isPartOf _:chip ;
+		] ;
+	s:pageStart "120" ;
+	s:pageEnd "128" ;
+	s:name "Zehn Betriebssysteme" ;
+	s:author [
+		a s:Person ;
+		s:familyName "Dürr" ;
+		s:givenName "C.";
+		] ;
+	s:url <library/chip_1989_8_122.djvu> ;
+	.
+

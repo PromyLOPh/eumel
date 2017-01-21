@@ -1,0 +1,12 @@
+### Keywords/Topics ###
+
+_:thing_elan a s:ComputerLanguage ;
+	s:sameAs <https://en.wikipedia.org/wiki/ELAN_(programming_language)> ;
+	s:name "ELAN" .
+
+_:thing_eumel a s:SoftwareApplication ;
+	s:sameAs <https://en.wikipedia.org/wiki/Eumel> ;
+	s:applicationCategory "operating system" ;
+	s:name "EUMEL" .
+
+

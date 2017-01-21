@@ -1,0 +1,250 @@
+##############
+### People ###
+##############
+
+_:person_aschemann a s:Person ;
+    s:familyName "Aschemann" ;
+    s:givenName "Gerd" ;
+    s:url <http://aschemann.net/> .
+
+_:person_diehl a s:Person ;
+    s:familyName "Diehl" ;
+    s:givenName "Michael" .
+
+_:person_ambros a s:Person ;
+    s:familyName "Ambros" ;
+    s:givenName "Wolfgang" .
+
+_:person_liedtke a s:Person ;
+	s:familyName "Liedtke" ;
+	s:givenName "Jochen" ;
+	s:deathDate "2001-06-10" ;
+	s:alumni _:org_unibi ;
+	s:sameAs <https://en.wikipedia.org/wiki/Jochen_Liedtke> ;
+	.
+
+_:person_heinrichs a s:Person ;
+	s:familyName "Heinrichs" ;
+	s:givenName "Dietmar" ;
+	s:employee _:org_hrz ;
+	s:sameAs <http://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=22912> .
+
+_:person_heyderhoff a s:Person ;
+	s:familyName "Heyderhoff" ;
+	s:givenName "Peter" .
+
+_:person_oppor a s:Person ;
+	s:familyName "Oppor" ;
+	s:givenName "Lothar" .
+
+_:person_craemer a s:Person ;
+	s:familyName "Craemer" ;
+	s:givenName "Dieter" .
+
+_:person_maccarthy a s:Person ;
+	s:familyName "MacCarthy" ;
+	s:givenName "John" .
+
+_:person_bendisch a s:Person ;
+	s:familyName "Bendisch" ;
+	s:givenName "Jürgen" .
+
+_:person_indenbirken a s:Person ;
+	s:familyName "Indenbirken" ;
+	s:givenName "Heiko" .
+
+_:person_bartling
+	a s:Person ;
+	s:familyName "Bartling" ;
+	s:givenName "Ulrich" ;
+	s:alumni _:org_unibi .
+
+_:person_nolting
+	a s:Person;
+	s:familyName "Nolting" ;
+	s:givenName "Reinhard" .
+
+_:person_roland
+	a s:Person ;
+	s:familyName "Roland" ;
+	s:givenName "Rudolf" .
+
+_:person_moeller
+	a s:Person ;
+	s:familyName "Möller" ;
+	s:givenName "Renate" ;
+	s:sameAs <http://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=21739>.
+
+_:person_puhlmann
+	a s:Person ;
+	s:familyName "Puhlmann" ;
+	s:givenName "Axel" ;
+	s:employee _:com_schoenbeck .
+
+_:person_hahn
+	a s:Person ;
+	s:familyName "Hahn" ;
+	s:givenName "Rainer" .
+
+_:person_koster
+	a s:Person ;
+	s:givenName "Cornelis Hermanns Antonius";
+	s:familyName "Koster" ;
+	# source: https://web.archive.org/web/20130705020327/http://www.eecs.tu-berlin.de/menue/einrichtungen/professuren/nachrufe/
+	s:deathDate "2013-03-21" ;
+	s:birthDate "1943-07-13" ;
+	s:url <http://www.cs.ru.nl/~kees> ;
+	.
+
+_:person_ley
+	a s:Person ;
+	s:familyName "Ley" ;
+	s:givenName "Irmgard" .
+
+_:person_metterhausen
+	a s:Person ;
+	s:familyName "Metterhausen" ;
+	s:givenName "Werner" .
+
+_:person_fey-mcclean
+	a s:Person ;
+	s:familyName "Fey-McClean" ;
+	s:givenName "Monika" .
+
+_:person_kloeckner
+	a s:Person ;
+	s:familyName "Klöckner" ;
+	s:givenName "Konrad" .
+
+_:person_keil
+	a s:Person ;
+	s:familyName "Keil" ;
+	s:givenName "Robert" .
+
+_:person_durchholz
+	a s:Person ;
+	s:familyName "Durchholz" ;
+	s:givenName "J." .
+
+_:person_klapper
+	a s:Person ;
+	s:familyName "Klapper" ;
+	s:givenName "Frank" .
+
+_:person_schneider
+	a s:Person ;
+	s:familyName "Schneider" ;
+	s:givenName "Udo" .
+
+_:person_bernhard
+	a s:Person ;
+	s:familyName "Bernhard" ;
+	s:givenName "Ursula" .
+
+_:person_klingen
+	a s:Person ;
+	s:familyName "Klingen" ;
+	s:givenName "Leo H." ;
+	.
+
+_:person_seyfert
+	a s:Person ;
+	s:familyName "Seyfert" ;
+	s:givenName "Wolfgang" ;
+	.
+
+_:person_breiling
+	a s:Person ;
+	s:familyName "Breiling" ;
+	s:givenName "Adolf" ;
+	.
+
+_:person_schmidt-belz
+	a s:Person ;
+	s:familyName "Schmidt-Belz" ;
+	s:givenName "Barbara" ;
+	.
+
+_:person_jaehnichen
+	a s:Person ;
+	s:familyName "Jähnichen" ;
+	s:givenName "Stefan" ;
+	.
+
+_:person_koch
+	a s:Person ;
+	s:familyName "Koch" ;
+	s:givenName "Wilfried" ;
+	.
+
+_:person_starcke
+	a s:Person ;
+	s:familyName "Starcke" ;
+	s:givenName "Karl Wilhelm" ;
+	.
+
+_:person_petersen
+	a s:Person ;
+	s:familyName "Petersen" ;
+	s:givenName "Ulrike" ;
+	.
+
+_:person_noltemeier
+	a s:Person ;
+	s:familyName "Noltemeier" ;
+	s:givenName "Albert" ;
+	.
+
+_:person_stock
+	a s:Person ;
+	s:familyName "Stock" ;
+	s:givenName "H. Peter" ;
+	.
+
+_:person_kammerer
+	a s:Person ;
+	s:familyName "Kammerer" ;
+	s:givenName "E." ;
+	.
+
+_:person_sinha
+	a s:Person ;
+	s:familyName "Sinha" ;
+	s:givenName "Bhabani P." ;
+	.
+
+_:person_hoens
+	a s:Person ;
+	s:familyName "Hoens" ;
+	s:givenName "G." ;
+	.
+
+_:person_hommel
+	a s:Person ;
+	s:familyName "Hommel" ;
+	s:givenName "Günter" ;
+	.
+
+_:person_jaeckel
+	a s:Person ;
+	s:familyName "Jäckel" ;
+	s:givenName "Joachim" ;
+	.
+
+_:person_kleine
+	a s:Person ;
+	s:familyName "Kleine" ;
+	s:givenName "Karl" ;
+	.
+
+_:person_wermelskirchen
+	a s:Person ;
+	s:familyName "Wermelskirchen" ;
+	s:givenName "Clemens" ;
+	.
+
+_:person_goergen
+	a s:Person ;
+	s:givenName "Klaus" ;
+	s:familyName "Görgen" ;
+	.
