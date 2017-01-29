@@ -7,7 +7,7 @@ were deliberatly designed this way. EUMEL’s key features are:
 
 Hardware independence
     The OS has *two* hardware abstraction layers, significantly improving its
-    portability. The first one, Software/Hardware (SHard), provides functions
+    portability_. The first one, Software/Hardware (SHard), provides functions
     for a concrete machine, such as the Olivetti M20, Amiga ST or IBM PC
     AT/XT. EUMEL0 (Urlader), the second layer, implements a virtual machine on
     top of a specific processor architecture like Z80 or x86. Programs are
@@ -33,4 +33,6 @@ Time-sharing, multi-user and network-transparency
 One-language concept
     *ELAN* is system implementation language, programming language, shell
     language and documentation language.
+
+.. _portability: hardware_
 
