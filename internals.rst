@@ -1,14 +1,18 @@
 Internals
 ---------
 
-For the disk archive format see `<tools/extractArchive.py>`_ and EUMEL packet *basic archive* [source86]_.
-
-Documentation for the dataspace FILE can be found in `<tools/convertFileDs.py>`_ and EUMEL packet *file handling*.
+There are several tools_ for dealing with EUMEL data structures.
+``extractArchive.py`` reads archive disks, which are similar to tarballs, and
+extracts their contents. The packet *basic archive* has more information on
+that [source86]_. Documentation for the dataspace FILE can be found in the
+packet *file handling*. ``convertFileDs.py`` converts this dataspace into a
+plain text file.
 
 Additionally extracted source code from `floppy disk images`_ can be found here__.
 
 .. _floppy disk images: artifacts_
-__ src/
+.. _tools: https://github.com/PromyLOPh/eumel-tools
+__ https://github.com/PromyLOPh/eumel-src
 
 Bootstrapping
 ^^^^^^^^^^^^^
