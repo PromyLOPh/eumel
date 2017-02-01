@@ -31,6 +31,7 @@ systems as of 2016.
 .. include:: internals.rst
 .. include:: artifacts.rst
 .. include:: trivia.rst
+.. include:: about.rst
 
 Appendix
 --------
