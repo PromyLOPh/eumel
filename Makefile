@@ -1,13 +1,14 @@
-BUILDDIR=_build
-STATICFILES=01_readme_INSTALL.txt releases.svg eumel_logo.svg
+BUILDDIR:=_build
+STATICFILES:=01_readme_INSTALL.txt releases.svg eumel_logo.svg
+TTLFILES:=$(shell find ttl -name '*.ttl' | sort)
 
 all: $(BUILDDIR)/index.html links
 
 $(BUILDDIR):
 	mkdir -p $(BUILDDIR)
 
-$(BUILDDIR)/index.ttl: $(glob ttl/*.ttl) | $(BUILDDIR)
-	cat ttl/* > $@
+$(BUILDDIR)/index.ttl: $(TTLFILES) | $(BUILDDIR)
+	cat $(TTLFILES) > $@
 
 $(BUILDDIR)/bib.rst: $(BUILDDIR)/index.ttl tools/formatRefs.py | $(BUILDDIR)
 	cat $(BUILDDIR)/index.ttl | ./tools/formatRefs.py https://6xq.net/eumel/ | sort -n > $(BUILDDIR)/bib.rst

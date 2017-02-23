@@ -248,3 +248,10 @@ _:person_goergen
 	s:givenName "Klaus" ;
 	s:familyName "Görgen" ;
 	.
+
+_:person_berlage
+	a s:Person ;
+	s:givenName "Thomas" ;
+	s:familyName "Berlage" ;
+	.
+

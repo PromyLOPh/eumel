@@ -244,6 +244,27 @@
 	s:publisher _:org_gmd ;
 	.
 
+<#eudas85>
+	a s:Book ;
+	s:datePublished "1985-09" ;
+	s:name "EUDAS Anwender-Datenverwaltungssystem Version 3: Benutzerhandbuch" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eudas ;
+	s:author _:person_berlage ;
+	s:url <library/eudas-3-benutzerhandbuch.djvu> ;
+	.
+
+<#eudas86>
+	a s:Book ;
+	s:datePublished "1986-09" ;
+	s:name "EUDAS Anwender-Datenverwaltungssystem Version 4: Referenzhandbuch" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eudas ;
+	s:author _:person_berlage ;
+	s:url <library/eudas-4-referenzhandbuch.djvu> ;
+	.
+
+
 ### Anwerdersoftwareklasse 2 (manuals) ###
 
 _:thing_anwendersoftware
