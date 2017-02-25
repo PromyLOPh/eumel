@@ -5,6 +5,10 @@ Trivia
 
    EUMEL’s logo
 
+.. figure:: eumel_logo_2.svg
+
+   Second EUMEL logo
+
 - The German word *Eumel* describes__ a likeable fool (wally).
 - Wikipedia refers to EUMEL as *L2* (for *Liedtke 2*). However this name is
   not mentioned in any documentation or source code. It was added to the

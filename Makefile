@@ -1,5 +1,5 @@
 BUILDDIR:=_build
-STATICFILES:=01_readme_INSTALL.txt releases.svg eumel_logo.svg
+STATICFILES:=01_readme_INSTALL.txt releases.svg eumel_logo.svg eumel_logo_2.svg
 TTLFILES:=$(shell find ttl -name '*.ttl' | sort)
 
 all: $(BUILDDIR)/index.html links
@@ -26,7 +26,7 @@ $(BUILDDIR)/index.html: $(BUILDDIR)/software.html $(BUILDDIR)/bib.rst history.rs
 links: $(STATICFILES) | $(BUILDDIR)
 	ln -f $(STATICFILES) $(BUILDDIR)
 
-.PHONY: clean
+.PHONY: clean links
 
 clean:
 	$(RM) -r $(BUILDDIR)
