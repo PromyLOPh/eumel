@@ -62,7 +62,11 @@ sources.
 
     0.7,May 1979, .. \_:person_dewitz
     1.5, ≤1981
+    1.5.5, ≤1981-07, [eumelspiegel81a]_
+    1.5.6, 1981-10-12, [eumelspiegel81b]_
     1.6, ≤fall 1982, [alwr82]_
+    1.6.3,1982-05-07, [eumelspiegel82b]_
+    1.6.5,1982-10-10, [eumelspiegel82c]_
     1.7, ≤mid 1984, [korrekturen84]_
     1.7.5, end of 1985, [gmdbericht85]_
     1.8.0, October 1986
@@ -84,11 +88,14 @@ attendants was held at GMD Birlinghofen  [gmdspiegel88c]_
 Workshops
 ^^^^^^^^^
 
-Between 1985 and 1988 a yearly workshop was held at different locations:
+Yearly workshop were held at different locations, first at Bielefeld University
+and later at GMD Birlinghofen.
 
 .. csv-table::
     :header: Date,Location,Attendance,
 
+    1981-05-15,,,[eumelspiegel81a]_
+    1982-05,Bielefeld University,,[eumelspiegel82b]_
     1985-09-21,GMD Birlinghofen,300,[gmdspiegel85c]_
     1986-10-04,GMD Birlinghofen,350,[gmdbericht86b]_
     1987-09-19/21,GMD Sankt Augustin,200/100,[gmdspiegel87b]_
