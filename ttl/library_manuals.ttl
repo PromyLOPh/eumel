@@ -10,6 +10,7 @@
 	s:author _:person_ley , _:person_metterhausen ;
 	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Benutzerhandbuch_Programmierung_01-07-87.pdf> ;
 	s:url <library/benutzerhandbuch-programmierung-1987.pdf> ;
+	s:url <library/benutzerhandbuch-programmierung-1987.djvu> ;
 	s:about _:thing_eumel ;
 	.
 
@@ -21,6 +22,7 @@
 	s:author _:person_fey-mcclean, _:person_kloeckner, _:person_metterhausen ;
 	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Benutzerhandbuch_Textverarbeitung_19-12-86.pdf> ;
 	s:url <library/benutzerhandbuch-textverarbeitung-1986.pdf> ;
+	s:url <library/benutzerhandbuch-textverarbeitung-1986.djvu> ;
 	s:about _:thing_eumel ;
 	.
 
@@ -50,13 +52,22 @@
 <#source86>
 	a s:Book ;
 	s:datePublished "1986-11-10" ;
-	s:name "Quellcode der insertierten ELAN-Pakete" ;
-	s:alternateName "source86" ;
+	s:name "Quellcode der insertierten ELAN-Pakete, Single-User" ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:publisher _:org_gmd ;
 	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/Quellcode-V1.8.0-SingleUser-10-11-86.pdf> ;
 	s:url <library/source86.pdf> ;
+	.
+
+<#source86b>
+	a s:Book ;
+	s:datePublished "1986-11-10" ;
+	s:name "Quellcode der insertierten ELAN-Pakete, Multi-User" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd ;
+	s:url <library/quelltext-1.8M.djvu> ;
 	.
 
 <#remis84>

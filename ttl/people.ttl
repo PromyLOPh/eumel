@@ -255,3 +255,14 @@ _:person_berlage
 	s:familyName "Berlage" ;
 	.
 
+_:person_drewes
+	a s:Person ;
+	s:givenName "Harald" ;
+	s:familyName "Drewes" ;
+	.
+
+_:person_bussmann
+	a s:Person ;
+	s:givenName "Hans" ;
+	s:familyName "Bussmann" ;
+	.

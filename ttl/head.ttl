@@ -29,7 +29,7 @@
 		<#korrekturen84>,
 		<#dasys86>, <#dynamo86>, <#hamster84>, <#lisp86>, <#moco84>,
 		<#msdosdat86>,
-		<#netz88>, <#source86>,
+		<#netz88>, <#source86>, <#source86b>,
 		<#remis84>, <#remis86>,
 		<#sys86>, <#sys84>, <#sys85>,
 		<#taschenbuch>,
@@ -58,6 +58,9 @@
 		<#hommel79>,
 		<#eumelinfos>, <#glossymap>, <#vertriebsinfos>,
 		<#ambros87a>, <#ambros87b>,
-		<#eudas85>, <#eudas86>
+		<#eudas85>, <#eudas86>,
+		<#elannewsletter81a>, <#elannewsletter81b>,
+		<#eumelspiegel81a>, <#eumelspiegel81b>,
+		<#eumelspiegel82a>, <#eumelspiegel82b>, <#eumelspiegel82c>
 		; .
 

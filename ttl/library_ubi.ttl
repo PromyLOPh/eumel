@@ -1,0 +1,77 @@
+_:thing_elannewsletter
+	a s:BookSeries ;
+	s:name "ELAN Newsletter" ;
+	s:publisher _:org_hrz ;
+	.
+
+<#elannewsletter81a>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_elannewsletter ;
+	s:url <library/elan-newsletter-11.djvu> ;
+	s:datePublished "1981-01-06" ;
+	s:issueNumber "11" ;
+	.
+
+<#elannewsletter81b>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_elannewsletter ;
+	s:url <library/elan-newsletter-12.djvu> ;
+	s:datePublished "1981-11-13" ;
+	s:issueNumber "12" ;
+	.
+
+_:thing_eumelspiegel
+	a s:BookSeries ;
+	s:name "EUMEL spiegel" ;
+	s:publisher _:org_hrz ;
+	.
+
+<#eumelspiegel81a>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelspiegel ;
+	s:url <library/eumel-spiegel-81-1.djvu> ;
+	s:datePublished "1981" ;
+	s:issueNumber "1/81" ;
+	s:author _:person_heinrichs, _:person_liedtke, _:person_nolting ;
+	s:editor _:person_nolting ;
+	.
+
+<#eumelspiegel81b>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelspiegel ;
+	s:url <library/eumel-spiegel-81-2.djvu> ;
+	s:datePublished "1981" ;
+	s:issueNumber "2/81" ;
+	s:author _:person_liedtke ;
+	s:editor _:person_nolting ;
+	.
+
+<#eumelspiegel82a>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelspiegel ;
+	s:url <library/eumel-spiegel-82-1.djvu> ;
+	s:datePublished "1982" ;
+	s:issueNumber "1/82" ;
+	s:author _:person_bussmann, _:person_drewes, _:person_indenbirken, _:person_kloeckner, _:person_liedtke ;
+	s:editor _:person_nolting ;
+	.
+
+<#eumelspiegel82b>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelspiegel ;
+	s:url <library/eumel-spiegel-82-2.djvu> ;
+	s:datePublished "1982" ;
+	s:issueNumber "2/82" ;
+	s:editor _:person_nolting ;
+	.
+
+<#eumelspiegel82c>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelspiegel ;
+	s:url <library/eumel-spiegel-82-4.djvu> ;
+	s:datePublished "1982" ;
+	s:issueNumber "4/82" ;
+	s:author _:person_liedtke ;
+	s:editor _:person_nolting ;
+	.
+

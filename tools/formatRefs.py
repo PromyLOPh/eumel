@@ -127,7 +127,7 @@ if __name__ == '__main__':
         assert len (t) == 1
         t = t[0]
 
-        # object _must_ have a name
+        # object should have a name
         what = first (g.objects (ref, s.name))
 
         # look for people who wrote/translated/edited it
@@ -162,7 +162,8 @@ if __name__ == '__main__':
         if who:
             ret += ' {}:'.format (who)
 
-        ret += ' *{}*.'.format (what)
+        if what:
+            ret += ' *{}*.'.format (what)
 
         if where:
             ret += ' {}.'.format (', '.join (where))
