@@ -276,6 +276,189 @@
 	.
 
 
+### Benutzerhandbuch 1.6 ###
+
+_:thing_usermanual16
+	a s:Book ;
+	s:name "EUMEL-Benutzerhandbuch Version 1.6" ;
+	s:author _:person_heinrichs, _:person_heyderhoff, _:person_liedtke, _:person_hahn ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	.
+
+<#benutzerhandbuch16-01>
+	a s:PublicationVolume ;
+	s:name "Einführung in das EUMEL-System" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "1" ;
+	s:numberOfPages "23" ;
+	s:url <library/benutzerhandbuch-1.6_01.djvu> ;
+	.
+
+<#benutzerhandbuch16-04>
+	a s:PublicationVolume ;
+	s:name "Der EUMEL-Editor" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "4" ;
+	s:numberOfPages "22" ;
+	s:url <library/benutzerhandbuch-1.6_04.djvu> ;
+	.
+
+<#benutzerhandbuch16-06>
+	a s:PublicationVolume ;
+	s:name "Allgemeine Dateiverwaltung" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "6" ;
+	s:numberOfPages "17" ;
+	s:url <library/benutzerhandbuch-1.6_06.djvu> ;
+	.
+
+<#benutzerhandbuch16-07>
+	a s:PublicationVolume ;
+	s:name "Der Datentyp FILE und seine Operationen" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "7" ;
+	s:numberOfPages "12" ;
+	s:url <library/benutzerhandbuch-1.6_07.djvu> ;
+	.
+
+<#benutzerhandbuch16-08>
+	a s:PublicationVolume ;
+	s:name "Archivverwaltung" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "8" ;
+	s:numberOfPages "6" ;
+	s:url <library/benutzerhandbuch-1.6_08.djvu> ;
+	.
+
+<#benutzerhandbuch16-09>
+	a s:PublicationVolume ;
+	s:name "Textbe- und -verarbeitung" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "9" ;
+	s:numberOfPages "22" ;
+	s:url <library/benutzerhandbuch-1.6_09.djvu> ;
+	.
+
+<#benutzerhandbuch16-11>
+	a s:PublicationVolume ;
+	s:name "Drucker im EUMEL-System" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "11" ;
+	s:numberOfPages "4" ;
+	s:url <library/benutzerhandbuch-1.6_11.djvu> ;
+	.
+
+<#benutzerhandbuch16-12>
+	a s:PublicationVolume ;
+	s:name "Der SPOOLER" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "12" ;
+	s:numberOfPages "6" ;
+	s:url <library/benutzerhandbuch-1.6_12.djvu> ;
+	.
+
+<#benutzerhandbuch16-13>
+	a s:PublicationVolume ;
+	s:name "Fehlerbehandlung im EUMEL-System" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "13" ;
+	s:numberOfPages "7" ;
+	s:url <library/benutzerhandbuch-1.6_13.djvu> ;
+	.
+
+<#benutzerhandbuch16-14>
+	a s:PublicationVolume ;
+	s:name "Standardpakete im EUMEL-System" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "14" ;
+	s:numberOfPages "27" ;
+	s:url <library/benutzerhandbuch-1.6_14.djvu> ;
+	.
+
+<#benutzerhandbuch16-15>
+	a s:PublicationVolume ;
+	s:name "Weitere Standard-Datentypen" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "15" ;
+	s:numberOfPages "17" ;
+	s:url <library/benutzerhandbuch-1.6_15.djvu> ;
+	.
+
+<#benutzerhandbuch16-16>
+	a s:PublicationVolume ;
+	s:name "Spezielle Datentypen" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "16" ;
+	s:numberOfPages "9" ;
+	s:url <library/benutzerhandbuch-1.6_16.djvu> ;
+	.
+
+# these are missing, not sure they even existed, but toc lists them
+<#benutzerhandbuch16-02>
+	a s:PublicationVolume ;
+	s:name "Der Supervisor und das Task-System" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "2" ;
+	.
+
+<#benutzerhandbuch16-03>
+	a s:PublicationVolume ;
+	s:name "Der EUMEL-Monitor" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "3" ;
+	.
+
+<#benutzerhandbuch16-05>
+	a s:PublicationVolume ;
+	s:name "Der ELAN-Compiler im EUMEL-System" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "5" ;
+	.
+
+<#benutzerhandbuch16-10>
+	a s:PublicationVolume ;
+	s:name "Text-Strukturierungssystem EUDAS" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "10" ;
+	.
+
+<#benutzerhandbuch16-17>
+	a s:PublicationVolume ;
+	s:name "Graphik im EUMEL-System" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "17" ;
+	.
+
+<#benutzerhandbuch16-18>
+	a s:PublicationVolume ;
+	s:name "Der Graphik-Editor" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "18" ;
+	.
+
+<#benutzerhandbuch16-19>
+	a s:PublicationVolume ;
+	s:name "Der Scanner" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "19" ;
+	.
+
+<#benutzerhandbuch16-20>
+	a s:PublicationVolume ;
+	s:name "Der OPERATOR" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "20" ;
+	.
+
+<#benutzerhandbuch16-21>
+	a s:PublicationVolume ;
+	s:name "Job-Accounting" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "21" ;
+	.
+
 ### Anwerdersoftwareklasse 2 (manuals) ###
 
 _:thing_anwendersoftware
@@ -305,11 +488,24 @@ _:thing_anwendersoftware
 	s:author _:person_craemer , _:person_keil ;
 	s:publisher _:org_gmd ;
 	s:datePublished "1986-08-08" ;
-	s:numberOfPages "13" ;
-	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273645> ;
-	s:sameAs <http://www.worldcat.org/oclc/830714240> ;
+	s:numberOfPages "20" ;
 	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/DYNAMO_Compiler_08-08-86.pdf> ;
 	s:url <library/dynamo-compiler-1986.pdf> ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#dynamo84>
+	a s:Book ;
+	s:name "DYNAMO-Compiler" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_craemer , _:person_keil ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1984-02" ;
+	s:numberOfPages "13" ;
+	s:url <library/dynamo-compiler-1984-02.djvu> ;
+	s:sameAs <http://www.worldcat.org/oclc/830714240> ;
+	s:sameAs <http://gso.gbv.de/DB=2.1/PPNSET?PPN=031273645> ;
 	s:about _:thing_eumel ;
 	s:inLanguage "de-DE" ;
 	.
@@ -327,6 +523,7 @@ _:thing_anwendersoftware
 	s:sameAs <http://www.worldcat.org/oclc/830714248> ;
 	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/HAMSTER_Modell.pdf> ;
 	s:url <library/hamster-modell-1984.pdf> ;
+	s:url <library/hamster-modell-1984.djvu> ;
 	s:inLanguage "de-DE" ;
 	.
 
@@ -372,6 +569,18 @@ _:thing_anwendersoftware
 	s:numberOfPages "12" ;
 	s:url <http://bitsavers.informatik.uni-stuttgart.de/pdf/gmd/eumel/MS-DOS-DAT_08-08-86.pdf> ;
 	s:url <library/ms-dos-dat-1986.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#msdosdat87>
+	a s:Book ;
+	s:name "MS-DOS-DAT: Lesen und Schreiben von MS-DOS Dateien" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_klapper ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1987-09-10" ;
+	s:numberOfPages "13" ;
+	s:url <library/ms-dos-dat-1987.djvu> ;
 	s:inLanguage "de-DE" ;
 	.
 

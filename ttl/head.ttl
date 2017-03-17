@@ -27,8 +27,8 @@
 		<#programmierung87>,
 		<#textverarbeitung86>,
 		<#korrekturen84>,
-		<#dasys86>, <#dynamo86>, <#hamster84>, <#lisp86>, <#moco84>,
-		<#msdosdat86>,
+		<#dasys86>, <#dynamo84>, <#dynamo86>, <#hamster84>, <#lisp86>, <#moco84>,
+		<#msdosdat86>, <#msdosdat87>,
 		<#netz88>, <#source86>, <#source86b>,
 		<#remis84>, <#remis86>,
 		<#sys86>, <#sys84>, <#sys85>,
@@ -61,6 +61,7 @@
 		<#eudas85>, <#eudas86>,
 		<#elannewsletter81a>, <#elannewsletter81b>,
 		<#eumelspiegel81a>, <#eumelspiegel81b>,
-		<#eumelspiegel82a>, <#eumelspiegel82b>, <#eumelspiegel82c>
+		<#eumelspiegel82a>, <#eumelspiegel82b>, <#eumelspiegel82c>,
+		<#benutzerhandbuch16-01>, <#benutzerhandbuch16-02>, <#benutzerhandbuch16-03>, <#benutzerhandbuch16-04>, <#benutzerhandbuch16-05>, <#benutzerhandbuch16-06>, <#benutzerhandbuch16-07>, <#benutzerhandbuch16-08>, <#benutzerhandbuch16-09>, <#benutzerhandbuch16-10>, <#benutzerhandbuch16-11>, <#benutzerhandbuch16-12>, <#benutzerhandbuch16-13>, <#benutzerhandbuch16-14>, <#benutzerhandbuch16-15>, <#benutzerhandbuch16-16>, <#benutzerhandbuch16-17>, <#benutzerhandbuch16-18>, <#benutzerhandbuch16-19>, <#benutzerhandbuch16-20>, <#benutzerhandbuch16-21>
 		; .
 
