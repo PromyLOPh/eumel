@@ -38,6 +38,12 @@ The following images contain application software for EUMEL:
     Improved graphics subsystem, version 2.2 from November 1987.
 `EUMEL-DOS conversion tools`_
     Converter from EUMEL text to WordPerfect or DOS textfiles and EUDAS to AskSam
+`schulis Grundpaket Schulverwaltung 2.2.1`_
+    schulis base package, version 2.2.1
+`schulis Mathematiksystem 1.0`_
+    schulis math package, version 1.0
+`schulis Simulationssystem 3.0`_
+    schulis simulation package for biology, chemistry and physics. Version 3.0
 
 Development
 ^^^^^^^^^^^
@@ -80,4 +86,7 @@ Source:
 .. _Debug tools: disks/debug.zip
 .. _EUMEL-DOS conversion tools: disks/conversion.zip
 .. _PIC400: disks/pic400.zip
+.. _schulis Grundpaket Schulverwaltung 2.2.1: disks/schulis-grundpaket-schulverwaltung-2.2.1.zip
+.. _schulis Mathematiksystem 1.0: disks/schulis-mathematiksystem-1.0.zip
+.. _schulis Simulationssystem 3.0: disks/schulis-simulationssystem-3.0.zip
 
