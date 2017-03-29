@@ -124,7 +124,7 @@ _:person_keil
 _:person_durchholz
 	a s:Person ;
 	s:familyName "Durchholz" ;
-	s:givenName "J." .
+	s:givenName "Joachim" .
 
 _:person_klapper
 	a s:Person ;

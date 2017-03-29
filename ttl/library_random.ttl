@@ -817,11 +817,7 @@ _:thing_cp
 	s:pageEnd "96" ;
 	s:name "Unix und seine Konkurrenten" ;
 	s:alternativeHeadline "Was bringen Unix, Eumel, Thos?" ;
-	s:author [
-		a s:Person ;
-		s:givenName "Joachim" ;
-		s:familyName "Durchholz" ;
-		] ;
+	s:author _:person_durchholz ;
 	s:url <library/cp-1986-10-29-i23-p88.djvu> ;
 	.
 
