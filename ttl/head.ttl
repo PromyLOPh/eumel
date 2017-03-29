@@ -36,7 +36,7 @@
 		<#wordprocessing87>,
 		<#schuetz86>, <#iur86>,
 		<#ende87>,
-		<#chip84>, <#chip87>, <#chip88>, <#chip89>,
+		<#chip84>, <#chip87a>, <#chip87b>, <#chip88>, <#chip89>,
 		<#cr86>, <#cr87a>, <#cr87b>,
 		<#generalanzeiger85>, <#generalanzeiger86>, <#handelsblatt91>, <#jurpc94>,
 		<#koch80>, <#gmdstudien80a>, <#gmdstudien80b>, <#gmdstudien80c>,
@@ -62,6 +62,8 @@
 		<#elannewsletter81a>, <#elannewsletter81b>,
 		<#eumelspiegel81a>, <#eumelspiegel81b>,
 		<#eumelspiegel82a>, <#eumelspiegel82b>, <#eumelspiegel82c>,
-		<#benutzerhandbuch16-01>, <#benutzerhandbuch16-02>, <#benutzerhandbuch16-03>, <#benutzerhandbuch16-04>, <#benutzerhandbuch16-05>, <#benutzerhandbuch16-06>, <#benutzerhandbuch16-07>, <#benutzerhandbuch16-08>, <#benutzerhandbuch16-09>, <#benutzerhandbuch16-10>, <#benutzerhandbuch16-11>, <#benutzerhandbuch16-12>, <#benutzerhandbuch16-13>, <#benutzerhandbuch16-14>, <#benutzerhandbuch16-15>, <#benutzerhandbuch16-16>, <#benutzerhandbuch16-17>, <#benutzerhandbuch16-18>, <#benutzerhandbuch16-19>, <#benutzerhandbuch16-20>, <#benutzerhandbuch16-21>
+		<#benutzerhandbuch16-01>, <#benutzerhandbuch16-02>, <#benutzerhandbuch16-03>, <#benutzerhandbuch16-04>, <#benutzerhandbuch16-05>, <#benutzerhandbuch16-06>, <#benutzerhandbuch16-07>, <#benutzerhandbuch16-08>, <#benutzerhandbuch16-09>, <#benutzerhandbuch16-10>, <#benutzerhandbuch16-11>, <#benutzerhandbuch16-12>, <#benutzerhandbuch16-13>, <#benutzerhandbuch16-14>, <#benutzerhandbuch16-15>, <#benutzerhandbuch16-16>, <#benutzerhandbuch16-17>, <#benutzerhandbuch16-18>, <#benutzerhandbuch16-19>, <#benutzerhandbuch16-20>, <#benutzerhandbuch16-21>,
+		<#entwurfsprinzipien>, <#zukunftsweisendesbetriebssystem>, <#vertriebspartner86>,
+		<#mc87>, <#68oooer88>, <#cp86>, <#ct87>
 		; .
 

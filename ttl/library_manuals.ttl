@@ -174,21 +174,17 @@
 	.
 
 <#kernel83>
-	a s:Book ;
-	s:author [ a s:Person ;
-			s:familyName "Beyer" ],
-		_:person_heinrichs ,
-		_:person_kloeckner ,
-		_:person_liedtke,
-		[ a s:Person ;
-			s:familyName "Szalay" ],
-		[ a s:Person ;
-			s:familyName "Wegener" ] ;
-	s:datePublished "1983" ;
-	s:name "EUMEL-Systemkern, Entwurf zur Systemdokumentation" ;
-	s:inLanguage "de-DE" ;
-	s:about _:thing_eumel ;
+	a s:CreativeWork ;
+	s:name "EUMEL-Systemkern – Entwurf zur Systemdokumentation" ;
+	s:author _:person_beyer, _:person_heinrichs, _:person_kloeckner,
+		_:person_liedtke, _:person_szalay, _:person_wegner ;
 	s:publisher _:org_gmd ;
+	s:dateCreated "1982-08" ;
+	s:datePublished "1983" ;
+	s:numberOfPages "150" ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	s:url <library/entwurf-systemdokumentation-1982.djvu> ;
 	.
 
 <#source84a>

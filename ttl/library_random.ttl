@@ -142,11 +142,7 @@ _:thing_rechenanlagen
 		a s:Person ;
 		s:givenName "Dankwart" ;
 		s:familyName "Vogel" ;
-		] , [
-		a s:Person ;
-		s:givenName "Klaus" ;
-		s:familyName "Bovermann" ;
-		] , [
+		] , _:person_bovermann , [
 		a s:Person ;
 		s:givenName "Walter" ;
 		s:familyName "Deuber" ;
@@ -711,6 +707,14 @@ _:thing_produktinfos
 	s:inLanguage "de-DE" ;
 	.
 
+<#vertriebspartner86>
+	a s:CreativeWork ;
+	s:name "Derzeitige Vertriebspartner für das Betriebssystem EUMEL" ;
+	s:dateCreated "1986-10" ;
+	s:url <library/vertriebspartner-1986-10.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
 <#ambros87a>
 	a s:Book ;
 	s:name "Der Hamster – Programmieren lernen in einer Modellwelt" ;
@@ -733,6 +737,117 @@ _:thing_produktinfos
 	s:isbn "3-476-70187-5" ;
 	s:numberOfPages "165" ;
 	s:url <library/der-hamster-lehrerband.djvu> ;
+	.
+
+<#entwurfsprinzipien>
+	a s:Book ;
+	s:name "EUMEL Entwurfsprinzipien" ;
+	s:inLanguage "de-DE" ;
+	s:author _:person_beyer ;
+	s:url <library/entwurfsprinzipien.djvu> ;
+	.
+
+<#zukunftsweisendesbetriebssystem>
+	a s:Book ;
+	s:name "EUMEL – Ein zukunftsweisendes Betriebssystem" ;
+	s:inLanguage "de-DE" ;
+	s:author _:person_beyer ;
+	# unknown date
+	s:url <library/zukunftsweisendes-betriebssystem.djvu> ;
+	.
+
+_:thing_mc
+	a s:Periodical ;
+	s:name "mc" ;
+	.
+
+<#mc87>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1987-09" ;
+		s:issueNumber "9" ;
+		s:isPartOf _:thing_mc ;
+		] ;
+	s:pageStart "67" ;
+	s:pageEnd "69" ;
+	s:name "Das Betriebssystem Eumel-Elan" ;
+	s:author _:person_bovermann ;
+	s:url <library/mc-1987-09-p67.djvu> ;
+	.
+
+_:thing_68oooer
+	a s:Periodical ;
+	s:name "68oooer" ;
+	.
+
+<#68oooer88>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1988-01" ;
+		s:issueNumber "1" ;
+		s:isPartOf _:thing_68oooer ;
+		] ;
+	s:pageStart "52" ;
+	s:pageEnd "54" ;
+	s:name "EUMEL – das andere Betriebssystem" ;
+	s:author [
+		a s:Person ;
+		s:givenName "Michael" ;
+		s:familyName "Spehr" ;
+		] ;
+	s:url <library/68oooer-1988-01-p52.djvu> ;
+	.
+
+_:thing_cp
+	a s:Periodical ;
+	s:name "computer persönlich" ;
+	.
+
+<#cp86>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1986-10-29" ;
+		s:issueNumber "23" ;
+		s:isPartOf _:thing_cp ;
+		] ;
+	s:pageStart "88" ;
+	s:pageEnd "96" ;
+	s:name "Unix und seine Konkurrenten" ;
+	s:alternativeHeadline "Was bringen Unix, Eumel, Thos?" ;
+	s:author [
+		a s:Person ;
+		s:givenName "Joachim" ;
+		s:familyName "Durchholz" ;
+		] ;
+	s:url <library/cp-1986-10-29-i23-p88.djvu> ;
+	.
+
+_:thing_ct
+	a s:Periodical ;
+	s:name "c’t" ;
+	.
+
+<#ct87>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1987" ;
+		s:issueNumber "8" ;
+		s:isPartOf _:thing_ct ;
+		] ;
+	s:pageStart "54" ;
+	s:pageEnd "55" ;
+	s:name "Mit Elan dabei" ;
+	s:alternativeHeadline "Eine EUMEL-Portierung für den Atari ST" ;
+	s:author [
+		a s:Person ;
+		s:givenName "Klaus" ;
+		s:familyName "Rindtorff" ;
+		] ;
+	s:url <library/ct-1987-08-p54.djvu> ;
 	.
 
 ### EUMEL-Praxis ###

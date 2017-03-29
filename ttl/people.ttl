@@ -266,3 +266,28 @@ _:person_bussmann
 	s:givenName "Hans" ;
 	s:familyName "Bussmann" ;
 	.
+
+_:person_beyer
+	a s:Person ;
+	s:givenName "Uwe" ;
+	s:familyName "Beyer" ;
+	.
+
+_:person_szalay
+	a s:Person ;
+	s:givenName "Gyula" ;
+	s:familyName "Szalay" ;
+	.
+
+_:person_wegner
+	a s:Person ;
+	s:givenName "Eberhard" ;
+	s:familyName "Wegner" ;
+	.
+
+_:person_bovermann
+	a s:Person ;
+	s:givenName "Klaus" ;
+	s:familyName "Bovermann" ;
+	.
+

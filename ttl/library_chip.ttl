@@ -22,7 +22,7 @@ _:chip
 	s:alternativeHeadline "Die wichtigsten Betriebssysteme für Mikrocomputer" ;
 	.
 
-<#chip87>
+<#chip87b>
 	a s:ScholarlyArticle ;
 	s:isPartOf [
 		a s:PublicationIssue ;
@@ -34,6 +34,21 @@ _:chip
 	s:pageEnd "128" ;
 	s:name "Drei Betriebssysteme für den Atari ST" ;
 	s:url <library/chip_1987_12_127.djvu> ;
+	.
+
+<#chip87a>
+	a s:ScholarlyArticle ;
+	s:isPartOf [
+		a s:PublicationIssue ;
+		s:datePublished "1987-03" ;
+		s:issueNumber "3" ;
+		s:isPartOf _:chip ;
+		] ;
+	s:pageStart "276" ;
+	s:pageEnd "277" ;
+	s:name "Gemeinsamkeit macht stark" ;
+	s:author [ a s:Person ; s:familyName "Kröger" ; s:givenName "Siegfried" ] ;
+	s:url <library/chip-1987-03-p276.djvu> ;
 	.
 
 <#chip88>
