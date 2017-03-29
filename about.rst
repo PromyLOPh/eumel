@@ -16,8 +16,11 @@ Acknowledgements
 
 I’d like to thank the following people for supporting this work:
 Gerd Aschemann,
+Ulrich Bartling,
 Frank Bellosa,
+Uwe Beyer,
 Hilmar von dem Bussche,
+Adolf Breiling,
 Detlef Dewitz,
 Martin Flasskamp,
 Denis Giffeler,
@@ -25,6 +28,8 @@ Rainer Hahn,
 Dietmar Heinrichs,
 Peter Heyderhoff,
 Robert Keil,
+Frank Klapper,
+Konrad Klöckner,
 Peter Kraege,
 Albert Noltemeier,
 Lothar Oppor,
@@ -32,6 +37,7 @@ Ulrike Petersen,
 Axel Puhlmann,
 Rudolf Ruland,
 Bhabani P. Sinha,
+Karl Wilhelm Starke,
 Stefan Stein,
 Michael Thies.
 
