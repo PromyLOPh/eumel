@@ -64,6 +64,7 @@
 		<#eumelspiegel82a>, <#eumelspiegel82b>, <#eumelspiegel82c>,
 		<#benutzerhandbuch16-01>, <#benutzerhandbuch16-02>, <#benutzerhandbuch16-03>, <#benutzerhandbuch16-04>, <#benutzerhandbuch16-05>, <#benutzerhandbuch16-06>, <#benutzerhandbuch16-07>, <#benutzerhandbuch16-08>, <#benutzerhandbuch16-09>, <#benutzerhandbuch16-10>, <#benutzerhandbuch16-11>, <#benutzerhandbuch16-12>, <#benutzerhandbuch16-13>, <#benutzerhandbuch16-14>, <#benutzerhandbuch16-15>, <#benutzerhandbuch16-16>, <#benutzerhandbuch16-17>, <#benutzerhandbuch16-18>, <#benutzerhandbuch16-19>, <#benutzerhandbuch16-20>, <#benutzerhandbuch16-21>,
 		<#entwurfsprinzipien>, <#zukunftsweisendesbetriebssystem>, <#vertriebspartner86>,
-		<#mc87>, <#68oooer88>, <#cp86>, <#ct87>
+		<#mc87>, <#68oooer88>, <#cp86>, <#ct87>,
+		<#simsel-handbuch>, <#simsel-bio1>, <#simsel-bio2>, <#simsel-chemie1>, <#simsel-chemie2>, <#simsel-physik1>, <#simsel-physik2>, <#simsel-physik3>, <#simsel-physik4>, <#simsel-physik5>, <#simsel-chemiephysik>, <#schulis-mathe-handbuch>, <#schulis-mathe-begleitheft>
 		; .
 

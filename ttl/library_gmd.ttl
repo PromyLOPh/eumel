@@ -575,3 +575,180 @@ _:thing_gmdstudien_52
 	s:url <library/gmd_studien_52_193.djvu> ;
 	.
 
+#############################
+### schulis documentation ###
+#############################
+
+_:thing_simseldoc
+	a s:BookSeries ;
+	s:name "schulis-Simulationssystem" ;
+	s:publisher _:org_gmd ;
+	.
+
+<#simsel-handbuch>
+	a s:Book ;
+	s:numberOfPages "67";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL" ;
+	s:url <library/simsel-handbuch.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-bio1>
+	a s:Book ;
+	s:numberOfPages "81";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_schmidt, _:person_gaschick ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Biologie 1, Populationsökologie" ;
+	s:url <library/simsel-modellheft-biologie-1.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-bio2>
+	a s:Book ;
+	s:numberOfPages "41";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Biologie 2, Enzymkinetik" ;
+	s:url <library/simsel-modellheft-biologie-2.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-chemie1>
+	a s:Book ;
+	s:numberOfPages "53";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_asselborn , _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Chemie 1, Reaktionskinetik I" ;
+	s:url <library/simsel-modellheft-chemie-1.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-chemie2>
+	a s:Book ;
+	s:numberOfPages "73";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_asselborn , _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Chemie 2, Reaktionskinetik II" ;
+	s:url <library/simsel-modellheft-chemie-2.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-physik1>
+	a s:Book ;
+	s:numberOfPages "47";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_becker , _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Physik 1, Bewegungen im Gravitationsfeld" ;
+	s:url <library/simsel-modellheft-physik-1.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-physik2>
+	a s:Book ;
+	s:numberOfPages "41";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_korsch , _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Physik 2, Mechanische Schwingungen" ;
+	s:url <library/simsel-modellheft-physik-2.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-physik3>
+	a s:Book ;
+	s:numberOfPages "49";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_becker , _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Physik 3, Ladungen in elektrischen und magnetischen Feldern" ;
+	s:url <library/simsel-modellheft-physik-3.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-physik4>
+	a s:Book ;
+	s:numberOfPages "67";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_korsch , _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Physik 4, RLC-Schaltungen" ;
+	s:url <library/simsel-modellheft-physik-4.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-physik5>
+	a s:Book ;
+	s:numberOfPages "43";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_korsch , _:person_schmidt ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Physik 5, Relativistische Bewegungen" ;
+	s:url <library/simsel-modellheft-physik-5.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#simsel-chemiephysik>
+	a s:Book ;
+	s:numberOfPages "47";
+	#s:datePublished "" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_schmidt , _:person_becker ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "SIMSEL: Modellheft Chemie/Physik, Radioaktiver Zerfall" ;
+	s:url <library/simsel-modellheft-chemie-physik-radioaktiver-zerfall.djvu> ;
+	s:isPartOf _:thing_simseldoc ;
+	.
+
+<#schulis-mathe-handbuch>
+	a s:Book ;
+	s:numberOfPages "97";
+	s:datePublished "1990" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_abshoff , _:person_juenger, _:person_kraft;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "schulis-Mathematiksystem: Handbuch" ;
+	s:url <library/schulis-mathematiksystem-handbuch-1990.djvu> ;
+	.
+
+<#schulis-mathe-begleitheft>
+	a s:Book ;
+	s:numberOfPages "72";
+	s:datePublished "1990" ;
+	s:publisher _:org_gmd ;
+	s:author _:person_abshoff ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_schulis ;
+	s:name "schulis-Mathematiksystem: Didaktisches Begleitheft" ;
+	s:url <library/schulis-mathematiksystem-begleitheft-1990.djvu> ;
+	.
+

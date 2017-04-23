@@ -291,3 +291,51 @@ _:person_bovermann
 	s:familyName "Bovermann" ;
 	.
 
+_:person_schmidt
+	a s:Person ;
+	s:givenName "Brigitte" ;
+	s:familyName "Schmidt" ;
+	.
+
+_:person_gaschick
+	a s:Person ;
+	s:givenName "Peter" ;
+	s:familyName "Gaschick" ;
+	.
+
+_:person_abshoff
+	a s:Person ;
+	s:givenName "Annemarie" ;
+	s:familyName "Abshoff" ;
+	.
+
+_:person_juenger
+	a s:Person ;
+	s:givenName "Georg" ;
+	s:familyName "Jünger" ;
+	.
+
+_:person_kraft
+	a s:Person ;
+	s:givenName "Reiner" ;
+	s:familyName "Kraft" ;
+	.
+
+_:person_asselborn
+	a s:Person ;
+	s:givenName "Wolfgang" ;
+	s:familyName "Asselborn" ;
+	.
+
+_:person_becker
+	a s:Person ;
+	s:givenName "Jürgen" ;
+	s:familyName "Becker" ;
+	.
+
+_:person_korsch
+	a s:Person ;
+	s:givenName "H.-J." ;
+	s:familyName "Korsch" ;
+	.
+

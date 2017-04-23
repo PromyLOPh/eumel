@@ -41,9 +41,11 @@ The following images contain application software for EUMEL:
 `schulis Grundpaket Schulverwaltung 2.2.1`_
     schulis base package, version 2.2.1
 `schulis Mathematiksystem 1.0`_
-    schulis math package, version 1.0
+    schulis math package, version 1.0. For documentation see
+    [schulis-mathe-handbuch]_ and [schulis-mathe-begleitheft]_.
 `schulis Simulationssystem 3.0`_
-    schulis simulation package for biology, chemistry and physics. Version 3.0
+    schulis simulation package for biology, chemistry and physics. Version 3.0.
+    For documentation see [simsel-handbuch]_.
 
 Development
 ^^^^^^^^^^^
