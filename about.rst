@@ -1,6 +1,12 @@
 About this project
 ------------------
 
+If you want to contribute floppies, manuals or documentation contact me in
+English or German via `email <lars+eumel@6xq.net>`__ or file an issue on
+GitHub_.
+
+.. _GitHub: https://github.com/PromyLOPh/eumel/issues
+
 A project like this one does not come for free. Besides the countless hours of
 (unpaid) work the following costs were covered by me:
 

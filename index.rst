@@ -8,14 +8,6 @@ Not just a footnote of history: EUMEL
 
 .. _CC0: https://creativecommons.org/publicdomain/zero/1.0/
 
-.. note::
-
-   This documentation is work-in-progress. If you want to contribute floppies,
-   manuals or documentation contact me in English or German via `email
-   <lars+eumel@6xq.net>`__ or file an issue on GitHub_.
-
-.. _GitHub: https://github.com/PromyLOPh/eumel/issues
-
 The *Extendable multi user microprocessor ELAN system (EUMEL)* is a microkernel
 operating system. *Gesellschaft für Mathematik und Datenverarbeitung (GMD)* and
 *Hochschulrechenzentrum (HRZ)* of Bielefeld University created and developed it
