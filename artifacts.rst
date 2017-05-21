@@ -54,12 +54,12 @@ Floppy disk images listed in this section contain parts of an EUMEL system and
 development tools.
 
 `Setup EUMEL`_
-    Setup EUMEL version 3.1 (SHard 4.9g) including source code, 3.2 (SHard
-    5.1g), 3.2 (SHard 5.2g) and SHard 4.7g.
+    ModSoft setup and SHard 2.8, Schönbeck setup EUMEL version 3.1 (SHard 4.9g)
+    including source code, 3.2 (SHard 5.1g), 3.2 (SHard 5.2g) and SHard 4.7g.
 `Urlader`_
     Miscellaneous Urlader, version 1.8.1t with info, 1.8.2e and 10057.
 `Hintergrund`_
-    Hintergrund containing EUMEL 1.8.1, 1.8.4 and 1.8.7.
+    Hintergrund containing EUMEL 1.8.1, 1.8.2, 1.8.4 and 1.8.7.
 `Debug tools`_
     Miscellaneous debugging tools: Tracing version 1, dataspace copy, disk
     monitor 3.5 and 3.7 and EUMEL coder 1.8.1.
@@ -67,6 +67,8 @@ development tools.
     SHard porting documentation for M68k, x86 and Z80 processor architectures.
 `PIC400`_
     SHard for PIC400.
+`1.7.5 builtin packages`_
+    Source code for builtin packages of version 1.7.5.
 
 Source:
 `bitsavers <http://bitsavers.trailing-edge.com/bits/GMD/EUMEL/>`__, 
@@ -91,4 +93,5 @@ Source:
 .. _schulis Grundpaket Schulverwaltung 2.2.1: disks/schulis-grundpaket-schulverwaltung-2.2.1.zip
 .. _schulis Mathematiksystem 1.0: disks/schulis-mathematiksystem-1.0.zip
 .. _schulis Simulationssystem 3.0: disks/schulis-simulationssystem-3.0.zip
+.. _1.7.5 builtin packages: disks/175_src.zip
 
