@@ -846,6 +846,83 @@ _:thing_ct
 	s:url <library/ct-1987-08-p54.djvu> ;
 	.
 
+<#hg-struktur-1.7.4>
+	a s:TechArticle ;
+	s:name "HG-Struktur 1.7.4" ;
+	s:author _:person_heinrichs ;
+	s:dateCreated "1984-11-22" ;
+	s:dateModified "1985-07-22" ;
+	s:url <library/hintergrund-struktur-1985-07-22.djvu> ;
+	.
+
+<#install-module-shard>
+	a s:TechArticle ;
+	s:name "Eumel/Modul-SHard Installationsanleitung" ;
+	s:url <library/eumel-modul-shard-installationsanleitung.djvu> ;
+	.
+
+<#shard-module-api>
+	a s:TechArticle ;
+	s:name "SHard Modul Interface" ;
+	s:url <library/shard-modul-interface.djvu> ;
+	.
+
+<#shard-interface>
+	a s:TechArticle ;
+	s:name"Shard Interface Beschreibung";
+	s:author _:person_heinrichs ;
+	s:dateCreated "1979-05-25" ;
+	s:dateModified "1981-12-01" ;
+	s:url <library/shard-interface-1981-12-01.djvu> ;
+	.
+
+<#termnet-src>
+	a s:SoftwareSourceCode ;
+	s:name "Quellcode termnet" ;
+	s:url <library/termnet-src.djvu> ;
+	.
+
+<#elan-compiler-eumel0>
+	a s:SoftwareSourceCode ;
+	s:name "EUMEL0-Quellcode ELAN-Compiler" ;
+	s:url <library/elan-compiler-eumel0.djvu> ;
+	.
+
+<#external-dok89>
+	a s:SoftwareSourceCode ;
+	s:name "Quellcode external.dok" ;
+	s:datePublished "1989-02-01" ;
+	s:url <library/external-dok-1989-02-01.djvu> ;
+	.
+
+<#shardmodule-schoenbeck>
+	a s:SoftwareSourceCode ;
+	s:name "Quellcode SHardmodule Schönbeck" ;
+	s:datePublished "1989" ;
+	s:url <library/shardmodule-schoenbeck-1989.djvu> ;
+	.
+
+<#load-ds4>
+	a s:SoftwareSourceCode ;
+	s:name "Quellcode load ds4" ;
+	s:datePublished "1989-02-10" ;
+	s:url <library/load-ds4-src-1989-02-10.djvu> ;
+	.
+
+<#shdifc-8086>
+	a s:SoftwareSourceCode ;
+	s:name "Quellcode SHard Interface Module 8086" ;
+	s:datePublished "1986-05-20" ;
+	s:url <library/shdifc.8086-1986-05-20.djvu> ;
+	.
+
+<#kernel-src-175>
+	a s:SoftwareSourceCode ;
+	s:name "Quellcode Urlader 1.7.5" ;
+	s:author _:person_heinrichs, _:person_liedtke ;
+	s:url <library/kernel-source-175.djvu> ;
+	.
+
 ### EUMEL-Praxis ###
 
 _:thing_eumel-praxis a s:Book ;

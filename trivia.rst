@@ -15,6 +15,7 @@ Trivia
   German__ and English__ Wikipedia in 2006 without a source, which could be
   `Jochen Liedtke’s death notice`__.
 - EUMEL was a registered wordmark from 1985 to 1996 (DPMA: 1087527__ 1106662__)
+- EUMEL’s birthday is 1979-05-05T10:00 ([shard-module-api]_, page 6)
 
 __ https://dict.leo.org/forum/viewWrongentry.php?idThread=40527&idForum=6&lang=de&lp=ende
 __ https://de.wikipedia.org/w/index.php?title=L2_(Betriebssystem)&diff=21818522&oldid=21818465

@@ -62,7 +62,7 @@ development tools.
     Hintergrund containing EUMEL 1.8.1, 1.8.2, 1.8.4 and 1.8.7.
 `Debug tools`_
     Miscellaneous debugging tools: Tracing version 1, dataspace copy, disk
-    monitor 3.5 and 3.7 and EUMEL coder 1.8.1.
+    monitor 3.5 and 3.7 and EUMEL coder 1.8.1. See [debug-1]_ and [load-ds4]_.
 `Porting documentation`_
     SHard porting documentation for M68k, x86 and Z80 processor architectures.
 `PIC400`_
