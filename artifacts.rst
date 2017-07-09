@@ -25,6 +25,8 @@ PC:
 `ERGOS diskset`_
     SHard 5.2g, EUMEL 1.8.7 (Urlader 1523) for IBM PC on 1.2M disks, dated 1990
     and several printer packets from 1988 and 1989 on 360k floppies.
+L3_
+    Install media for L3 v2.1 and v2.2, as well as drivers and utils.
 
 Applications
 ^^^^^^^^^^^^
@@ -94,4 +96,5 @@ Source:
 .. _schulis Mathematiksystem 1.0: disks/schulis-mathematiksystem-1.0.zip
 .. _schulis Simulationssystem 3.0: disks/schulis-simulationssystem-3.0.zip
 .. _1.7.5 builtin packages: disks/175_src.zip
+.. _L3: disks/l3.zip
 
