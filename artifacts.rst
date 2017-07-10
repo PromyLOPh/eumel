@@ -27,6 +27,9 @@ PC:
     and several printer packets from 1988 and 1989 on 360k floppies.
 L3_
     Install media for L3 v2.1 and v2.2, as well as drivers and utils.
+L3-Frei_
+    „Free“ distribution of L3, including install media, system disks, GNU C
+    compiler and SQLE database software.
 
 Applications
 ^^^^^^^^^^^^
@@ -97,4 +100,5 @@ Source:
 .. _schulis Simulationssystem 3.0: disks/schulis-simulationssystem-3.0.zip
 .. _1.7.5 builtin packages: disks/175_src.zip
 .. _L3: disks/l3.zip
+.. _L3-Frei: disks/l3-frei.zip
 
