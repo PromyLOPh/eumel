@@ -17,8 +17,8 @@ Supported hardware
 .. csv-table::
     :header: Manufacturer,Model,Processor,Supported since
 
-    ALTOS, 8000-6, Z80,1984
-    ,8000-10, Z80,1984
+    ALTOS, 8000-6, Z80,≤1982
+    ,8000-10, Z80,≤1982
     Apple,IIe,Z80,≤1985
     ATARI, 520 ST, M68000,≤1985
     BICOS, CSK System, Z80,≤1985

@@ -14,8 +14,8 @@ of schools: 20 in 1982 ([alwr82]_, part 4, p. 13) and 500 secondary schools by
 - Gymnasium Wesermünde [eumelspiegel81b]_
 - Carl Duisberg Gymnasium, Wuppertal [eumelspiegel81b]_
 
-EUMEL was also by HRZ Bielefeld and at GMD Bonn, as well as TU Berlin [hahn79]_
-and TU Darmstadt.
+EUMEL was also used by HRZ Bielefeld and at GMD Bonn, as well as TU Berlin
+[hahn79]_ and TU Darmstadt.
 
 Additionally 400 lawyers ran advodat_ on EUMEL in 1987 [cr87a]_. A survey
 amongst those located in Hannover in 1994 revealed four of 56 (7%) law offices
