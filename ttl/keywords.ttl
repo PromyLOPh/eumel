@@ -9,4 +9,8 @@ _:thing_eumel a s:SoftwareApplication ;
 	s:applicationCategory "operating system" ;
 	s:name "EUMEL" .
 
+_:thing_l3 a s:SoftwareApplication ;
+	s:sameAs <https://en.wikipedia.org/wiki/L3_microkernel> ;
+	s:applicationCategory "operating system" ;
+	s:name "L3" .
 

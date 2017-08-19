@@ -296,6 +296,7 @@
 	s:publisher _:org_gmd, _:org_hrz ;
 	s:datePublished "1985-10-22" ;
 	.
+
 <#portintel86>
 	a s:Book ;
 	s:name "EUMEL Portierungshandhuch 8086/8088 Version 8" ;
@@ -304,6 +305,38 @@
 	s:author _:person_liedtke ;
 	s:publisher _:org_gmd, _:org_hrz ;
 	s:datePublished "1986-02" ;
+	.
+
+<#l3ref90>
+	a s:Book ;
+	s:datePublished "1990-03" ;
+	s:name "ERGOS-L3 Referenzhandbuch" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_l3 ;
+	s:publisher _:com_ergos ;
+	s:author _:person_metterhausen ;
+	s:url <library/l3-referenzhandbuch-1990-03.djvu> ;
+	.
+
+<#l3user90>
+	a s:Book ;
+	s:datePublished "1990-10" ;
+	s:name "ERGOS-L3 Benutzerhandbuch (Auszug)" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_l3 ;
+	s:publisher _:com_ergos ;
+	s:author _:person_metterhausen ;
+	s:url <library/l3-dos-1990-10.djvu> ;
+	.
+
+<#l3frei94>
+	a s:Book ;
+	s:datePublished "1994" ;
+	s:name "L3 FREI Installation" ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_l3 ;
+	s:publisher _:com_accomodat ;
+	s:url <library/l3-frei-lizenz-1994.djvu> ;
 	.
 
 ### Benutzerhandbuch 1.6 ###

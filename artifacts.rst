@@ -29,7 +29,8 @@ L3_
     Install media for L3 v2.1 and v2.2, as well as drivers and utils.
 L3-Frei_
     „Free“ distribution of L3, including install media, system disks, GNU C
-    compiler and SQLE database software.
+    compiler and SQLE database software. See [l3frei94]_ for install
+    instructions and license.
 
 Applications
 ^^^^^^^^^^^^
