@@ -37,6 +37,28 @@
 	s:url <library/korrekturen-1984.pdf> ;
 	.
 
+<#netz85a>
+	a s:Book ;
+	s:name "Netz-Beschreibung" ;
+	s:author _:person_heinrichs ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1985-03-13" ;
+	s:numberOfPages "10" ;
+	s:url <library/netz-1985-03-13.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#netz85b>
+	a s:Book ;
+	s:name "Netz-Beschreibung" ;
+	s:author _:person_heinrichs ;
+	s:publisher _:org_gmd ;
+	s:datePublished "1985-09-02" ;
+	s:numberOfPages "21" ;
+	s:url <library/netz-1985-09-02.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
 <#netz88>
 	a s:Book ;
 	s:name "Netz-Beschreibung" ;

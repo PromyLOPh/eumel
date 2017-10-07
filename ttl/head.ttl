@@ -29,7 +29,7 @@
 		<#korrekturen84>,
 		<#dasys86>, <#dynamo84>, <#dynamo86>, <#hamster84>, <#lisp86>, <#moco84>,
 		<#msdosdat86>, <#msdosdat87>,
-		<#netz88>, <#source86>, <#source86b>,
+		<#netz85a>, <#netz85b>, <#netz88>, <#source86>, <#source86b>,
 		<#remis84>, <#remis86>,
 		<#sys86>, <#sys84>, <#sys85>,
 		<#taschenbuch>,
