@@ -22,6 +22,6 @@ emulating an IBM PC. In this example we’re using qemu_.
 8. Congratulations, a fully functional EUMEL is now running in your virtual
    machine! For the next steps head over to [praxis1]_.
 
-.. _install instructions: 01_readme_INSTALL.txt
+.. _install instructions: assets/01_readme_INSTALL.txt
 .. _qemu: http://www.qemu.org/
 

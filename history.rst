@@ -72,7 +72,7 @@ sources.
     1.8.0, October 1986
     1.8.7, ≤1990, [ambros90b]_
 
-.. figure:: releases.svg
+.. figure:: assets/releases.svg
 
 L3
 ^^
@@ -96,8 +96,16 @@ and later at GMD Birlinghofen.
 
     1981-05-15,,,[eumelspiegel81a]_
     1982-05,Bielefeld University,,[eumelspiegel82b]_
+    1984-05-19,Bielefeld University,,(see picture)
     1985-09-21,GMD Birlinghofen,300,[gmdspiegel85c]_
     1986-10-04,GMD Birlinghofen,350,[gmdbericht86b]_
     1987-09-19/21,GMD Sankt Augustin,200/100,[gmdspiegel87b]_
     1988-10-01,Realschule Niederpleis,200,[gmdspiegel88d]_
+
+.. figure:: assets/eumel-tagung-84-resized.jpg
+   :target: assets/eumel-tagung-84.jpg
+
+   5th EUMEL workshop at Bielefeld University. Picture taken 1984-05-19. Source: BITS_
+
+.. _BITS: http://www.uni-bielefeld.de/bits/
 

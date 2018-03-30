@@ -84,7 +84,7 @@ Source:
 .. _EUMEL base system: disks/grundpaket.zip
 .. _Programming language packet: disks/informatikpaket.zip
 .. _1.7.3 Urlader and Hintergrund: disks/173_ibmpc.zip
-.. _setup instructions: 01_readme_INSTALL.txt
+.. _setup instructions: assets/01_readme_INSTALL.txt
 .. _ERGOS diskset: disks/187_ergos.zip
 .. _EUDAS: disks/eudas.zip
 .. _Hintergrund: disks/hintergrund.zip

@@ -1,11 +1,11 @@
 Trivia
 ------
 
-.. figure:: eumel_logo.svg
+.. figure:: assets/eumel_logo.svg
 
    EUMEL’s logo
 
-.. figure:: eumel_logo_2.svg
+.. figure:: assets/eumel_logo_2.svg
 
    Second EUMEL logo
 
