@@ -339,3 +339,15 @@ _:person_korsch
 	s:familyName "Korsch" ;
 	.
 
+_:person_dewitz
+	a s:Person ;
+	s:givenName "Detlef" ;
+	s:familyName "Dewitz" ;
+	.
+
+_:person_schrenk
+	a s:Person ;
+	s:givenName "Ernst" ;
+	s:familyName "Schrenk" ;
+	.
+

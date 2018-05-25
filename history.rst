@@ -30,11 +30,11 @@ A year later, in 1979, details about EUMEL were published in GMD Spiegel
 in fall 1979 [gmdspiegel85d]_.
 
 The original ELAN compiler written by Liedtke and Bartling was rewritten in
-1982 as part of project MIKROS at GMD. Its replacement was programmed using
-CDL’s successor, CDL2 [gmdbericht84]_. This work resulted in ports of EUMEL to
-different processor architectures, starting with Zilog 8001 used by the
-Olivetti M 20. This version was presented a year later at Hannover Messe 1983
-[computerwoche83a]_ [rechenanlagen83]_.
+1982 as part of project MIKROS at GMD [eumelspiegel82d]_. Its replacement was
+programmed using CDL’s successor, CDL2 [cdl2-basismaschine82]_ [gmdbericht84]_.
+This work resulted in ports of EUMEL to different processor architectures,
+starting with Zilog 8001 used by the Olivetti M 20. This version was presented
+a year later at Hannover Messe 1983 [computerwoche83a]_ [rechenanlagen83]_.
 
 For their efforts to `transfer EUMEL to Japan`_ a delegation consisting of
 Konrad Klöckner, Jochen Liedtke, Peter Heyderhoff, Dietmar Heinrichs and Uwe
@@ -66,8 +66,10 @@ sources.
     1.5.6, 1981-10-12, [eumelspiegel81b]_
     1.6, ≤fall 1982, [alwr82]_
     1.6.3,1982-05-07, [eumelspiegel82b]_
+    1.6.4,1982-07-01, [eumelspiegel82d]_
     1.6.5,1982-10-10, [eumelspiegel82c]_
     1.7, ≤mid 1984, [korrekturen84]_
+    1.7.3, ≤1985-09-21, [eumelaktuell85]_
     1.7.5, end of 1985, [gmdbericht85]_
     1.8.0, October 1986
     1.8.7, ≤1990, [ambros90b]_
@@ -95,8 +97,8 @@ and later at GMD Birlinghofen.
     :header: Date,Location,Attendance,
 
     1981-05-15,,,[eumelspiegel81a]_
-    1982-05,Bielefeld University,,[eumelspiegel82b]_
-    1984-05-19,Bielefeld University,,(see picture)
+    1982-05-15,Bielefeld University,,[eumelspiegel82b]_ [eumelspiegel82d]_
+    1984-05-19,Bielefeld University,,(see picture below) [einladung-workshop84]_
     1985-09-21,GMD Birlinghofen,300,[gmdspiegel85c]_
     1986-10-04,GMD Birlinghofen,350,[gmdbericht86b]_
     1987-09-19/21,GMD Sankt Augustin,200/100,[gmdspiegel87b]_

@@ -638,36 +638,6 @@ _:thing_stc
 	s:url <library/preisbewerbung_1985.djvu> ;
 	.
 
-# magazine is lost, but existed from 1986 (first known reference) to 1989 (see
-# https://web.archive.org/web/20130523172601/http://www.iais.fraunhofer.de/3803.html)
-_:thing_eumelaktuell
-	a s:Periodical ;
-	s:name "EUMEL-aktuell" ;
-	s:publisher _:org_gmd ;
-	.
-
-<#goossenaerts88>
-	a s:CreativeWork ;
-	s:author [
-		a s:Person ;
-		s:familyName "Goossenaerts" ;
-		s:givenName "Jan" ;
-		] , [
-		a s:Person ;
-		s:familyName "Janssens" ;
-		s:givenName "Dirk" ;
-		] ;
-	s:name "Object-Oriented Programming in EUMEL/ELAN" ;
-	s:isPartOf [ a s:PublicationIssue ;
-			s:datePublished "1988" ;
-			s:isPartOf _:thing_eumelaktuell ;
-			s:issueNumber "1/88" ;
-			] ;
-	s:pageStart "45" ;
-	s:pageEnd "66" ;
-	s:sameAs <https://lirias.kuleuven.be/handle/123456789/134013> ;
-	.
-
 _:thing_produktinfos
 	a s:CreativeWork ;
 	s:publisher _:org_gmd ;
@@ -921,6 +891,47 @@ _:thing_ct
 	s:name "Quellcode Urlader 1.7.5" ;
 	s:author _:person_heinrichs, _:person_liedtke ;
 	s:url <library/kernel-source-175.djvu> ;
+	.
+
+<#cdl2-basismaschine82>
+	a s:SoftwareSourceCode ;
+	s:name "CDL2 Basismaschine" ;
+	s:author _:person_liedtke ;
+	s:datePublished "1982-06-29" ;
+	s:url <library/cdl2-eumel0-1982-06-29> ;
+	s:numberOfPages "13" ;
+	.
+
+<#einladung-workshop84>
+	a s:CreativeWork;
+	s:name "Einladung zum EUMEL-Workshop" ;
+	s:author _:person_liedtke ;
+	s:datePublished "1984-05-19" ;
+	s:url <library/einladung-workshop-1984-05-19.djvu> ;
+	.
+
+<#internesseminar84>
+	a s:CreativeWork;
+	s:name "1. Internes EUMEL-Seminar" ;
+	s:datePublished "1984-03-13" ;
+	s:url <library/internes-eumel-seminar-1-1984-03-13.djvu> ;
+	.
+
+<#kloeckner84>
+	a s:ScholarlyArticle ;
+	s:isPartOf [ a s:Periodical ;
+			# Can’t find anything on that journal/conference
+			s:name "Advances In Microprocessing and Microprogramming" ;
+			] ;
+	s:datePublished "1984" ;
+	s:name "Using EUMEL in an Educational Environment" ;
+	s:numberOfPages "8" ;
+	s:url <library/using-eumel-in-an-educational-environment-1984.djvu> ;
+	s:publisher _:org_elsevier ;
+	s:pageStart "219" ;
+	s:pageEnd "226" ;
+	s:about _:thing_eumel ;
+	s:author _:person_kloeckner, _:person_liedtke ;
 	.
 
 ### EUMEL-Praxis ###

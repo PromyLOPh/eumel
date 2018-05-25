@@ -71,6 +71,7 @@ development tools.
     monitor 3.5 and 3.7 and EUMEL coder 1.8.1. See [debug-1]_ and [load-ds4]_.
 `Porting documentation`_
     SHard porting documentation for M68k, x86 and Z80 processor architectures.
+    See [portintel85]_, [portintel86]_ and [portz8084]_ for printed versions.
 `PIC400`_
     SHard for PIC400.
 `1.7.5 builtin packages`_

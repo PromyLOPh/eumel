@@ -24,6 +24,7 @@ _:thing_eumelspiegel
 	a s:BookSeries ;
 	s:name "EUMEL spiegel" ;
 	s:publisher _:org_hrz ;
+	s:endDate "1983" ; # see eumelaktuell84, p. 3
 	.
 
 <#eumelspiegel81a>
@@ -62,6 +63,16 @@ _:thing_eumelspiegel
 	s:url <library/eumel-spiegel-82-2.djvu> ;
 	s:datePublished "1982" ;
 	s:issueNumber "2/82" ;
+	s:editor _:person_nolting ;
+	.
+
+<#eumelspiegel82d>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelspiegel ;
+	s:url <library/eumel-spiegel-82-3.djvu> ;
+	s:datePublished "1982" ;
+	s:issueNumber "3/82" ;
+	s:author _:person_kloeckner, _:person_hahn, _:person_heyderhoff, _:person_dewitz, _:person_heinrichs ;
 	s:editor _:person_nolting ;
 	.
 

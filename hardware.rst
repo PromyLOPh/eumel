@@ -71,4 +71,5 @@ Supported hardware
     ,System M32,M68000,1985
     ,PC16,,1985
 
-Sources: [computerwoche83a]_, [gmdbericht84]_, [gmdspiegel85d]_, [seyfert87]_, [stc87a]_, [vertriebsinfos]_.
+Sources: [computerwoche83a]_, [gmdbericht84]_, [gmdspiegel85d]_, [seyfert87]_,
+[stc87a]_, [vertriebsinfos]_, [eumelaktuell85]_.

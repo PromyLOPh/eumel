@@ -752,3 +752,47 @@ _:thing_simseldoc
 	s:url <library/schulis-mathematiksystem-begleitheft-1990.djvu> ;
 	.
 
+#####################
+### EUMEL aktuell ###
+#####################
+
+_:thing_eumelaktuell
+	a s:Periodical ;
+	s:name "EUMEL-aktuell" ;
+	s:publisher _:org_gmd ;
+	s:startDate "1985-09-21" ;
+	# see https://web.archive.org/web/20130523172601/http://www.iais.fraunhofer.de/3803.html
+	s:endDate "1989" ;
+	.
+
+<#eumelaktuell85>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelaktuell ;
+	s:url <library/eumel-aktuell-1985-09-21.djvu> ;
+	s:datePublished "1985-09-21" ;
+	s:issueNumber "1" ;
+	.
+
+<#goossenaerts88>
+	a s:CreativeWork ;
+	s:author [
+		a s:Person ;
+		s:familyName "Goossenaerts" ;
+		s:givenName "Jan" ;
+		] , [
+		a s:Person ;
+		s:familyName "Janssens" ;
+		s:givenName "Dirk" ;
+		] ;
+	s:name "Object-Oriented Programming in EUMEL/ELAN" ;
+	s:isPartOf [ a s:PublicationIssue ;
+			s:datePublished "1988" ;
+			s:isPartOf _:thing_eumelaktuell ;
+			s:issueNumber "1/88" ;
+			] ;
+	s:pageStart "45" ;
+	s:pageEnd "66" ;
+	s:sameAs <https://lirias.kuleuven.be/handle/123456789/134013> ;
+	.
+
+
