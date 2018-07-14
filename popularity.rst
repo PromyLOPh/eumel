@@ -13,6 +13,7 @@ of schools: 20 in 1982 ([alwr82]_, part 4, p. 13) and 500 secondary schools by
 - Ceciliengymnasium Bielefeld ([elannewsletter81a]_ p. 21)
 - Gymnasium Wesermünde [eumelspiegel81b]_
 - Carl Duisberg Gymnasium, Wuppertal [eumelspiegel81b]_
+- Theodor Heuss Gymnasium, Hagen
 
 EUMEL was also used by HRZ Bielefeld and at GMD Bonn, as well as TU Berlin
 [hahn79]_ and TU Darmstadt.
