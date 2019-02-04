@@ -59,5 +59,5 @@ long encoding using two bytes plus operands is used. This format also encodes
 Read more instruction encoding details in chapter two of [kernel83]_ and the
 ELAN package `eumel coder`_.
 
-.. _eumel coder: src/basic/eumel%20coder%201.8.1.html
+.. _eumel coder: system/eumel-coder/1.8.1/src/eumel%20coder%201.8.1.html
 
