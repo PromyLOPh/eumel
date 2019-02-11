@@ -8,13 +8,8 @@ that [source86]_. Documentation for the dataspace FILE can be found in the
 packet *file handling*. ``convertFileDs.py`` converts this dataspace into a
 plain text file.
 
-Additionally extracted source code from `floppy disk images`_ can be found in
-`this repository`__ and here__.
-
 .. _floppy disk images: artifacts_
 .. _tools: https://github.com/PromyLOPh/eumel-tools
-__ https://github.com/PromyLOPh/eumel-src
-__ src/
 
 Bootstrapping
 ^^^^^^^^^^^^^

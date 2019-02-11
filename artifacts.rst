@@ -1,7 +1,14 @@
 Artifacts
 ---------
 
-Various floppy disk images can be found in the following sections.
+This section contains downloadable floppy disk images rescued mostly from 5″
+floppy disks (1.2 MB), grouped by category.
+
+Additionally ELAN and assembly source code of applications and EUMEL’s kernel
+can be found in `this repository`__ and here__.
+
+__ https://github.com/PromyLOPh/eumel-src
+__ src/
 
 Install media
 ^^^^^^^^^^^^^
