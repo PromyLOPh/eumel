@@ -7,16 +7,6 @@ GitHub_.
 
 .. _GitHub: https://github.com/PromyLOPh/eumel/issues
 
-A project like this one does not come for free. Besides the countless hours of
-(unpaid) work the following costs were covered by me:
-
-.. csv-table::
-   :header: Item,€
-
-   Digital camera,25
-   Interlending,9
-   Total,34
-
 Acknowledgements
 ^^^^^^^^^^^^^^^^
 
