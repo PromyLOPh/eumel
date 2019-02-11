@@ -68,6 +68,6 @@
 		<#simsel-handbuch>, <#simsel-bio1>, <#simsel-bio2>, <#simsel-chemie1>, <#simsel-chemie2>, <#simsel-physik1>, <#simsel-physik2>, <#simsel-physik3>, <#simsel-physik4>, <#simsel-physik5>, <#simsel-chemiephysik>, <#schulis-mathe-handbuch>, <#schulis-mathe-begleitheft>,
 		<#hg-struktur-1.7.4>, <#install-mcz-1.5>, <#install-module-shard>, <#termnet-src>, <#shard-module-api>, <#shard-interface>, <#elan-compiler-eumel0>, <#debug-1>, <#external-dok89>, <#shardmodule-schoenbeck>, <#load-ds4>, <#shdifc-8086>, <#kernel-src-175>, <#portintel86>, <#portintel85>,
 		<#l3ref90>, <#l3frei94>, <#l3user90>,
-		<#cdl2-basismaschine82>, <#einladung-workshop84>, <#eumelaktuell85>, <#portz8084>, <#benutzerhandbuch79>, <#internesseminar84>, <#kloeckner84>, <#source82>
+		<#cdl2-basismaschine82>, <#einladung-workshop84>, <#eumelaktuell85>, <#portz8084>, <#benutzerhandbuch79>, <#internesseminar84>, <#kloeckner84>, <#source82>, <#elan-compiler-cdl1>, <#ruc-appleII-basis-108>
 		; .
 

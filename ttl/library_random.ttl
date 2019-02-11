@@ -934,6 +934,19 @@ _:thing_ct
 	s:author _:person_kloeckner, _:person_liedtke ;
 	.
 
+<#elan-compiler-cdl1>
+	a s:SoftwareSourceCode ;
+	s:name "ELAN Compiler CDL1" ;
+	s:url <library/elan-compiler-cdl1.djvu> ;
+	s:about _:thing_elan ;
+	.
+
+<#ruc-appleII-basis-108>
+	a s:TechArticle ;
+	s:name "EUMEL auf Apple II/II+ und Kompatiblen (BASIS 108)";
+	s:url <library/ruc-appleII-basis-108.pdf> ;
+	.
+
 ### EUMEL-Praxis ###
 
 _:thing_eumel-praxis a s:Book ;
