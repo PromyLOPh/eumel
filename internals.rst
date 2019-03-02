@@ -38,21 +38,28 @@ only. A few internal registers like instruction counter, condition flag for
 branching, several segment and status registers and a stack pointer exist.
 
 The CISC instruction set was specifically designed for the high-level language
-ELAN. It includes arithmetic operations for ELAN’s primitive datatypes such as
-signed and unsigned integer as well as float (REAL) and operations for
-bytestrings (TEXT) and dataspaces. However the machine itself does not enforce
-datatypes at runtime. The usual control flow operations are accompanied by
-ELAN-specific call and return instructions. Special instructions for terminal
-and archive disk I/O, exception-like error handling and inter-process
-communication (IPC) are available.
+ELAN.
+It includes arithmetic operations for ELAN’s primitive datatypes such as signed
+and unsigned integer as well as float (REAL) and operations for bytestrings
+(TEXT) and dataspaces.
+However the machine itself does not tag data and therefore doesn’t enforce
+types at runtime.
+The usual control flow operations are accompanied by ELAN-specific call and
+return instructions.
+Special instructions for terminal and archive disk I/O, exception-like error
+handling and inter-process communication (IPC) are available.
 
-The 54 primary instructions can be encoded with two bytes. They consist of a
-6 bit opcode and one short operand. Whenever the latter is longer than 10 bit a
-long encoding using two bytes plus operands is used. This format also encodes
-42 secondary/special instructions.
+Some of the 31 primary instructions can be encoded with just two bytes.
+They consist of a 6 bit opcode and one short operand.
+Whenever the latter uses more than 10 bit a long encoding consisting of two
+bytes opcode plus operands is used.
+This format also encodes 127 secondary and six special instructions.
 
-Read more instruction encoding details in chapter two of [kernel83]_ and the
-ELAN package `eumel coder`_.
+Details can be found in chapter two of [kernel83]_,  the ELAN package `eumel
+coder`_, `this debugger’s sources and documentation`__ and a reimplementation
+of the EUMEL0 virtual machine, EUMuLator_.
 
-.. _eumel coder: system/eumel-coder/1.8.1/src/eumel%20coder%201.8.1.html
+.. _eumel coder: src/system/eumel-coder/1.8.1/src/eumel%20coder%201.8.1.html
+.. _EUMuLator: https://github.com/PromyLOPh/EUMuLator
+__ src/devel/debugger/1.8.2/src/DEBUGGER.ELA.html
 
