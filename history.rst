@@ -70,8 +70,8 @@ sources.
     1.6.5,1982-10-10, [eumelspiegel82c]_
     1.7, ≤mid 1984, [korrekturen84]_
     1.7.3, ≤1985-09-21, [eumelaktuell85]_
-    1.7.5, end of 1985, [gmdbericht85]_
-    1.8.0, October 1986
+    1.7.5, 1986-10-01, [eumelaktuell86]_ p. 9
+    1.8.0, 1986-10-01, [eumelaktuell87a]_ p. 56
     1.8.7, ≤1990, [ambros90b]_
 
 .. figure:: assets/releases.svg
@@ -98,9 +98,10 @@ and later at GMD Birlinghofen.
 
     1981-05-15,,,[eumelspiegel81a]_
     1982-05-15,Bielefeld University,,[eumelspiegel82b]_ [eumelspiegel82d]_
+    1983-05-07,Bielefeld University,,[einladung-workshop83]_
     1984-05-19,Bielefeld University,,(see picture below) [einladung-workshop84]_
-    1985-09-21,GMD Birlinghofen,300,[gmdspiegel85c]_
-    1986-10-04,GMD Birlinghofen,350,[gmdbericht86b]_
+    1985-09-21,GMD Birlinghofen,300,[gmdspiegel85c]_ [eumelaktuell86]_ p. 31
+    1986-10-04,GMD Birlinghofen,350,[gmdbericht86b]_ [eumelaktuell87a]_ p. 56
     1987-09-19/21,GMD Sankt Augustin,200/100,[gmdspiegel87b]_
     1988-10-01,Realschule Niederpleis,200,[gmdspiegel88d]_
 

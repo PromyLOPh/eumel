@@ -773,6 +773,54 @@ _:thing_eumelaktuell
 	s:issueNumber "1" ;
 	.
 
+<#eumelaktuell86>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelaktuell ;
+	s:url <library/eumel-aktuell-1986-06-19.djvu> ;
+	s:datePublished "1986-06-19" ;
+	s:editor _:person_starcke ;
+	.
+
+<#eumelaktuell86b>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelaktuell ;
+	s:url <library/eumel-aktuell-anhang-1986-06-19.djvu> ;
+	s:datePublished "1986-06-19" ;
+	s:alternativeHeadline "Anhang zum EUMEL aktuell vom 19. Juni 1986" ;
+	s:name "Eine Auswahl von Vortrags-Manuskripten zun EUMEL-Workshop 1985" ;
+	.
+
+<#eumelaktuell87a>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelaktuell ;
+	s:url <library/eumel-aktuell-1987-05-08.djvu> ;
+	s:datePublished "1987-05-08" ;
+	s:numberOfPages "73";
+	s:editor _:person_starcke ;
+	.
+
+<#eumelaktuell87b>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelaktuell ;
+	s:url <library/eumel-aktuell-1987-09-15.djvu> ;
+	s:datePublished "1987-09-15" ;
+	s:issueNumber "2" ;
+	s:numberOfPages "52";
+	.
+
+<#eumelaktuell88>
+	a s:PublicationIssue ;
+	s:isPartOf _:thing_eumelaktuell ;
+	s:url <library/eumel-aktuell-1988-01-04.djvu> ;
+	s:datePublished "1988-01-04" ;
+	s:issueNumber "1" ;
+	s:editor _:person_petersen, _:person_starcke ;
+	.
+
+####################
+### Random stuff ###
+####################
+
 <#goossenaerts88>
 	a s:CreativeWork ;
 	s:author [
@@ -794,5 +842,4 @@ _:thing_eumelaktuell
 	s:pageEnd "66" ;
 	s:sameAs <https://lirias.kuleuven.be/handle/123456789/134013> ;
 	.
-
 

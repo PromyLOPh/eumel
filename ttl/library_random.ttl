@@ -677,11 +677,21 @@ _:thing_produktinfos
 	s:inLanguage "de-DE" ;
 	.
 
+<#vertriebspartner86b>
+	a s:CreativeWork ;
+	s:name "Derzeitige Vertriebspartner für das Betriebssystem EUMEL" ;
+	s:dateCreated "1986-09" ;
+	s:url <library/vertriebspartner-1986-09.djvu> ;
+	s:publisher _:org_gmd ;
+	s:inLanguage "de-DE" ;
+	.
+
 <#vertriebspartner86>
 	a s:CreativeWork ;
 	s:name "Derzeitige Vertriebspartner für das Betriebssystem EUMEL" ;
 	s:dateCreated "1986-10" ;
 	s:url <library/vertriebspartner-1986-10.djvu> ;
+	s:publisher _:org_gmd ;
 	s:inLanguage "de-DE" ;
 	.
 
@@ -902,6 +912,22 @@ _:thing_ct
 	s:numberOfPages "13" ;
 	.
 
+<#einladung-workshop83>
+	a s:CreativeWork;
+	s:name "Einladung zum EUMEL-Workshop" ;
+	s:author _:person_liedtke ;
+	s:datePublished "1983-05-07" ;
+	s:url <library/einladung-workshop-1983-05-07.djvu> ;
+	.
+
+<#vorankuendigung-workshop84>
+	a s:CreativeWork;
+	s:name "Vorankündigung: EUMEL-Workshop" ;
+	s:author _:person_liedtke ;
+	s:datePublished "1984-05-19" ;
+	s:url <library/vorankündigung-workshop-1984-05-19.djvu> ;
+	.
+
 <#einladung-workshop84>
 	a s:CreativeWork;
 	s:name "Einladung zum EUMEL-Workshop" ;
@@ -945,6 +971,82 @@ _:thing_ct
 	a s:TechArticle ;
 	s:name "EUMEL auf Apple II/II+ und Kompatiblen (BASIS 108)";
 	s:url <library/ruc-appleII-basis-108.pdf> ;
+	.
+
+<#erstehilfe1>
+	a s:Book ;
+	s:numberOfPages "32";
+	s:publisher _:org_gmd ;
+	s:author _:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "Erste Hilfe in ELAN, Teil 1" ;
+	s:url <library/erste-hilfe-elan-1.djvu> ;
+	.
+
+<#erstehilfe2>
+	a s:Book ;
+	s:numberOfPages "34";
+	s:publisher _:org_gmd ;
+	s:author _:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "Erste Hilfe in ELAN, Teil 2" ;
+	s:url <library/erste-hilfe-elan-2.djvu> ;
+	.
+
+<#workshop87>
+	a s:CreativeWork ;
+	s:numberOfPages "1";
+	s:inLanguage "de-DE" ;
+	s:name "Programm EUMEL-Workshop 21. 9. 1987, GMD Birlinghoven" ;
+	s:datePublished "1987-09-21" ;
+	s:url <library/programm-workshop-1987-09-21.djvu> ;
+	.
+
+<#windoweditor85>
+	a s:CreativeWork ;
+	s:numberOfPages "1";
+	s:inLanguage "de-DE" ;
+	s:name "Der neue Window-Editor" ;
+	s:datePublished "1985-09-21" ;
+	s:author _:person_heyderhoff ;
+	s:url <library/window-editor-1985-09-21.djvu> ;
+	.
+
+_:thing_workshop86
+	s:name "EUMEL Workshop" ;
+	# XXX: is this correct?
+	s:datePublished "1986-10-04" ;
+	.
+
+<#changelog86>
+	a s:CreativeWork ;
+	s:numberOfPages "8";
+	s:inLanguage "de-DE" ;
+	s:name "Änderungen und Erweiterungen der Version 1.8.0" ;
+	s:publisher _:org_gmd ;
+	s:url <library/änderungen-v1.8.0-1986-10.djvu> ;
+	s:isPartOf _:thing_workshop86 ;
+	.
+
+<#msdosdat86b>
+	a s:CreativeWork ;
+	s:numberOfPages "6";
+	s:inLanguage "de-DE" ;
+	s:name "Lesen und Schreiben von MS-DOS-Dateien: MS-DOS-DAT" ;
+	s:author _:person_klapper ;
+	s:url <library/ms-dos-dat-1986-10-04.djvu> ;
+	s:isPartOf _:thing_workshop86 ;
+	.
+
+<#textverarbeitung86b>
+	a s:CreativeWork ;
+	s:numberOfPages "4";
+	s:inLanguage "de-DE" ;
+	s:name "Neues zur Textverarbeitung in der Version 1.8.0" ;
+	s:url <library/textverarbeitung-v1.8.0-1986-10.djvu> ;
+	s:isPartOf _:thing_workshop86 ;
 	.
 
 ### EUMEL-Praxis ###
@@ -1012,5 +1114,4 @@ _:thing_eumel-praxis a s:Book ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:publisher _:org_j_b__metzler .
-
 

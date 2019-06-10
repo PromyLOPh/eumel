@@ -351,3 +351,15 @@ _:person_schrenk
 	s:familyName "Schrenk" ;
 	.
 
+_:person_merkel
+	a s:Person ;
+	s:givenName "Robert" ;
+	s:familyName "Merkel" ;
+	.
+
+_:person_bussche
+	a s:Person ;
+	s:givenName "Hilmar" ;
+	s:familyName "von dem Bussche" ;
+	.
+

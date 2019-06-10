@@ -163,12 +163,13 @@
 
 <#sys85>
 	a s:Book ;
-	s:datePublished "1985" ;
+	s:datePublished "1985-03-13" ;
 	s:name "EUMEL-Systemhandbuch, Version 1.7, Stand 13.3.85" ;
 	s:sameAs <http://opac.lbs-braunschweig.gbv.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
 	s:sameAs <https://katalog.b.tuhh.de/DB=1/XMLPRS=N/PPN?PPN=031273718> ;
 	s:sameAs <https://opac.sub.uni-goettingen.de/DB=1/XMLPRS=N/PPN?PPN=013681850> ;
 	s:sameAs <http://d-nb.info/860673642> ;
+	s:url <library/systemhandbuch-v1.7-1985-03-13.djvu> ;
 	s:numberOfPages "116" ;
 	s:author _:person_liedtke ,
 		_:person_heinrichs ,
@@ -349,6 +350,24 @@
 	s:datePublished "1986-02" ;
 	.
 
+<#portintel86c>
+	a s:TechArticle ;
+	s:name "EUMEL Portierungshandhuch 80286 Version 9" ;
+	s:inLanguage "de-DE" ;
+	s:url <library/portierungshandbuch-80286-v9-1986-07-22.djvu> ;
+	s:datePublished "1986-07-22" ;
+	s:numberOfPages "13" ;
+	.
+
+<#portintel86b>
+	a s:TechArticle ;
+	s:name "EUMEL Portierungshandhuch 80286 Version 10" ;
+	s:inLanguage "de-DE" ;
+	s:url <library/portierungshandbuch-80286-v10-1986-11-14.djvu> ;
+	s:datePublished "1986-11-14" ;
+	s:numberOfPages "16" ;
+	.
+
 <#portz8084>
 	a s:Book ;
 	s:name "EUMEL Portierungshandhuch Z80" ;
@@ -357,6 +376,34 @@
 	s:author _:person_liedtke, _:person_heinrichs ;
 	s:publisher _:org_gmd, _:org_hrz ;
 	s:datePublished "1984-08-28" ;
+	.
+
+<#portz8086>
+	a s:Book ;
+	s:name "EUMEL Portierungshandhuch Z80 Version 8" ;
+	s:inLanguage "de-DE" ;
+	s:url <library/portierungshandbuch-z80-v8-1986.djvu> ;
+	s:author _:person_liedtke, _:person_heinrichs ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:datePublished "1986" ;
+	s:numberOfPages "56" ;
+	.
+
+<#portmc85>
+	a s:Book ;
+	s:name "EUMEL Portierungshandbuch MC68000" ;
+	s:inLanguage "de-DE" ;
+	s:url <library/portierungshandbuch-mc6800-1985-11-26.djvu> ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:datePublished "1985-11-26" ;
+	.
+
+<#portgraphicsintel86>
+	a s:Book ;
+	s:name "EUMEL-Graphik Portierungshandbuch 8086/80286 Version 15" ;
+	s:inLanguage "de-DE" ;
+	s:url <library/eumel-graphik-portierungshandbuch-8086-80286-v15-1986-11-14.djvu> ;
+	s:datePublished "1986-11-14" ;
 	.
 
 <#l3ref90>
@@ -391,6 +438,28 @@
 	s:url <library/l3-frei-lizenz-1994.djvu> ;
 	.
 
+<#ergänzungen86>
+	a s:Book ;
+	s:name "Ergänzungsband zum Benutzerhandbuch Version 1.8" ;
+	s:numberOfPages "91" ;
+	s:url <library/benutzerhandbuch-1.8-ergänzungen-1986.djvu> ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_eumel ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:author _:person_hahn, _:person_heyderhoff, _:person_metterhausen ;
+	s:datePublished "1986-07" ;
+	.
+
+<#hamsterold>
+	a s:Book ;
+	s:name "Hamster-Modell" ;
+	s:author _:person_oppor ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:numberOfPages "22" ;
+	s:url <library/hamster-modell.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
 ### Benutzerhandbuch 1.6 ###
 
 _:thing_usermanual16
@@ -413,7 +482,7 @@ _:thing_usermanual16
 
 <#benutzerhandbuch16-0203>
 	a s:PublicationVolume ;
-	s:name "Der Supervisor und das Task-System, Der EUMEL-Monitor" ;
+	s:name "Der Supervisor und das Task-System/Der EUMEL-Monitor" ;
 	s:isPartOf _:thing_usermanual16 ;
 	s:volumeNumber "2/3" ;
 	s:numberOfPages "9" ;
@@ -434,7 +503,7 @@ _:thing_usermanual16
 	s:name "Der ELAN-Compiler im EUMEL-System" ;
 	s:isPartOf _:thing_usermanual16 ;
 	s:volumeNumber "5" ;
-	s:numberOfPages "1⁵" ;
+	s:numberOfPages "15" ;
 	s:url <library/benutzerhandbuch-1.6_05.djvu> ;
 	.
 
@@ -472,6 +541,17 @@ _:thing_usermanual16
 	s:volumeNumber "9" ;
 	s:numberOfPages "22" ;
 	s:url <library/benutzerhandbuch-1.6_09.djvu> ;
+	.
+
+<#benutzerhandbuch16-10>
+	a s:PublicationVolume ;
+	s:name "Text-Strukturierungssystem EUDAS" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "10" ;
+	s:numberOfPages "17" ;
+	s:dateCreated "1982-05-10" ;
+	s:author _:person_berlage, _:person_heyderhoff, _:person_merkel, _:person_schrenk ;
+	s:url <library/benutzerhandbuch-1.6_10.djvu> ;
 	.
 
 <#benutzerhandbuch16-11>
@@ -528,46 +608,32 @@ _:thing_usermanual16
 	s:url <library/benutzerhandbuch-1.6_16.djvu> ;
 	.
 
-<#benutzerhandbuch16-05>
-	a s:PublicationVolume ;
-	s:name "Der ELAN-Compiler im EUMEL-System" ;
-	s:isPartOf _:thing_usermanual16 ;
-	s:volumeNumber "5" ;
-	.
-
-<#benutzerhandbuch16-10>
-	a s:PublicationVolume ;
-	s:name "Text-Strukturierungssystem EUDAS" ;
-	s:isPartOf _:thing_usermanual16 ;
-	s:volumeNumber "10" ;
-	.
-
 <#benutzerhandbuch16-17>
 	a s:PublicationVolume ;
 	s:name "Graphik im EUMEL-System" ;
 	s:isPartOf _:thing_usermanual16 ;
+	s:dateCreated "1982-10-12" ;
 	s:volumeNumber "17" ;
+	s:numberOfPages "17" ;
+	s:url <library/benutzerhandbuch-1.6_17.djvu> ;
 	.
+
+<#benutzerhandbuch16-1920>
+	a s:PublicationVolume ;
+	s:name "Der Scanner/Der OPERATOR" ;
+	s:isPartOf _:thing_usermanual16 ;
+	s:volumeNumber "19/20" ;
+	s:numberOfPages "4" ;
+	s:url <library/benutzerhandbuch-1.6_19_20.djvu> ;
+	.
+
+# missing:
 
 <#benutzerhandbuch16-18>
 	a s:PublicationVolume ;
 	s:name "Der Graphik-Editor" ;
 	s:isPartOf _:thing_usermanual16 ;
 	s:volumeNumber "18" ;
-	.
-
-<#benutzerhandbuch16-19>
-	a s:PublicationVolume ;
-	s:name "Der Scanner" ;
-	s:isPartOf _:thing_usermanual16 ;
-	s:volumeNumber "19" ;
-	.
-
-<#benutzerhandbuch16-20>
-	a s:PublicationVolume ;
-	s:name "Der OPERATOR" ;
-	s:isPartOf _:thing_usermanual16 ;
-	s:volumeNumber "20" ;
 	.
 
 <#benutzerhandbuch16-21>
@@ -582,6 +648,18 @@ _:thing_usermanual16
 _:thing_anwendersoftware
 	a s:Book ;
 	s:name "Anwendersoftwareklasse 2" ;
+	.
+
+<#dasys82>
+	a s:Book ;
+	s:name "DASYS-Handbuch" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_bendisch, _:person_bussche ;
+	s:publisher _:org_gmd , _:org_hrz ;
+	s:datePublished "1982-11" ;
+	s:numberOfPages "34" ;
+	s:url <library/dasys-handbuch-v11.82.pdf> ;
+	s:inLanguage "de-DE" ;
 	.
 
 <#dasys86>
@@ -717,4 +795,57 @@ _:thing_anwendersoftware
 	s:about _:thing_eumel ;
 	s:inLanguage "de-DE" ;
 	.
+
+<#ispel82>
+	a s:Book ;
+	s:name "ISPEL: Interaktives Stundenplan-Programm, Anleitung" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_beyer ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:datePublished "1982-07-03" ;
+	s:numberOfPages "34" ;
+	s:url <library/ispel-anleitung-1982-07-03.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#dynamo16>
+	a s:Book ;
+	s:name "DYNAMO-Compiler" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_craemer ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:numberOfPages "8" ;
+	s:url <library/dynamo-compiler-v1.6.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#more84>
+	a s:Book ;
+	s:name "MORE-Benutzerhandbuch" ;
+	s:isPartOf _:thing_anwendersoftware ;
+	s:author _:person_klapper ;
+	s:publisher _:org_gmd, _:org_hrz ;
+	s:numberOfPages "42" ;
+	s:url <library/more-benutzerhandbuch-1984-02.djvu> ;
+	s:inLanguage "de-DE" ;
+	s:datePublished "1984-02" ;
+	.
+
+_:thing_anwendersoftware_3
+	a s:Book ;
+	s:name "Anwendersoftwareklasse 3" ;
+	.
+
+<#lispold>
+	a s:Book ;
+	s:name "LISP Handbuch" ;
+	s:isPartOf _:thing_anwendersoftware_3 ;
+	s:author _:person_maccarthy ;
+	s:publisher _:org_gmd ;
+	s:editor _:person_durchholz , _:person_heyderhoff ;
+	s:numberOfPages "43" ;
+	s:url <library/lisp-handbuch-v1.6.pdf> ;
+	s:inLanguage "de-DE" ;
+	.
+
 
