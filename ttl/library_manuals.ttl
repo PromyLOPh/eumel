@@ -223,10 +223,11 @@
 <#source84a>
 	a s:Book ;
 	s:datePublished "1984-05-16" ;
-	s:name "EUMEL-Quellcode der insertierten ELAN-Pakete" ;
+	s:name "Quellcode der insertierten ELAN-Pakete, Version 1.7.2" ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
 	s:publisher _:org_gmd , _:org_hrz ;
+	s:url <library/quelltext-1.7.2-1986-05-16.djvu> ;
 	.
 
 <#source84b>
