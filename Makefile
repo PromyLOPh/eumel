@@ -18,20 +18,20 @@ $(BUILDDIR)/index.ttl: $(TTLFILES) | $(BUILDDIR)
 	cat $(TTLFILES) > $@
 
 $(BUILDDIR)/bib.rst: $(BUILDDIR)/index.ttl tools/formatRefs.py | $(BUILDDIR)
-	cat $(BUILDDIR)/index.ttl | ./tools/formatRefs.py https://6xq.net/eumel/ | sort -n > $(BUILDDIR)/bib.rst
+	cat $(BUILDDIR)/index.ttl | ./tools/formatRefs.py https://6xq.net/eumel/ | sort -n > $@ || rm $@
 
 $(BUILDDIR)/software.html: $(BUILDDIR)/index.ttl tools/formatSoftware.py
-	cat $(BUILDDIR)/index.ttl | ./tools/formatSoftware.py > $@
+	cat $(BUILDDIR)/index.ttl | ./tools/formatSoftware.py > $@ || rm $@
 
 $(BUILDDIR)/assets/eumel-tagung-84-resized.jpg: assets/eumel-tagung-84.jpg | $(BUILDDIR)/assets
-	convert -scale 1000x $< -quality 75 $@
+	convert -scale 1000x $< -quality 75 $@ || rm $@
 
 $(BUILDDIR)/index.html: $(BUILDDIR)/software.html $(BUILDDIR)/bib.rst history.rst artifacts.rst popularity.rst hardware.rst internals.rst index.rst software.rst about.rst trivia.rst quickstart.rst overview.rst
 	rst2html5.py --cloak-email-addresses --math-output=mathjax \
 		--syntax-highlight=short --link-stylesheet \
 		--stylesheet=../style.min.css \
 		--template=./template.txt \
-		--footnote-references=superscript < index.rst > $@
+		--footnote-references=superscript < index.rst > $@ || rm $@
 
 links: $(STATICFILES) | $(BUILDDIR)/assets
 	ln -f $(STATICFILES) $(BUILDDIR)/assets
