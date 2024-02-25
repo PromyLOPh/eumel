@@ -363,3 +363,27 @@ _:person_bussche
 	s:familyName "von dem Bussche" ;
 	.
 
+_:person_jegerlehner
+	a s:Person ;
+	s:givenName "Beat" ;
+	s:familyName "Jegerlehner" ;
+	.
+
+_:person_weinholz
+	a s:Person ;
+	s:givenName "Carsten" ;
+	s:familyName "Weinholz" ;
+	.
+
+_:person_ruland
+	a s:Person ;
+	s:familyName "Ruland" ;
+	s:givenName "Rudolf"
+	.
+
+_:person_ruland
+	a s:Person ;
+	s:familyName "Michael" ;
+	s:givenName "Staubermann"
+	.
+

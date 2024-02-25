@@ -554,6 +554,7 @@ _:thing_stc
 	s:about _:thing_elan ;
 	s:publisher [ a s:Organization ;
 			s:name "B. G. Teubner" ] ;
+	s:url <library/elan-in-100-beispielen.djvu> ;
 	.
 
 <#zielke14>
@@ -674,6 +675,14 @@ _:thing_produktinfos
 	# other pages created 1986-01
 	s:dateCreated "1985-11-08" ;
 	s:url <library/produktinfos.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#produktinfos87>
+	a s:CreativeWork ;
+	s:name "EUMEL: Das Mehrplatz-Betriebssystem für Mikrocomputer" ;
+	s:dateCreated "1987-09" ;
+	s:url <library/produktinfos-1987-09.djvu> ;
 	s:inLanguage "de-DE" ;
 	.
 
@@ -908,7 +917,7 @@ _:thing_ct
 	s:name "CDL2 Basismaschine" ;
 	s:author _:person_liedtke ;
 	s:datePublished "1982-06-29" ;
-	s:url <library/cdl2-eumel0-1982-06-29> ;
+	s:url <library/cdl2-eumel0-1982-06-29.djvu> ;
 	s:numberOfPages "13" ;
 	.
 
@@ -995,6 +1004,16 @@ _:thing_ct
 	s:url <library/erste-hilfe-elan-2.djvu> ;
 	.
 
+<#erstehilfe3>
+	a s:Book ;
+	s:numberOfPages "51";
+	s:author _:person_hahn ;
+	s:inLanguage "de-DE" ;
+	s:about _:thing_elan ;
+	s:name "Erste Hilfe in ELAN" ;
+	s:url <library/erste-hilfe-in-elan.djvu> ;
+	.
+
 <#workshop87>
 	a s:CreativeWork ;
 	s:numberOfPages "1";
@@ -1047,6 +1066,112 @@ _:thing_workshop86
 	s:name "Neues zur Textverarbeitung in der Version 1.8.0" ;
 	s:url <library/textverarbeitung-v1.8.0-1986-10.djvu> ;
 	s:isPartOf _:thing_workshop86 ;
+	.
+
+<#hahn88>
+	a s:CreativeWork ;
+	s:numberOfPages "93";
+	s:inLanguage "de-DE" ;
+	s:name "Einführung in die Programmierung" ;
+	s:url <library/manuskript-einführung-in-die-programmierung-1988-02-01.djvu> ;
+	s:author _:person_hahn ;
+	s:datePublished "1988-02-01" ;
+	.
+
+<#agfap400makros87>
+	a s:TechArticle ;
+	s:name "AGFA P400-Makros" ;
+	s:numberOfPages "5" ;
+	s:url <library/agfa-p400-makros-1987-06-12.djvu> ;
+	s:datePublished "1987-06-12" ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#speller87>
+	a s:TechArticle ;
+	s:name "Kurzanleitung für die Rechtschreibprüfung (‘speller’ Version 2.0)" ;
+	s:numberOfPages "3" ;
+	s:url <library/kurzanleitung-rechtschreibpruefung-v2.0-1987-06-22.djvu> ;
+	s:datePublished "1987-06-22" ;
+	s:author _:person_hahn ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#scripteditor88>
+	a s:TechArticle ;
+	s:name "Der Script Editor (Version 1.5)" ;
+	s:numberOfPages "6" ;
+	s:url <library/skript-editor-v1.5-1988-06-22.djvu> ;
+	s:datePublished "1988-06-22" ;
+	s:author _:person_hahn ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#telnet88a>
+	a s:TechArticle ;
+	s:name "Telnet Benutzeranleitung" ;
+	s:numberOfPages "1" ;
+	s:url <library/telnet-benutzeranleitung-1988-03-02.djvu> ;
+	s:datePublished "1988-03-02" ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#telnet88b>
+	a s:TechArticle ;
+	s:name "Telnet Benutzeranleitung" ;
+	s:numberOfPages "1" ;
+	s:url <library/telnet-benutzeranleitung-1988-06-14.djvu> ;
+	s:datePublished "1988-06-14" ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#textutilities88>
+	a s:TechArticle ;
+	s:name "EUMEL TEXT-Utilities" ;
+	s:numberOfPages "13" ;
+	s:url <library/text-utilities-1988-06-14.djvu> ;
+	s:datePublished "1988-06-14" ;
+	s:author _:person_hahn ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#wordtransfer89>
+	a s:TechArticle ;
+	s:name "Transfer von WORD-Dateien" ;
+	s:numberOfPages "2" ;
+	s:url <library/transfer-von-word-dateien-1989-07-27.djvu> ;
+	s:datePublished "1989-07-27" ;
+	s:author _:person_hahn ;
+	s:publisher _:org_hrz ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#treiberdoku>
+	a s:TechArticle ;
+	s:numberOfPages "12" ;
+	s:url <library/treiberdokumentation.djvu> ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#dateiuebertragung88>
+	a s:TechArticle ;
+	s:name "Dateiübertragung (FTP)" ;
+	s:numberOfPages "5" ;
+	s:url <library/dateiübertragung-ftp-1988-04-26.djvu> ;
+	s:author _:person_heinrichs ;
+	s:publisher _:org_hrz ;
+	s:datePublished "1988-04-26";
+	s:inLanguage "de-DE" ;
+	.
+
+<#shard87>
+	a s:TechArticle ;
+	s:name "Dokumentation zum SHard (8)" ;
+	s:numberOfPages "14" ;
+	s:url <library/dokumentation-shard-8-1987-06-26.djvu> ;
+	s:author _:person_staubermann ;
+	s:datePublished "1987-06-26";
+	s:inLanguage "de-DE" ;
 	.
 
 ### EUMEL-Praxis ###

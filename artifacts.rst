@@ -48,7 +48,8 @@ The following images contain application software for EUMEL:
     Version 3.4, 4.4 and 5.3 on 720k floppies, as well as FLINT 0.4 and
     documentation for version 4.
 `MPG-Grafik-System`_
-    Improved graphics subsystem, version 2.2 from November 1987.
+    Improved graphics subsystem, version 2.2 from November 1987. See [mpg87]_
+    for documentation for version 2.1.
 `EUMEL-DOS conversion tools`_
     Converter from EUMEL text to WordPerfect or DOS textfiles and EUDAS to AskSam
 `schulis Grundpaket Schulverwaltung 2.2.1`_

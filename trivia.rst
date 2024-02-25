@@ -3,11 +3,11 @@ Trivia
 
 .. figure:: assets/eumel_logo.svg
 
-   EUMEL’s logo
+   EUMEL’s original logo.
 
 .. figure:: assets/eumel_logo_2.svg
 
-   Second EUMEL logo
+   Second EUMEL logo, first appeared in 1987 [eumelaktuell87a]_.
 
 - The German word *Eumel* describes__ a likeable fool (wally).
 - Wikipedia refers to EUMEL as *L2* (for *Liedtke 2*). However this name is

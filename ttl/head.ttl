@@ -4,7 +4,7 @@
 <./> a s:Article ;
 	s:name "Not just a footnote of history: EUMEL" ;
 	s:dateCreated "2016-08-26" ;
-	s:dateModified "2016-10-09" ;
+	s:dateModified "2024-02-25" ;
 	s:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
 	s:citation
 		<#praxis1>, <#praxis2>, <#praxis3>,
@@ -15,7 +15,7 @@
 		<#happycomputer86>,
 		<#reuse08>,
 		<#carmony82>,
-		<#hahn78>,
+		<#hahn78>, <#hahn88>,
 		<#rehder88>,
 		<#rechenanlagen79>, <#rechenanlagen83>,
 		<#danckwerts85>,
@@ -45,9 +45,9 @@
 		<#heyderhoff76>, <#liedtke79>, <#kloeckner79>, <#gmdspiegel82>, <#gmdspiegel83>, <#gmdspiegel84a>, <#gmdspiegel84b>, <#gmdspiegel85a>, <#gmdspiegel85b>, <#gmdspiegel85c>, <#gmdspiegel85d>, <#gmdspiegel87a>, <#gmdspiegel87b>, <#gmdspiegel87c>, <#gmdspiegel88a>, <#gmdspiegel88b>, <#gmdspiegel88c>, <#gmdspiegel88d>, <#gmdspiegel88e>,
 		<#liedtke76>, <#bartling76>,
 		<#stc87a>, <#noltemeier87>, <#hahn79>, <#stc87c>,
-		<#klingen85>, <#kernel83>,
+		<#klingen85>, <#kernel83>, <#kernel83b>,
 		<#source84a>, <#source84b>,
-		<#hahn84>, <#hahn86>, <#shard86>,
+		<#hahn84>, <#hahn86>, <#shard90>, <#shard87>,
 		<#zielke14>, <#höltgen12>,
 		<#craemer83>, <#liedtke93>,
 		<#wermelskirchen83>, <#görgen84>, <#viebeg84>, <#indenbirken84>,
@@ -71,6 +71,7 @@
 		<#cdl2-basismaschine82>, <#einladung-workshop83>, <#vorankuendigung-workshop84>, <#einladung-workshop84>,
 		<#eumelaktuell85>, <#eumelaktuell86>, <#eumelaktuell88>, <#eumelaktuell87b>, <#eumelaktuell86b>,
 		<#portz8084>, <#benutzerhandbuch79>, <#internesseminar84>, <#kloeckner84>, <#source82>, <#elan-compiler-cdl1>, <#ruc-appleII-basis-108>,
-		<#erstehilfe1>, <#erstehilfe2>, <#portgraphicsintel86>, <#workshop87>, <#vertriebspartner86b>, <#ergänzungen86>, <#portmc85>, <#windoweditor85>, <#msdosdat86b>, <#ispel82>, <#dynamo16>, <#portz8086>, <#textverarbeitung86b>, <#hamsterold>, <#dasys82>, <#lispold>, <#eumelaktuell87a>, <#more84>
+		<#erstehilfe1>, <#erstehilfe2>, <#erstehilfe3>, <#portgraphicsintel86>, <#workshop87>, <#vertriebspartner86b>, <#ergänzungen86>, <#portmc85>, <#windoweditor85>, <#msdosdat86b>, <#ispel82>, <#dynamo16>, <#portz8086>, <#textverarbeitung86b>, <#hamsterold>, <#dasys82>, <#lispold>, <#eumelaktuell87a>, <#more84>,
+		<#mpg87>, <#bielefelderblaetter86>, <#bielefelderblaetter89>, <#cardbox87>, <#installationsanleitung90>, <#agfap400makros87>, <#speller87>, <#scripteditor88>, <#telnet88a>, <#telnet88b>, <#textutilities88>, <#changelog86>, <#wordtransfer89>, <#treiberdoku>, <#dateiuebertragung88>, <#produktinfos87>
 		; .
 

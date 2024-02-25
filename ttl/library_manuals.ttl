@@ -220,6 +220,18 @@
 	s:url <library/entwurf-systemdokumentation-1982.djvu> ;
 	.
 
+<#kernel83b>
+	a s:TechArticle ;
+	s:name "EUMEL Systemdokumentation (Entwurf)" ;
+	s:author _:person_wegner, _:person_liedtke, _:person_szalay,
+		_:person_beyer, _:person_heinrichs ;
+	s:dateCreated "1982-07-26" ;
+	s:numberOfPages "148" ;
+	s:about _:thing_eumel ;
+	s:inLanguage "de-DE" ;
+	s:url <library/entwurf-systemdokumentation-1982-07.djvu> ;
+	.
+
 <#source84a>
 	a s:Book ;
 	s:datePublished "1984-05-16" ;
@@ -286,13 +298,14 @@
 	s:about _:thing_eumel ;
 	.
 
-<#shard86>
-	a s:Book ;
-	s:datePublished "1986" ;
+<#shard90>
+	a s:TechArticle ;
+	s:datePublished "1990" ;
 	s:name "Betriebssystem EUMEL. Der EUMEL-SHard. Version 5.0" ;
 	s:inLanguage "de-DE" ;
 	s:about _:thing_eumel ;
-	s:publisher _:org_gmd ;
+	s:publisher _:org_ergos ;
+	s:url <library/der-eumel-shard-v5.0-1990.djvu> ;
 	.
 
 <#eudas85>
@@ -849,4 +862,52 @@ _:thing_anwendersoftware_3
 	s:inLanguage "de-DE" ;
 	.
 
+<#mpg87>
+	a s:TechArticle ;
+	s:name "Dokumentation des MPG-Graphik-Systems, Version 2.1" ;
+	s:author _:person_jegerlehner, _:person_weinholz ;
+	s:numberOfPages "45" ;
+	s:url <library/dokumentation-mpg-graphik-system-v2.1-1987-09-10.djvu> ;
+	s:datePublished "1987-09-10" ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#bielefelderblaetter86>
+	a s:TechArticle ;
+	s:name "Bielefelder Blätter zu EUMEL" ;
+	s:author _:person_hahn , _:person_nolting , _:person_ruland ;
+	s:numberOfPages "36" ;
+	s:url <library/bielefelder-blätter-1986-12.djvu> ;
+	s:datePublished "1986-12" ;
+	s:inLanguage "de-DE" ;
+	s:issueNumber "1" ;
+	.
+
+# Incomplete
+<#bielefelderblaetter89>
+	a s:TechArticle ;
+	s:name "Bielefelder Blätter zu EUMEL" ;
+	s:url <library/ethernet-netz-1989-01.djvu> ;
+	s:datePublished "1989-01" ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#cardbox87>
+	a s:TechArticle ;
+	s:name "Cardbox" ;
+	s:numberOfPages "13" ;
+	s:url <library/cardbox-1987-06-12.djvu> ;
+	s:datePublished "1987-06-12" ;
+	s:inLanguage "de-DE" ;
+	.
+
+<#installationsanleitung90>
+	a s:TechArticle ;
+	s:name "EUMEL-Installationsanleitung (Version 1.8)" ;
+	s:numberOfPages "6" ;
+	s:url <library/eumel-installationsanleitung-1990.djvu> ;
+	s:datePublished "1990" ;
+	s:publisher _:org_ergos ;
+	s:inLanguage "de-DE" ;
+	.
 
