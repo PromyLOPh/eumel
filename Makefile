@@ -27,7 +27,7 @@ $(BUILDDIR)/assets/eumel-tagung-84-resized.jpg: assets/eumel-tagung-84.jpg | $(B
 	convert -scale 1000x $< -quality 75 $@ || rm $@
 
 $(BUILDDIR)/index.html: $(BUILDDIR)/software.html $(BUILDDIR)/bib.rst history.rst artifacts.rst popularity.rst hardware.rst internals.rst index.rst software.rst about.rst trivia.rst quickstart.rst overview.rst
-	rst2html5.py --cloak-email-addresses --math-output=mathjax \
+	rst2html5 --cloak-email-addresses --math-output=mathjax \
 		--syntax-highlight=short --link-stylesheet \
 		--stylesheet=../style.min.css \
 		--template=./template.txt \
