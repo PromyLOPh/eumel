@@ -4,7 +4,7 @@
 <./> a s:Article ;
 	s:name "Not just a footnote of history: EUMEL" ;
 	s:dateCreated "2016-08-26" ;
-	s:dateModified "2024-02-25" ;
+	s:dateModified "2026-01-16" ;
 	s:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
 	s:citation
 		<#praxis1>, <#praxis2>, <#praxis3>,

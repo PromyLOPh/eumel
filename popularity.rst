@@ -9,6 +9,7 @@ of schools: 20 in 1982 ([alwr82]_, part 4, p. 13) and 500 secondary schools by
 
 - Helmholtz-Gymnasium Bonn [computerwoche79b]_ [gmdspiegel84b]_
 - Rhein-Sieg-Gymnasium Sankt Augustin [gmdbericht82]_
+- Albert-Einstein-Gymnasium, Sankt Augustin
 - Max-Planck-Gymnasium Bielefeld
 - Ceciliengymnasium Bielefeld ([elannewsletter81a]_ p. 21)
 - Gymnasium Wesermünde [eumelspiegel81b]_
